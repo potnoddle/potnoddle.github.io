@@ -1,0 +1,1684 @@
+[{
+    "title": "Optimizely One: Centralised Identity for Opti-ID",
+    "url": "/2026/07/07/optimizely-one-centralised-identity-for-opti-id.html",
+    "date": "Jul 7, 2026",
+    "description": "Single-product architectures are obsolete, superseded by dynamic, multi-product digital experience stacks. Operating content management systems, marketing platforms, and customer data engines in parallel surfaces a critical operational vulnerability: fragmented identity. Maintaining disparate authentication models across an enterprise ecosystem introduces administrative friction and drastically widens the security attack surface .",
+    "tags": "ai,linkedin,optimizely,identity management,enterprise architecture",
+    "banner": "/images/optimizely-one-centralised-identity-for-opti-id.jpg",
+    "banner_webp": "/images/optimizely-one-centralised-identity-for-opti-id.webp",
+    "banner_avif": "/images/optimizely-one-centralised-identity-for-opti-id.avif"
+  },{
+    "title": "Beyond Moore's Law: The Economics of Compute",
+    "url": "/2026/07/06/beyond-moores-law-the-economics-of-compute.html",
+    "date": "Jul 6, 2026",
+    "description": "As physical silicon scaling reaches its atomic limits, compute performance must grow through hardware-software co-design. This article explores how on-die persistent memory (STT-MRAM and RRAM), exotic processing cores, and topology-aware compilation co-design the future of high-efficiency, cost-effective systems.",
+    "tags": "future of compute,semiconductors,hardware design,edge computing,tech trends",
+    "banner": "/images/beyond-moores-law-the-economics-of-compute.jpg",
+    "banner_webp": "/images/beyond-moores-law-the-economics-of-compute.webp",
+    "banner_avif": "/images/beyond-moores-law-the-economics-of-compute.avif"
+  },{
+    "title": "Skunk Works: The AI Misdirection",
+    "url": "/2026/07/03/skunk-works-the-ai-misdirection.html",
+    "date": "Jul 3, 2026",
+    "description": "Building on the structural analysis of defensive delivery pipelines in Skunk Works: The Existential Panic , the market operates under the misdirection that AI will replace software engineers. This technology eliminates the delivery and syntax-management bureaucracy around the builder, while keeping the core engineering role intact.",
+    "tags": "ai,software engineering,agentic ai,future of work,tech leadership",
+    "banner": "/images/skunk-works-the-ai-misdirection.jpg",
+    "banner_webp": "/images/skunk-works-the-ai-misdirection.webp",
+    "banner_avif": "/images/skunk-works-the-ai-misdirection.avif"
+  },{
+    "title": "Skunk Works: Reclaiming Joy",
+    "url": "/2026/07/03/skunk-works-reclaiming-joy.html",
+    "date": "Jul 3, 2026",
+    "description": "Building on the foundational concepts of structural team autonomy explored in Skunk Works: Non-Invasive Telemetry , this next evolution addresses an existential threat to modern engineering velocity:",
+    "tags": "dev ops,cicd,software engineering,artificial intelligence,engineering leadership",
+    "banner": "/images/skunk-works-reclaiming-joy.jpg",
+    "banner_webp": "/images/skunk-works-reclaiming-joy.webp",
+    "banner_avif": "/images/skunk-works-reclaiming-joy.avif"
+  },{
+    "title": "Skunk Works: The Existential Panic",
+    "url": "/2026/07/02/skunk-works-the-existential-panic.html",
+    "date": "Jul 2, 2026",
+    "description": "Building on the foundational architectures established in Skunk Works: Reclaiming Joy , evaluating the structural friction caused by agentic systems colliding with legacy organisational design requires addressing three operational realities:",
+    "tags": "ai,linkedin,software engineering,future of work,agentic ai",
+    "banner": "/images/skunk-works-the-existential-panic.jpg",
+    "banner_webp": "/images/skunk-works-the-existential-panic.webp",
+    "banner_avif": "/images/skunk-works-the-existential-panic.avif"
+  },{
+    "title": "Skunk Works: Non-Invasive Telemetry",
+    "url": "/2026/07/02/skunk-works-non-invasive-telemetry.html",
+    "date": "Jul 2, 2026",
+    "description": "Building on the operating principles established in Skunk Works: The 70/30 Capital Split , the daily standup was originally designed to replace bureaucracy with communication. In most enterprises, it has devolved into bureaucracy with better branding, meaning we structurally prevent active work while demanding constant reports about it.",
+    "tags": "engineering leadership,dev ops,developer productivity,software engineering,agile",
+    "banner": "/images/skunk-works-non-invasive-telemetry.jpg",
+    "banner_webp": "/images/skunk-works-non-invasive-telemetry.webp",
+    "banner_avif": "/images/skunk-works-non-invasive-telemetry.avif"
+  },{
+    "title": "Skunk Works: The 70/30 Capital Split",
+    "url": "/2026/07/01/skunk-works-the-7030-capital-split.html",
+    "date": "Jul 1, 2026",
+    "description": "When evaluating capital allocation, enterprise R&D budgets regularly stall due to extensive administration. Up to 70% of budgets never reach the builders, absorbed by status meetings, steering committees, and compliance layers.",
+    "tags": "ai,software engineering,agentic ai,future of work,tech leadership",
+    "banner": "/images/skunk-works-the-7030-capital-split.jpg",
+    "banner_webp": "/images/skunk-works-the-7030-capital-split.webp",
+    "banner_avif": "/images/skunk-works-the-7030-capital-split.avif"
+  },{
+    "title": "Optimizely Forms: Custom Actors & Event Pipelines",
+    "url": "/2026/07/01/optimizely-forms-custom-actors-event-pipelines.html",
+    "date": "Jul 1, 2026",
+    "description": "The conventional operational model for digital experience platforms isolates form submissions into tightly bounded, asynchronous execution loops. Entries clear validation, write directly to local databases, and rest inertly until administrators request batch CSV exports.",
+    "tags": "optimizely,digital experience,software architecture,cms13,data engineering",
+    "banner": "/images/optimizely-forms-custom-actors-event-pipelines.jpg",
+    "banner_webp": "/images/optimizely-forms-custom-actors-event-pipelines.webp",
+    "banner_avif": "/images/optimizely-forms-custom-actors-event-pipelines.avif"
+  },{
+    "title": "The AI Market Paradox: Hardware Deflation and the Shift to Localised Compute",
+    "url": "/2026/06/30/the-ai-market-paradox-hardware-deflation-and-the-shift-to-localised-compute.html",
+    "date": "Jun 30, 2026",
+    "description": "Building on the economic risks outlined in The AI Cost-Cutting Trap: Why \"Same But Cheaper\" is a $1 Trillion Fallacy , the technology sector approaches a critical capital inflexion point. Market anxiety currently stems from the gulf between gigawatt-scale infrastructure investments and realised software revenue.",
+    "tags": "ai,linkedin,ai infrastructure,local compute,hardware deflation",
+    "banner": "/images/the-ai-market-paradox-hardware-deflation-and-the-shift-to-localised-compute.jpg",
+    "banner_webp": "/images/the-ai-market-paradox-hardware-deflation-and-the-shift-to-localised-compute.webp",
+    "banner_avif": "/images/the-ai-market-paradox-hardware-deflation-and-the-shift-to-localised-compute.avif"
+  },{
+    "title": "Latent Space: Bridging the Model gap",
+    "url": "/2026/06/29/latent-space-bridging-the-model-gap.html",
+    "date": "Jun 29, 2026",
+    "description": "Building on the foundational mechanics established in Part 3: Latent Swarms: The Persistence Barrier , executing continuous textless communication across clustered nodes demands strict structural alignment. Direct hidden-state exchange accelerates orchestration by cleanly bypassing the autoregressive bottlenecks of tokenised transmission.",
+    "tags": "machine learning,systems engineering,ai architecture,multi agent systems,latent space,cyber security",
+    "banner": "/images/latent-space-bridging-the-model-gap.jpg",
+    "banner_webp": "/images/latent-space-bridging-the-model-gap.webp",
+    "banner_avif": "/images/latent-space-bridging-the-model-gap.avif"
+  },{
+    "title": "Latent Space: The Persistence Barrier",
+    "url": "/2026/06/28/latent-space-the-persistence-barrier.html",
+    "date": "Jun 28, 2026",
+    "description": "Building on the internal routing mechanics and test-time compute allocations mapped in Part 2: Latent Space Looped Transformers , this instalment of the series confronts the operational limits of continuous, hidden-state architectures. As system designs migrate from autoregressive token streams to pure latent reasoning, state persistence emerges as a critical failure point.",
+    "tags": "machine learning,ai architecture,multi agent systems,latent space,artificial intelligence",
+    "banner": "/images/latent-space-the-persistence-barrier.jpg",
+    "banner_webp": "/images/latent-space-the-persistence-barrier.webp",
+    "banner_avif": "/images/latent-space-the-persistence-barrier.avif"
+  },{
+    "title": "Latent Space: Looped Transformers",
+    "url": "/2026/06/27/latent-space-looped-transformers.html",
+    "date": "Jun 27, 2026",
+    "description": "Building on the bandwidth constraints and interception mechanics explored in Part 1: Latent Space: The Token Bottleneck , we move from the theory of latent reasoning to the practical implementation of continuous compute pipelines. This article begins to reverse-engineer its framework using interpretability papers and public scaling behaviors, without relying on leaked blueprints.",
+    "tags": "artificial intelligence,machine learning,claude mythos,ai architecture,future of ai,mythos,chain of thought",
+    "banner": "/images/latent-space-looped-transformers.jpg",
+    "banner_webp": "/images/latent-space-looped-transformers.webp",
+    "banner_avif": "/images/latent-space-looped-transformers.avif"
+  },{
+    "title": "Latent Space: The Token Bottleneck",
+    "url": "/2026/06/26/latent-space-the-token-bottleneck.html",
+    "date": "Jun 26, 2026",
+    "description": "When we force a Large Language Model to reason out loud via traditional Chain-of-Thought (CoT), we are effectively forcing a massive, high-dimensional neural network to communicate with itself through the narrow straw of human language. While text-based reasoning works, it introduces a severe computational tax.",
+    "tags": "artificial intelligence,machine learning,large language models,latent reasoning,future of tech,chain of though",
+    "banner": "/images/latent-space-the-token-bottleneck.jpg",
+    "banner_webp": "/images/latent-space-the-token-bottleneck.webp",
+    "banner_avif": "/images/latent-space-the-token-bottleneck.avif"
+  },{
+    "title": "HTMX Hypermedia Returns: The Old/New Architecture of the Web",
+    "url": "/2026/06/25/htmx-hypermedia-returns-the-oldnew-architecture-of-the-web.html",
+    "date": "Jun 25, 2026",
+    "description": "Modern web development requires shipping megabytes of JavaScript , managing duplicated state, and wiring complex client-side routing . Framework fatigue stems from treating the browser as a thick client instead of a hypermedia engine.",
+    "tags": "search",
+    "banner": "/images/htmx-hypermedia-returns-the-oldnew-architecture-of-the-web.jpg",
+    "banner_webp": "/images/htmx-hypermedia-returns-the-oldnew-architecture-of-the-web.webp",
+    "banner_avif": "/images/htmx-hypermedia-returns-the-oldnew-architecture-of-the-web.avif"
+  },{
+    "title": "Optimizely Visual Builder: Clean Code and Semantic HTML",
+    "url": "/2026/06/24/optimizely-visual-builder-clean-code-and-semantic-html.html",
+    "date": "Jun 24, 2026",
+    "description": "Visual composition platforms accelerate digital delivery but frequently generate nested and tags—an anti-pattern known as \"div-soup.\" This lack of structural integrity hurts technical SEO signals and impedes effective navigation for assistive technology .",
+    "tags": "optimizely,semantic html,technical seo,web accessibility,clean code",
+    "banner": "/images/optimizely-visual-builder-clean-code-and-semantic-html.jpg",
+    "banner_webp": "/images/optimizely-visual-builder-clean-code-and-semantic-html.webp",
+    "banner_avif": "/images/optimizely-visual-builder-clean-code-and-semantic-html.avif"
+  },{
+    "title": "Upgrading Optimizely: CMS 11 to 13 Stepwise Guide",
+    "url": "/2026/06/23/upgrading-optimizely-cms-11-to-13-stepwise-guide.html",
+    "date": "Jun 23, 2026",
+    "description": "The legacy EPiServer 11 environment compiles today, but it operates on borrowed time. However, transitioning from the legacy .NET Framework 4.7.2+ to .NET 8+ and Optimizely CMS 13 requires a fundamental architectural re-platforming. This article outlines a strategy to modernise ageing systems without compromising core stability.",
+    "tags": "optimizely,headless cms,dot net8,software architecture,tech debt",
+    "banner": "/images/upgrading-optimizely-cms-11-to-13-stepwise-guide.jpg",
+    "banner_webp": "/images/upgrading-optimizely-cms-11-to-13-stepwise-guide.webp",
+    "banner_avif": "/images/upgrading-optimizely-cms-11-to-13-stepwise-guide.avif"
+  },{
+    "title": "AI Impacts: The AI Career Crossroads",
+    "url": "/2026/06/22/ai-impacts-the-ai-career-crossroads.html",
+    "date": "Jun 22, 2026",
+    "description": "Building on our exploration of core knowledge retention in Skill Atrophy, keeping your baseline expertise is the first step to surviving the current ecosystem shift. The competent middle tier of professional execution is undergoing rapid commoditisation.",
+    "tags": "artificial intelligence,future of work,tech careers,ai engineering,career strategy",
+    "banner": "/images/ai-impacts-the-ai-career-crossroads.jpg",
+    "banner_webp": "/images/ai-impacts-the-ai-career-crossroads.webp",
+    "banner_avif": "/images/ai-impacts-the-ai-career-crossroads.avif"
+  },{
+    "title": "AI Impacts: Preserving Skill in the Age of AI",
+    "url": "/2026/06/21/ai-impacts-preserving-skill-in-the-age-of-ai.html",
+    "date": "Jun 21, 2026",
+    "description": "Our previous examination in Shallow Knowledge established how generative tools create an illusion of competence. The mechanics of knowledge work are undergoing a fundamental shift defined by three collapsing manual execution tasks:",
+    "tags": "ai,linkedin,skill preservation,future of work,knowledge work",
+    "banner": "/images/ai-impacts-preserving-skill-in-the-age-of-ai.jpg",
+    "banner_webp": "/images/ai-impacts-preserving-skill-in-the-age-of-ai.webp",
+    "banner_avif": "/images/ai-impacts-preserving-skill-in-the-age-of-ai.avif"
+  },{
+    "title": "AI Impacts: The Illusion of AI Competence",
+    "url": "/2026/06/20/ai-impacts-the-illusion-of-ai-competence.html",
+    "date": "Jun 20, 2026",
+    "description": "Building on the structural paradigms explored in Creator to Director, transitioning from manual execution to high-level orchestration exposes a critical systemic vulnerability. The accelerated validation loop generated by polished algorithmic outputs drives three immediate consequences:",
+    "tags": "generative ai,software engineering,tech leadership,artificial intelligence,future of work",
+    "banner": "/images/ai-impacts-the-illusion-of-ai-competence.jpg",
+    "banner_webp": "/images/ai-impacts-the-illusion-of-ai-competence.webp",
+    "banner_avif": "/images/ai-impacts-the-illusion-of-ai-competence.avif"
+  },{
+    "title": "AI Impacts: Marshalling Creativity in the AI Era",
+    "url": "/2026/06/19/ai-impacts-marshalling-creativity-in-the-ai-era.html",
+    "date": "Jun 19, 2026",
+    "description": "Transition frameworks assume the organisation's tolerance for systemic auditing delays, which historically conflict with aggressive corporate delivery timelines. Framing architectural rigour through the economics of software quality addresses this timeline conflict directly via three principles:",
+    "tags": "artificial intelligence,future of work,ai orchestration,tech leadership,generative ai",
+    "banner": "/images/ai-impacts-marshalling-creativity-in-the-ai-era.jpg",
+    "banner_webp": "/images/ai-impacts-marshalling-creativity-in-the-ai-era.webp",
+    "banner_avif": "/images/ai-impacts-marshalling-creativity-in-the-ai-era.avif"
+  },{
+    "title": "AI Impacts: How AI-Driven Role Expansion Dilutes Performance",
+    "url": "/2026/06/18/ai-impacts-how-ai-driven-role-expansion-dilutes-performance.html",
+    "date": "Jun 18, 2026",
+    "description": "In modern professional ecosystems, the collapse of operational boundaries fundamentally destabilises production pipelines. Integrating generative tools drastically lowers execution barriers across typesetting automation, rigorous editing workflows, and distribution logistics.",
+    "tags": "artificial intelligence,future of work,productivity,cognitive load,tech leadership",
+    "banner": "/images/ai-impacts-how-ai-driven-role-expansion-dilutes-performance.jpg",
+    "banner_webp": "/images/ai-impacts-how-ai-driven-role-expansion-dilutes-performance.webp",
+    "banner_avif": "/images/ai-impacts-how-ai-driven-role-expansion-dilutes-performance.avif"
+  },{
+    "title": "AI Impacts: The Workload Paradox & Decision Fatigue",
+    "url": "/2026/06/17/ai-impacts-the-workload-paradox-decision-fatigue.html",
+    "date": "Jun 17, 2026",
+    "description": "Building on the productivity baselines established in AI Raises the Bar, organisations face a counter-intuitive reality: higher output speed frequently multiplies responsibilities. As task execution time approaches zero, the number of assigned tasks naturally expands to fill the gap.",
+    "tags": "generative ai,productivity,decision fatigue,future of work,tech leadership",
+    "banner": "/images/ai-impacts-the-workload-paradox-decision-fatigue.jpg",
+    "banner_webp": "/images/ai-impacts-the-workload-paradox-decision-fatigue.webp",
+    "banner_avif": "/images/ai-impacts-the-workload-paradox-decision-fatigue.avif"
+  },{
+    "title": "AI Impacts: The New Competitive Threshold",
+    "url": "/2026/06/16/ai-impacts-the-new-competitive-threshold.html",
+    "date": "Jun 16, 2026",
+    "description": "A foundational shift actively rewrites the economic and operational rules of knowledge work. Generative AI establishes a non-negotiable baseline for speed, throughput, and agentic autonomy past the era of \"Wave 1: Human-in-the-loop Generation\".",
+    "tags": "generative ai,future of work,enterprise architecture,ai orchestration,tech leadership",
+    "banner": "/images/ai-impacts-the-new-competitive-threshold.jpg",
+    "banner_webp": "/images/ai-impacts-the-new-competitive-threshold.webp",
+    "banner_avif": "/images/ai-impacts-the-new-competitive-threshold.avif"
+  },{
+    "title": "AI Impacts: The Human Cost of AI Productivity",
+    "url": "/2026/06/15/ai-impacts-the-human-cost-of-ai-productivity.html",
+    "date": "Jun 15, 2026",
+    "description": "The intersection of artificial intelligence and human psychology shapes today's operational landscape. Building on the foundational mechanisms explored in How Context Switching Destroys Developers' Productivity , AI productivity tool s compress execution timelines while introducing silent cognitive residue and scaling psychological friction.",
+    "tags": "artificial intelligence,software engineering,cognitive load,future of work,tech leadership",
+    "banner": "/images/ai-impacts-the-human-cost-of-ai-productivity.jpg",
+    "banner_webp": "/images/ai-impacts-the-human-cost-of-ai-productivity.webp",
+    "banner_avif": "/images/ai-impacts-the-human-cost-of-ai-productivity.avif"
+  },{
+    "title": "Generative Engine Optimisation: Enterprise GEO With Optimizely Opal",
+    "url": "/2026/06/14/generative-engine-optimisation-enterprise-geo-with-optimizely-opal.html",
+    "date": "Jun 14, 2026",
+    "description": "Moving to machine-readable architectures is an operational requirement. Building on the schema foundations and structural blueprints established in Part 2: The Core Constructs of GEO , this final instalment transitions from theory to execution.",
+    "tags": "optimizely opal,generative engine optimization,enterprise architecture,ai orchestration,data analytics",
+    "banner": "/images/generative-engine-optimisation-enterprise-geo-with-optimizely-opal.jpg",
+    "banner_webp": "/images/generative-engine-optimisation-enterprise-geo-with-optimizely-opal.webp",
+    "banner_avif": "/images/generative-engine-optimisation-enterprise-geo-with-optimizely-opal.avif"
+  },{
+    "title": "Generative Engine Optimisation: Schemas and Content Models for AI Crawlers",
+    "url": "/2026/06/13/generative-engine-optimisation-schemas-and-content-models-for-ai-crawlers.html",
+    "date": "Jun 13, 2026",
+    "description": "Building on the retrieval theories established in Part 1 of this series, we now turn to concrete execution. Structuring web assets purely for human visual consumption is no longer sufficient.",
+    "tags": "schema markup,software architecture,seo,enterprise cms,web development,tech leadership",
+    "banner": "/images/generative-engine-optimisation-schemas-and-content-models-for-ai-crawlers.jpg",
+    "banner_webp": "/images/generative-engine-optimisation-schemas-and-content-models-for-ai-crawlers.webp",
+    "banner_avif": "/images/generative-engine-optimisation-schemas-and-content-models-for-ai-crawlers.avif"
+  },{
+    "title": "Generative Engine Optimisation: The Death of the Click-Through Estate",
+    "url": "/2026/06/12/generative-engine-optimisation-the-death-of-the-click-through-estate.html",
+    "date": "Jun 12, 2026",
+    "description": "The digital discovery ecosystem has been structurally fractured. Legacy search indexes are rapidly losing ground to conversational synthesis layers such as ChatGPT , Perplexity , Gemini , and Claude .",
+    "tags": "generative engine optimization,enterprise cms,optimizely dxp,software architecture,ai content strategy",
+    "banner": "/images/generative-engine-optimisation-the-death-of-the-click-through-estate.jpg",
+    "banner_webp": "/images/generative-engine-optimisation-the-death-of-the-click-through-estate.webp",
+    "banner_avif": "/images/generative-engine-optimisation-the-death-of-the-click-through-estate.avif"
+  },{
+    "title": "Access as Accessibility: Measuring Real Channel Reach",
+    "url": "/2026/06/11/access-as-accessibility-measuring-real-channel-reach.html",
+    "date": "Jun 11, 2026",
+    "description": "Building on the foundational concepts established in Beyond Accessibility Compliance: Inclusive Design for Overlooked Disabilities , this fourth and final instalment addresses the critical challenge of visibility. Engineering teams rely heavily on telemetry within digital-first architectures to optimise user flows.",
+    "tags": "digital accessibility,web performance,inclusive design,data analytics,tech ethics",
+    "banner": "/images/access-as-accessibility-measuring-real-channel-reach.jpg",
+    "banner_webp": "/images/access-as-accessibility-measuring-real-channel-reach.webp",
+    "banner_avif": "/images/access-as-accessibility-measuring-real-channel-reach.avif"
+  },{
+    "title": "Access as Accessibility: Resilient Multi-Channel Delivery Beyond the Smartphone",
+    "url": "/2026/06/10/access-as-accessibility-resilient-multi-channel-delivery-beyond-the-smartphone.html",
+    "date": "Jun 10, 2026",
+    "description": "The technology sector defaults to constructing iOS or Android applications, implicitly assuming end-users possess premium hardware and continuous high-speed data streams. Genuine digital equity dictates decoupling core service delivery from the smartphone screen. Building on the architectural paradigms established in Part 2 of the \"Access as Accessibility\" series, this guide outlines the strategic deployment of hardware-agnostic communication fail-safes through three distinct execution layers:",
+    "tags": "digital inclusion,tech architecture,edge computing,tech for good,ux design",
+    "banner": "/images/access-as-accessibility-resilient-multi-channel-delivery-beyond-the-smartphone.jpg",
+    "banner_webp": "/images/access-as-accessibility-resilient-multi-channel-delivery-beyond-the-smartphone.webp",
+    "banner_avif": "/images/access-as-accessibility-resilient-multi-channel-delivery-beyond-the-smartphone.avif"
+  },{
+    "title": "Access as Accessibility: Technical UX Patterns for Low-Bandwidth Environments",
+    "url": "/2026/06/09/access-as-accessibility-technical-ux-patterns-for-low-bandwidth-environments.html",
+    "date": "Jun 9, 2026",
+    "description": "Building on the foundational concepts in Access as Accessibility: Part 1 , the gap between premium development environments and global network realities calls for a shift in how we engineer web interfaces. When state-of-the-art hardware and high-speed fibre govern architectural decisions, the result is a fragile ecosystem that isolates billions of potential users. Addressing this systemic flaw requires executing three distinct architectural methodologies:",
+    "tags": "web performance,digital inclusion,ux design,web development,tech architecture",
+    "banner": "/images/access-as-accessibility-technical-ux-patterns-for-low-bandwidth-environments.jpg",
+    "banner_webp": "/images/access-as-accessibility-technical-ux-patterns-for-low-bandwidth-environments.webp",
+    "banner_avif": "/images/access-as-accessibility-technical-ux-patterns-for-low-bandwidth-environments.avif"
+  },{
+    "title": "Access as Accessibility: The Problem of Digital Exclusion",
+    "url": "/2026/06/08/access-as-accessibility-the-problem-of-digital-exclusion.html",
+    "date": "Jun 8, 2026",
+    "description": "The technology sector puts inclusive design in specific tactical deployments: championing semantic HTML , enforcing high-contrast aesthetics, and integrating robust screen reader support. Underlying these surface-level optimisations is a foundational requirement often overlooked in modern deployment pipelines: ensuring structural accessibility.",
+    "tags": "accessibility,inclusive design,digital exclusion,web architecture,tech for good",
+    "banner": "/images/access-as-accessibility-the-problem-of-digital-exclusion.jpg",
+    "banner_webp": "/images/access-as-accessibility-the-problem-of-digital-exclusion.webp",
+    "banner_avif": "/images/access-as-accessibility-the-problem-of-digital-exclusion.avif"
+  },{
+    "title": "Aether Pine: CLI Automation and Multi-Agent Systems",
+    "url": "/2026/06/04/aether-pine-cli-automation-and-multi-agent-systems.html",
+    "date": "Jun 4, 2026",
+    "description": "Building on the orchestration mechanics established in the _Aether Pine Companion Series, managing a multi-agent storytelling pipeline introduces immense control overhead. When designing generative ecosystems, early architectural decisions often default to massive, unified prompts or heavyweight graph-based state machines (such as LangGraph ) to process character arcs, world lore, and complex visual formatting.",
+    "tags": "agentic ai,software engineering,multi agent systems,generative ai,model context protocol",
+    "banner": "/images/aether-pine-cli-automation-and-multi-agent-systems.jpg",
+    "banner_webp": "/images/aether-pine-cli-automation-and-multi-agent-systems.webp",
+    "banner_avif": "/images/aether-pine-cli-automation-and-multi-agent-systems.avif"
+  },{
+    "title": "Aether Pine: The Author's Shield - Legal Protections for Gen AI",
+    "url": "/2026/06/03/aether-pine-the-authors-shield-legal-protections-for-gen-ai.html",
+    "date": "Jun 3, 2026",
+    "description": "In my analysis of AI Laws & the No FAKES Act , I explored the major legal shift occurring in the intellectual property space. Today, I want to walk you through The Author's Shield —the practical workflow we built to ensure our content, such as The Soft Wilds: Strength of the Collective Stitch (Aether Pine Book 3) , is legally protected, verifiable, and ready for global distribution.",
+    "tags": "ai,linkedin,legal protection,genai,intellectual property",
+    "banner": "/images/aether-pine-the-authors-shield-legal-protections-for-gen-ai.jpg",
+    "banner_webp": "/images/aether-pine-the-authors-shield-legal-protections-for-gen-ai.webp",
+    "banner_avif": "/images/aether-pine-the-authors-shield-legal-protections-for-gen-ai.avif"
+  },{
+    "title": "Aether-Pine: Closed-Loop VLM Feedback for Visual Consistency",
+    "url": "/2026/06/02/aether-pine-closed-loop-vlm-feedback-for-visual-consistency.html",
+    "date": "Jun 2, 2026",
+    "description": "Building on the concepts established in Part 1, Aether Pine: Authoring a Children's Book with a Software IDE , ensuring a narrative flows well structurally is only half the equation. Bringing a story to life visually presents an entirely different set of technical hurdles.",
+    "tags": "generative ai,computer vision,machine learning,tech innovation,ai art",
+    "banner": "/images/aether-pine-closed-loop-vlm-feedback-for-visual-consistency.jpg",
+    "banner_webp": "/images/aether-pine-closed-loop-vlm-feedback-for-visual-consistency.webp",
+    "banner_avif": "/images/aether-pine-closed-loop-vlm-feedback-for-visual-consistency.avif"
+  },{
+    "title": "Aether Pine: Authoring a Children's Books with a Software IDE",
+    "url": "/2026/06/01/aether-pine-authoring-a-childrens-books-with-a-software-ide.html",
+    "date": "Jun 1, 2026",
+    "description": "Writing a cohesive, deeply detailed book usually relies on a mountain of sketchpads and messy, unstructured brainstorming. But if you've ever tried using Large Language Models (LLMs) for long-form creative writing, you know they have a massive limitation: without strict boundaries, generative text quickly suffers from narrative drift (losing the plot) and structural collapse over long chat histories.",
+    "tags": "generative ai,lang graph,future of writing,creative tech,storytelling",
+    "banner": "/images/aether-pine-authoring-a-childrens-books-with-a-software-ide.jpg",
+    "banner_webp": "/images/aether-pine-authoring-a-childrens-books-with-a-software-ide.webp",
+    "banner_avif": "/images/aether-pine-authoring-a-childrens-books-with-a-software-ide.avif"
+  },{
+    "title": "Optimizely Opal: Connecting to Core Enterprise Infrastructure",
+    "url": "/2026/05/29/optimizely-opal-connecting-to-core-enterprise-infrastructure.html",
+    "date": "May 29, 2026",
+    "description": "In Part 4: Optimizely Opal — Implementation Blueprint & Strategic Roadmap , we mapped the conceptual data flow, sequence patterns, and JSON payloads between Optimizely Opal and the sovereign core. This final instalment details the explicit code and configuration parameters required to transition the deployment to a live environment.",
+    "tags": "data sovereignty,enterprise ai,optimizely opal,cyber security,data governance,optimizely",
+    "banner": "/images/optimizely-opal-connecting-to-core-enterprise-infrastructure.jpg",
+    "banner_webp": "/images/optimizely-opal-connecting-to-core-enterprise-infrastructure.webp",
+    "banner_avif": "/images/optimizely-opal-connecting-to-core-enterprise-infrastructure.avif"
+  },{
+    "title": "Optimizely Opal: Implementation Blueprint and Strategic Integration Roadmap",
+    "url": "/2026/05/28/optimizely-opal-implementation-blueprint-and-strategic-integration-roadmap.html",
+    "date": "May 28, 2026",
+    "description": "Architecture without execution remains academic : Building on the foundational frameworks established in Part 3: The Hub-and-Spoke Architecture and AI Complexity Ladder , bridging intuitive edge interfaces with secure backend systems requires deliberate operational design.",
+    "tags": "enterprise ai,optimizely opal,data governance,workflow automation,system architecture,optimizely",
+    "banner": "/images/optimizely-opal-implementation-blueprint-and-strategic-integration-roadmap.jpg",
+    "banner_webp": "/images/optimizely-opal-implementation-blueprint-and-strategic-integration-roadmap.webp",
+    "banner_avif": "/images/optimizely-opal-implementation-blueprint-and-strategic-integration-roadmap.avif"
+  },{
+    "title": "Optimizely Opal: The Hub-and-Spoke Architecture",
+    "url": "/2026/05/27/optimizely-opal-the-hub-and-spoke-architecture.html",
+    "date": "May 27, 2026",
+    "description": "Building on the concepts in Optimizely Opal: Architecting Hybrid Intelligence , the foundational challenge of modern enterprise AI is addressed in resolving organisational misalignment. Forcing a single, monolithic tool to satisfy divergent departmental requirements creates severe systemic friction:",
+    "tags": "enterprise ai,software architecture,data sovereignty,optimizely opal,agentic ai,optimizely,cmp,digital experience,tech leadership",
+    "banner": "/images/optimizely-opal-the-hub-and-spoke-architecture.jpg",
+    "banner_webp": "/images/optimizely-opal-the-hub-and-spoke-architecture.webp",
+    "banner_avif": "/images/optimizely-opal-the-hub-and-spoke-architecture.avif"
+  },{
+    "title": "Optimizely Opal: Why Isolated Intelligence Encounters the Enterprise Wall",
+    "url": "/2026/05/26/optimizely-opal-why-isolated-intelligence-encounters-the-enterprise-wall.html",
+    "date": "May 26, 2026",
+    "description": "A high-velocity digital experience platform (DXP) is a foundational capability, but orchestrating its generative intelligence securely across enterprise systems is the next competitive frontier. As established in Optimizely Opal: Architecting Hybrid Intelligence , native AI workflows fundamentally transform platform agility .",
+    "tags": "enterprise ai,digital experience,cognitive architecture,optimizely,tech sovereignty,dxp,opal,cmp",
+    "banner": "/images/optimizely-opal-why-isolated-intelligence-encounters-the-enterprise-wall.jpg",
+    "banner_webp": "/images/optimizely-opal-why-isolated-intelligence-encounters-the-enterprise-wall.webp",
+    "banner_avif": "/images/optimizely-opal-why-isolated-intelligence-encounters-the-enterprise-wall.avif"
+  },{
+    "title": "Optimizely Opal: Architecting Hybrid Intelligence",
+    "url": "/2026/05/25/optimizely-opal-architecting-hybrid-intelligence.html",
+    "date": "May 25, 2026",
+    "description": "The modern Digital Experience Platform (DXP) has evolved from a static system of record into an active, cognitive execution engine. At the centre of this shift is Optimizely Opal, a native agent orchestration layer embedded directly across the Optimizely One operating system.",
+    "tags": "optimizely,enterprise ai,data governance,digital experience,tech leadership,opal,cms",
+    "banner": "/images/optimizely-opal-architecting-hybrid-intelligence.jpg",
+    "banner_webp": "/images/optimizely-opal-architecting-hybrid-intelligence.webp",
+    "banner_avif": "/images/optimizely-opal-architecting-hybrid-intelligence.avif"
+  },{
+    "title": "Sovereign Vision: Reclaiming Artistry from the Algorithmic Average",
+    "url": "/2026/05/24/sovereign-vision-reclaiming-artistry-from-the-algorithmic-average.html",
+    "date": "May 24, 2026",
+    "description": "A brilliant, creative vision means nothing if the system executing it waters down its unique style. Learn to protect your creative identity against generic, automated conformity.",
+    "tags": "generative ai,artistic freedom,sovereign vision,tech sovereignty,ai architecture,auteur engineer",
+    "banner": "/images/sovereign-vision-reclaiming-artistry-from-the-algorithmic-average.jpg",
+    "banner_webp": "/images/sovereign-vision-reclaiming-artistry-from-the-algorithmic-average.webp",
+    "banner_avif": "/images/sovereign-vision-reclaiming-artistry-from-the-algorithmic-average.avif"
+  },{
+    "title": "Sovereign Vision: Achieved Greatness Through Personal Vision",
+    "url": "/2026/05/21/sovereign-vision-achieved-greatness-through-personal-vision.html",
+    "date": "May 21, 2026",
+    "description": "Generative foundation models mathematically regress toward the statistical mean. Achieving defensible quality requires technical and creative distinction: establishing a sovereign vision and technical sovereignty.",
+    "tags": "sovereign vision,ai,curation,case study,technical leadership",
+    "banner": "/images/sovereign-vision-achieved-greatness-through-personal-vision.png",
+    "banner_webp": "/images/sovereign-vision-achieved-greatness-through-personal-vision.webp",
+    "banner_avif": "/images/sovereign-vision-achieved-greatness-through-personal-vision.avif"
+  },{
+    "title": "Sovereign Vision: Practical Guide to Tailored Generative AI",
+    "url": "/2026/05/20/sovereign-vision-practical-guide-to-tailored-generative-ai.html",
+    "date": "May 20, 2026",
+    "description": "Transition from rented AI black boxes to localized, open-weights generative pipelines. Learn how to reclaim computational ownership and structural control.",
+    "tags": "sovereign vision,ai,generative ai,pipeline,comfyui,adapters,lora",
+    "banner": "/images/sovereign-vision-practical-guide-to-tailored-generative-ai.jpg",
+    "banner_webp": "/images/sovereign-vision-practical-guide-to-tailored-generative-ai.webp",
+    "banner_avif": "/images/sovereign-vision-practical-guide-to-tailored-generative-ai.avif"
+  },{
+    "title": "Sovereign Vision: Strategic Guide to Digitising Your Auteur's Taste",
+    "url": "/2026/05/18/sovereign-vision-strategic-guide-to-digitising-your-auteurs-taste.html",
+    "date": "May 18, 2026",
+    "description": "Discover why a prompt is not a strategy. Learn to achieve technical AI sovereignty using concept sliders, targeted erasure, and C2PA cryptographic provenance.",
+    "tags": "sovereign vision,ai,taste,technical sovereignty,latent space,c2pa",
+    "banner": "/images/sovereign-vision-strategic-guide-to-digitising-your-auteurs-taste.jpg",
+    "banner_webp": "/images/sovereign-vision-strategic-guide-to-digitising-your-auteurs-taste.webp",
+    "banner_avif": "/images/sovereign-vision-strategic-guide-to-digitising-your-auteurs-taste.avif"
+  },{
+    "title": "Sovereign Vision: Mastering Taste in the Synthetic AI Era",
+    "url": "/2026/05/15/sovereign-vision-mastering-taste-in-the-synthetic-ai-era.html",
+    "date": "May 15, 2026",
+    "description": "As generative models drive the marginal cost of execution to near zero, competitive advantage shifts toward strict editorial curation and human discernment.",
+    "tags": "sovereign vision,ai,taste,orchestration,technical leadership,auteur",
+    "banner": "/images/sovereign-vision-mastering-taste-in-the-synthetic-ai-era.jpg",
+    "banner_webp": "/images/sovereign-vision-mastering-taste-in-the-synthetic-ai-era.webp",
+    "banner_avif": "/images/sovereign-vision-mastering-taste-in-the-synthetic-ai-era.avif"
+  },{
+    "title": "Github Spec Kit: Executing Spec-Driven Development with AI",
+    "url": "/2026/05/11/github-spec-kit-executing-spec-driven-development-with-ai.html",
+    "date": "May 11, 2026",
+    "description": "Implementing formalised methodologies like Spec-Driven Development (SDD) provides the necessary structural guardrails across all development workflows.",
+    "tags": "spec driven development,sdd,ai,engineering,github,spec kit,devops",
+    "banner": "/images/github-spec-kit-executing-spec-driven-development-paul-graham.jpg",
+    "banner_webp": "/images/github-spec-kit-executing-spec-driven-development-paul-graham.webp",
+    "banner_avif": "/images/github-spec-kit-executing-spec-driven-development-paul-graham.avif"
+  },{
+    "title": "Strategic Clarity: Why, What, How for Technical Leaders",
+    "url": "/2026/05/09/strategic-clarity-why-what-how-for-technical-leaders.html",
+    "date": "May 9, 2026",
+    "description": "Connecting technical execution with strategic intent is critical in environments characterized by rapid technological advancement:     Technological advancem...",
+    "tags": "deloitte,technical leadership,strategy,engineering excellence,purpose driven,innovation",
+    "banner": "/images/strategic-clarity-why-what-how-technical-leadership-paul-graham-y6lue.jpg",
+    "banner_webp": "/images/strategic-clarity-why-what-how-technical-leadership-paul-graham-y6lue.webp",
+    "banner_avif": "/images/strategic-clarity-why-what-how-technical-leadership-paul-graham-y6lue.avif"
+  },{
+    "title": "NHS England GitHub Privatization: A Flawed Security Posture",
+    "url": "/2026/05/07/nhs-england-github-privatisation-flawed-security-posture.html",
+    "date": "May 7, 2026",
+    "description": "The directive from  NHS England  to privatise all public  GitHub repositories  by  May 11, 2026 , represents a significant shift in its digital strategy.",
+    "tags": "nhs england,cyber security,open source,tech policy,digital health,mythos,anthropic,github",
+    "banner": "/images/nhs-england-github-privatisation-flawed-security-posture-paul-graham-cpoce.jpg",
+    "banner_webp": "/images/nhs-england-github-privatisation-flawed-security-posture-paul-graham-cpoce.webp",
+    "banner_avif": "/images/nhs-england-github-privatisation-flawed-security-posture-paul-graham-cpoce.avif"
+  },{
+    "title": "The Mythos Moment: Why Restricting Frontier AI May Accelerate Its Proliferation",
+    "url": "/2026/05/03/the-mythos-moment-why-restricting-frontier-ai-may-accelerate-its-proliferation.html",
+    "date": "May 3, 2026",
+    "description": "The U.S. government is currently pushing back against Anthropic's plans to expand access to its latest model,  Claude Mythos  (also known as Mythos Preview).",
+    "tags": "ai,cyber security,anthropic,claude mythos,ai safety,national security,open source",
+    "banner": "/images/mythos-moment-why-restricting-frontier-ai-may-its-paul-graham-0vhfe.jpg",
+    "banner_webp": "/images/mythos-moment-why-restricting-frontier-ai-may-its-paul-graham-0vhfe.webp",
+    "banner_avif": "/images/mythos-moment-why-restricting-frontier-ai-may-its-paul-graham-0vhfe.avif"
+  },{
+    "title": "Evaluating AI APIs in 2026: Prioritising Functional Constraints and Abilities",
+    "url": "/2026/05/01/evaluating-ai-apis-in-2026-prioritising-functional-constraints-and-abilities.html",
+    "date": "May 1, 2026",
+    "description": "From a design perspective, the choice of   Artificial Intelligence APIs   in 2026 requires a shift from brand loyalty to an evaluation of functional constrai...",
+    "tags": "ai,aiap is,tech leadership,ai strategy,machine learning,enterprise ai,api evaluation",
+    "banner": "/images/evaluating-ai-apis-2026-prioritising-functional-abilities-paul-graham-yiwhe.jpg",
+    "banner_webp": "/images/evaluating-ai-apis-2026-prioritising-functional-abilities-paul-graham-yiwhe.webp",
+    "banner_avif": "/images/evaluating-ai-apis-2026-prioritising-functional-abilities-paul-graham-yiwhe.avif"
+  },{
+    "title": "The 2026 AI Threat Landscape: Machine-Speed Autonomous Agents",
+    "url": "/2026/04/28/the-2026-ai-threat-landscape-machine-speed-autonomous-agents.html",
+    "date": "Apr 28, 2026",
+    "description": "The digital landscape is undergoing a significant transformation.",
+    "tags": "ai,cyber security,threat landscape,autonomous ai,ai security",
+    "banner": "/images/2026-ai-threat-landscape-machine-speed-autonomous-agents-paul-graham-blvge.jpg",
+    "banner_webp": "/images/2026-ai-threat-landscape-machine-speed-autonomous-agents-paul-graham-blvge.webp",
+    "banner_avif": "/images/2026-ai-threat-landscape-machine-speed-autonomous-agents-paul-graham-blvge.avif"
+  },{
+    "title": "All the Langs: LangChain, LangSmith, LangGraph, and LangFlow!",
+    "url": "/2026/04/24/all-the-langs-langchain-langsmith-langgraph-and-langflow.html",
+    "date": "Apr 24, 2026",
+    "description": "In the current landscape of  Large Language Models (LLMs) , the challenge has shifted from basic implementation to the smart assembly of  AI  systems that dr...",
+    "tags": "production,ai strategy,lang chain,generative ai,llm ops,software architecture,lang graph,lang flow",
+    "banner": "/images/all-langs-langchain-langsmith-langgraph-langflow-paul-graham-5rpfe.jpg",
+    "banner_webp": "/images/all-langs-langchain-langsmith-langgraph-langflow-paul-graham-5rpfe.webp",
+    "banner_avif": "/images/all-langs-langchain-langsmith-langgraph-langflow-paul-graham-5rpfe.avif"
+  },{
+    "title": "Power Automate to LangFlow: The AI Complexity Ladder Businesses Must Climb",
+    "url": "/2026/04/21/power-automate-to-langflow-the-ai-complexity-ladder-businesses-must-climb.html",
+    "date": "Apr 21, 2026",
+    "description": "Are you stuck in the 'no-code trap' of AI automation? Businesses are rushing into AI automation, often starting with accessible, no-code tools that promise q...",
+    "tags": "ai,artificial intelligence,no code,low code,automation,agentic ai,business strategy,digital transformation",
+    "banner": "/images/power-automate-langflow-ai-complexity-ladder-must-climb-paul-graham-i14ke.jpg",
+    "banner_webp": "/images/power-automate-langflow-ai-complexity-ladder-must-climb-paul-graham-i14ke.webp",
+    "banner_avif": "/images/power-automate-langflow-ai-complexity-ladder-must-climb-paul-graham-i14ke.avif"
+  },{
+    "title": "Global Negotiating: Bridging Cultural Divides in 2026",
+    "url": "/2026/04/19/global-negotiating-bridging-cultural-divides-in-2026.html",
+    "date": "Apr 19, 2026",
+    "description": "In our hyper-connected world, cultural nuances in negotiation can dictate whether a deal thrives or dies.",
+    "tags": "cross cultural negotiation,global leadership,geopolitics2026,conflict resolution,cultural intelligence,business diplomacy",
+    "banner": "/images/global-negotiating-bridging-cultural-divides-2026-paul-graham-ne4oe.jpg",
+    "banner_webp": "/images/global-negotiating-bridging-cultural-divides-2026-paul-graham-ne4oe.webp",
+    "banner_avif": "/images/global-negotiating-bridging-cultural-divides-2026-paul-graham-ne4oe.avif"
+  },{
+    "title": "Beyond Mythos: Recursive Self-Correction and Temporal Endurance",
+    "url": "/2026/04/16/beyond-mythos-recursive-self-correction-and-temporal-endurance.html",
+    "date": "Apr 16, 2026",
+    "description": "While the AI industry recently celebrated the Capybara architecture's mastery of 10-step logic chaining, a milestone I previously contextualized in  The Clau...",
+    "tags": "ai,autonomous agents,enterprise architecture,machine learning,tech innovation,future of ai",
+    "banner": "/images/beyond-mythos-recursive-self-correction-temporal-endurance-graham-fdwre.jpg",
+    "banner_webp": "/images/beyond-mythos-recursive-self-correction-temporal-endurance-graham-fdwre.webp",
+    "banner_avif": "/images/beyond-mythos-recursive-self-correction-temporal-endurance-graham-fdwre.avif"
+  },{
+    "title": "The Mythos Economy: From \"Thinking\" AI to Autonomous Corporate Strategy",
+    "url": "/2026/04/15/the-mythos-economy-from-thinking-ai-to-autonomous-corporate-strategy.html",
+    "date": "Apr 15, 2026",
+    "description": "AI has officially made the leap from just answering our questions to actually running the show.",
+    "tags": "artificial intelligence,corporate strategy,future of work,agentic ai,tech trends,business leadership,digital transformation,innovation",
+    "banner": "/images/mythos-economy-from-thinking-ai-autonomous-corporate-strategy-graham-ngw1e.jpg",
+    "banner_webp": "/images/mythos-economy-from-thinking-ai-autonomous-corporate-strategy-graham-ngw1e.webp",
+    "banner_avif": "/images/mythos-economy-from-thinking-ai-autonomous-corporate-strategy-graham-ngw1e.avif"
+  },{
+    "title": "Claude Mythos: Project Glasswing and the Rise of Autonomous Offensive AI",
+    "url": "/2026/04/13/claude-mythos-project-glasswing-and-the-rise-of-autonomous-offensive-ai.html",
+    "date": "Apr 13, 2026",
+    "description": "Project Glasswing and the Rise of Autonomous Offensive AI   Introduction   The 'Claude Mythos' Preview dropped earlier this month, and it has fundamentally b...",
+    "tags": "cyber security,artificial intelligence,project glasswing,info sec,zero trust,tech leadership,offensive ai",
+    "banner": "/images/claude-mythos-project-glasswing-rise-autonomous-offensive-paul-graham-rqtie.jpg",
+    "banner_webp": "/images/claude-mythos-project-glasswing-rise-autonomous-offensive-paul-graham-rqtie.webp",
+    "banner_avif": "/images/claude-mythos-project-glasswing-rise-autonomous-offensive-paul-graham-rqtie.avif"
+  },{
+    "title": "The Claude Mythos: Why Logic Chaining and Operational Length Are a Major Advance",
+    "url": "/2026/04/11/the-claude-mythos-why-logic-chaining-and-operational-length-are-a-major-advance.html",
+    "date": "Apr 11, 2026",
+    "description": "So here's the deal with the official unveiling of Claude Mythos in April 2026—it has completely changed how we talk about AI.",
+    "tags": "ai,llms",
+    "banner": "/images/claude-mythos-why-logic-chaining-operational-length-major-paul-graham-w8ope.jpg",
+    "banner_webp": "/images/claude-mythos-why-logic-chaining-operational-length-major-paul-graham-w8ope.webp",
+    "banner_avif": "/images/claude-mythos-why-logic-chaining-operational-length-major-paul-graham-w8ope.avif"
+  },{
+    "title": "AI's Big Split: The Austrian Advantage You Might Be Missing",
+    "url": "/2026/04/10/ais-big-split-the-austrian-advantage-you-might-be-missing.html",
+    "date": "Apr 10, 2026",
+    "description": "The rapid evolution of artificial intelligence has sparked a fundamental debate about its economic role: is it a tool for doing old things better, or for doi...",
+    "tags": "ai,innovation,entrepreneurship,business strategy,austrian economics,future of work,tech trends,digital transformation",
+    "banner": "/images/ais-big-split-austrian-advantage-you-might-missing-paul-graham-lnfke.jpg",
+    "banner_webp": "/images/ais-big-split-austrian-advantage-you-might-missing-paul-graham-lnfke.webp",
+    "banner_avif": "/images/ais-big-split-austrian-advantage-you-might-missing-paul-graham-lnfke.avif"
+  },{
+    "title": "AI's Dual Shift: Escaping or Embracing the Chicago School of AI Efficiency",
+    "url": "/2026/04/08/ais-dual-shift-escaping-or-embracing-the-chicago-school-of-ai-efficiency.html",
+    "date": "Apr 8, 2026",
+    "description": "Okay, so everyone's talking about AI, and for good reason. Global spending on AI is expected to hit a massive  $2.52 trillion in 2026 .",
+    "tags": "ai,ai strategy,business strategy,leadership,digital transformation,innovation,future of work",
+    "banner": "/images/ais-dual-shift-escaping-embracing-chicago-school-ai-paul-graham-p9esf.jpg",
+    "banner_webp": "/images/ais-dual-shift-escaping-embracing-chicago-school-ai-paul-graham-p9esf.webp",
+    "banner_avif": "/images/ais-dual-shift-escaping-embracing-chicago-school-ai-paul-graham-p9esf.avif"
+  },{
+    "title": "AI's Big Split: Chicago Efficiency vs. Austrian Discovery",
+    "url": "/2026/04/02/ais-big-split-chicago-efficiency-vs-austrian-discovery.html",
+    "date": "Apr 2, 2026",
+    "description": "The Invisible Choice : Something fascinating is happening in boardrooms everywhere.",
+    "tags": "ai,business strategy,innovation,leadership,economics,future of work,digital transformation",
+    "banner": "/images/ais-big-split-chicago-efficiency-vs-austrian-discovery-paul-graham-79a3e.jpg",
+    "banner_webp": "/images/ais-big-split-chicago-efficiency-vs-austrian-discovery-paul-graham-79a3e.webp",
+    "banner_avif": "/images/ais-big-split-chicago-efficiency-vs-austrian-discovery-paul-graham-79a3e.avif"
+  },{
+    "title": "Digital Oracles: How LLMs Are Changing the Game for Real-World Stress Testing",
+    "url": "/2026/03/25/digital-oracles-how-llms-are-changing-the-game-for-real-world-stress-testing.html",
+    "date": "Mar 25, 2026",
+    "description": "In an era defined by rapid-fire global shifts, traditional forecasting is hitting a wall.",
+    "tags": "ai,risk management,llms,geopolitics,stress testing,strategic foresight,data science,decision making",
+    "banner": "/images/digital-oracles-how-llms-changing-game-real-world-stress-paul-graham-wyfie.jpg",
+    "banner_webp": "/images/digital-oracles-how-llms-changing-game-real-world-stress-paul-graham-wyfie.webp",
+    "banner_avif": "/images/digital-oracles-how-llms-changing-game-real-world-stress-paul-graham-wyfie.avif"
+  },{
+    "title": "Beyond the 'God Prompt': A New Playbook for High-Stakes AI ",
+    "url": "/2026/03/20/beyond-the-god-prompt-a-new-playbook-for-high-stakes-ai.html",
+    "date": "Mar 20, 2026",
+    "description": "The Risk of the 'All-In' Prompts   Introduction   In the world of military AI, there is a massive temptation to rely on a single, monolithic prompt to handle...",
+    "tags": "dod,artificial intelligence,military tech,gen ai,llm,gov tech,department of defense,national security",
+    "banner": "/images/beyond-god-prompt-new-playbook-high-stakes-ai-paul-graham-te6oe.jpg",
+    "banner_webp": "/images/beyond-god-prompt-new-playbook-high-stakes-ai-paul-graham-te6oe.webp",
+    "banner_avif": "/images/beyond-god-prompt-new-playbook-high-stakes-ai-paul-graham-te6oe.avif"
+  },{
+    "title": "Fail-Safe Lethal AI: A 5-Step Modular Framework",
+    "url": "/2026/03/19/fail-safe-lethal-ai-a-5-step-modular-framework.html",
+    "date": "Mar 19, 2026",
+    "description": "The Rigged Game    No Ladders, Just Snakes:  Navigating high-stakes AI development often feels like a rigged game of Snakes and Ladders.",
+    "tags": "ai,ai ethics,defense tech,llm,modular architecture,military ai,c4 isr,responsible ai",
+    "banner": "/images/fail-safe-lethal-ai-5-step-modular-framework-paul-graham-vgoje.jpg",
+    "banner_webp": "/images/fail-safe-lethal-ai-5-step-modular-framework-paul-graham-vgoje.webp",
+    "banner_avif": "/images/fail-safe-lethal-ai-5-step-modular-framework-paul-graham-vgoje.avif"
+  },{
+    "title": "The God Prompt Trap: Single-Prompt Reasoning Amplifies AI Failures",
+    "url": "/2026/03/17/the-god-prompt-trap-single-prompt-reasoning-amplifies-ai-failures.html",
+    "date": "Mar 17, 2026",
+    "description": "The Illusion of 'Self-Correcting' Intelligence   Introduction   In the high-stakes arena of military AI, where targeting cycles have been compressed from wee...",
+    "tags": "ai ethics,military ai,prompt engineering,chain of thought,software architecture,national security,gen ai",
+    "banner": "/images/god-prompt-trap-single-prompt-reasoning-amplifies-ai-failures-graham-uirbe.jpg",
+    "banner_webp": "/images/god-prompt-trap-single-prompt-reasoning-amplifies-ai-failures-graham-uirbe.webp",
+    "banner_avif": "/images/god-prompt-trap-single-prompt-reasoning-amplifies-ai-failures-graham-uirbe.avif"
+  },{
+    "title": "The Accountability Gap: Why Human Oversight Is a Business Imperative",
+    "url": "/2026/03/13/the-accountability-gap-why-human-oversight-is-a-business-imperative.html",
+    "date": "Mar 13, 2026",
+    "description": "The rapid integration of frontier AI into both military and corporate systems has reached a critical inflection point, where the speed of 'Decision Compressi...",
+    "tags": "ai,artificial intelligence,military tech,defense,ethics,human in the loop,national security,warfare",
+    "banner": "/images/accountability-gap-why-human-oversight-business-paul-graham-fc3ye.jpg",
+    "banner_webp": "/images/accountability-gap-why-human-oversight-business-paul-graham-fc3ye.webp",
+    "banner_avif": "/images/accountability-gap-why-human-oversight-business-paul-graham-fc3ye.avif"
+  },{
+    "title": "The Silicon Sword: AI Warfare Ethics and Anthropic's Pentagon Standoff",
+    "url": "/2026/03/11/the-silicon-sword-ai-warfare-ethics-and-anthropics-pentagon-standoff.html",
+    "date": "Mar 11, 2026",
+    "description": "The era of 'theoretical' AI warfare ended on March 4, 2026. In an unprecedented move, the Pentagon designated  Anthropic  as a ' supply chain risk ,' a label...",
+    "tags": "ai ethics,artificial intelligence,military tech,national security,pentagon,anthropic,future of warfare,defense",
+    "banner": "/images/silicon-sword-ai-warfare-ethics-anthropics-pentagon-standoff-graham-1cxxe.jpg",
+    "banner_webp": "/images/silicon-sword-ai-warfare-ethics-anthropics-pentagon-standoff-graham-1cxxe.webp",
+    "banner_avif": "/images/silicon-sword-ai-warfare-ethics-anthropics-pentagon-standoff-graham-1cxxe.avif"
+  },{
+    "title": "The Silicon Sword: AI and the New Global Arms Race",
+    "url": "/2026/03/10/the-silicon-sword-ai-and-the-new-global-arms-race.html",
+    "date": "Mar 10, 2026",
+    "description": "A New Kind of War   Warfare is undergoing its most significant shift in a century.",
+    "tags": "ai,military technology,national security,geopolitics,future of war,defense tech,autonomous weapons,cyber security",
+    "banner": "/images/silicon-sword-ai-new-global-arms-race-paul-graham-cvgie.jpg",
+    "banner_webp": "/images/silicon-sword-ai-new-global-arms-race-paul-graham-cvgie.webp",
+    "banner_avif": "/images/silicon-sword-ai-new-global-arms-race-paul-graham-cvgie.avif"
+  },{
+    "title": "The 'Microslop' Fumble: A Perfect Example of Why Censoring Users Backfires",
+    "url": "/2026/03/06/the-microslop-fumble-a-perfect-example-of-why-censoring-users-backfires.html",
+    "date": "Mar 6, 2026",
+    "description": "Why Trying to Silence Your Users Can Go So Wrong   So, let's talk about a community management mess that Microsoft found itself in back in early 2026.",
+    "tags": "community management,streisand effect,customer feedback,brand safety,content moderation,pr crisis,tech,microsoft",
+    "banner": "/images/microslop-fumble-perfect-example-why-censoring-users-backfires-paul-gs6me.jpg",
+    "banner_webp": "/images/microslop-fumble-perfect-example-why-censoring-users-backfires-paul-gs6me.webp",
+    "banner_avif": "/images/microslop-fumble-perfect-example-why-censoring-users-backfires-paul-gs6me.avif"
+  },{
+    "title": "Beyond the Hype: How LLMs are Democratizing Access",
+    "url": "/2026/03/04/beyond-the-hype-how-llms-are-democratizing-access.html",
+    "date": "Mar 4, 2026",
+    "description": "Ever felt like the next big idea was just out of reach, stuck behind a wall of code or specialized knowledge you just don't have?",
+    "tags": "ai,llms,tech democratization,future of work,sycophancy,dunning kruger,innovation,digital transformation",
+    "banner": "/images/beyond-hype-how-llms-democratizing-access-paul-graham-j1c3e.jpg",
+    "banner_webp": "/images/beyond-hype-how-llms-democratizing-access-paul-graham-j1c3e.webp",
+    "banner_avif": "/images/beyond-hype-how-llms-democratizing-access-paul-graham-j1c3e.avif"
+  },{
+    "title": "Eroding Alpha: How LLMs, Naive Prompts & AI Herding Amplify Market Volatility",
+    "url": "/2026/02/23/eroding-alpha-how-llms-naive-prompts-ai-herding-amplify-market-volatility.html",
+    "date": "Feb 23, 2026",
+    "description": "So, what's the big deal? It feels like Large Language Models (LLMs) are everywhere these days, right?",
+    "tags": "ai,finance,investing,market volatility,llms,fin tech,systemic risk,alpha",
+    "banner": "/images/eroding-alpha-how-llms-naive-prompts-ai-herding-amplify-paul-graham-fdsbe.jpg",
+    "banner_webp": "/images/eroding-alpha-how-llms-naive-prompts-ai-herding-amplify-paul-graham-fdsbe.webp",
+    "banner_avif": "/images/eroding-alpha-how-llms-naive-prompts-ai-herding-amplify-paul-graham-fdsbe.avif"
+  },{
+    "title": "LLM Anti-Patterns: 'One Prompt to Rule Them All'",
+    "url": "/2026/02/20/llm-anti-patterns-one-prompt-to-rule-them-all.html",
+    "date": "Feb 20, 2026",
+    "description": "The 'God Prompt' Anti-Pattern : Ever tried to solve a really complex AI problem with just one, giant, all-powerful prompt?",
+    "tags": "context,ai,llm,software architecture,prompt engineering,a idevelopment,tech debt,engineering excellence",
+    "banner": "/images/llm-anti-patterns-one-prompt-rule-them-all-paul-graham-qitae.jpg",
+    "banner_webp": "/images/llm-anti-patterns-one-prompt-rule-them-all-paul-graham-qitae.webp",
+    "banner_avif": "/images/llm-anti-patterns-one-prompt-rule-them-all-paul-graham-qitae.avif"
+  },{
+    "title": "The AI Cost-Cutting Trap: Why \"Same But Cheaper\" is a $1 Trillion Fallacy",
+    "url": "/2026/02/16/the-ai-cost-cutting-trap-why-same-but-cheaper-is-a-1-trillion-fallacy.html",
+    "date": "Feb 16, 2026",
+    "description": "The 'Delete Employee, Insert Prompt' business model is not the future of productivity.",
+    "tags": "ai,future of work,business strategy,digital transformation,generative ai,tech leadership",
+    "banner": "/images/ai-cost-cutting-trap-why-same-cheaper-1-trillion-fallacy-paul-graham-x7bne.jpg",
+    "banner_webp": "/images/ai-cost-cutting-trap-why-same-cheaper-1-trillion-fallacy-paul-graham-x7bne.webp",
+    "banner_avif": "/images/ai-cost-cutting-trap-why-same-cheaper-1-trillion-fallacy-paul-graham-x7bne.avif"
+  },{
+    "title": "Bridging the Gap: Programmering Tools for All",
+    "url": "/2026/02/12/bridging-the-gap-programmering-tools-for-all.html",
+    "date": "Feb 12, 2026",
+    "description": "The End of the Digital Divide : For decades, a digital divide separated those who 'spoke' code from those who did not.",
+    "tags": "future of work,digital transformation,productivity,git,markdown,tech trends,career development,knowledge management",
+    "banner": "/images/bridging-gap-programmering-tools-all-paul-graham-ol8ic.jpg",
+    "banner_webp": "/images/bridging-gap-programmering-tools-all-paul-graham-ol8ic.webp",
+    "banner_avif": "/images/bridging-gap-programmering-tools-all-paul-graham-ol8ic.avif"
+  },{
+    "title": "The Indie Creator's 2026 Survival Guide: My Comic Creator Blueprint",
+    "url": "/2026/01/16/the-indie-creators-2026-survival-guide-my-comic-creator-blueprint.html",
+    "date": "Jan 16, 2026",
+    "description": "If  Part 1 (AI Laws &amp; the No FAKES Act)  established the 'Legal Sand' of 2026, Part 2 is your blueprint for building on solid rock.",
+    "tags": "ai,comic creator,copyright law2026,indie art,c2pa,no fakes act,ip protection",
+    "banner": "/images/indie-creators-2026-survival-guide-my-comic-creator-blueprint-graham-8gnne.jpg",
+    "banner_webp": "/images/indie-creators-2026-survival-guide-my-comic-creator-blueprint-graham-8gnne.webp",
+    "banner_avif": "/images/indie-creators-2026-survival-guide-my-comic-creator-blueprint-graham-8gnne.avif"
+  },{
+    "title": "The Indie Creator's 2026 Survival Guide: AI Laws & the No FAKES Act",
+    "url": "/2026/01/14/the-indie-creators-2026-survival-guide-ai-laws-the-no-fakes-act.html",
+    "date": "Jan 14, 2026",
+    "description": "Is your creative business built on 'legal sand'? For years, the 'Wild West' of generative AI allowed indie creators to experiment with unprecedented speed.",
+    "tags": "ai,copyright law,generative ai,indie creators,digital art,intellectual property,no fakes act,c2pa",
+    "banner": "/images/indie-creators-2026-survival-guide-ai-laws-fakes-act-paul-graham-stwxe.jpg",
+    "banner_webp": "/images/indie-creators-2026-survival-guide-ai-laws-fakes-act-paul-graham-stwxe.webp",
+    "banner_avif": "/images/indie-creators-2026-survival-guide-ai-laws-fakes-act-paul-graham-stwxe.avif"
+  },{
+    "title": "Overcoming AI Image Limits: Experience for Comic Creator",
+    "url": "/2026/01/08/overcoming-ai-image-limits-experience-for-comic-creator.html",
+    "date": "Jan 8, 2026",
+    "description": "🚀  Mastering AI's 'Flaws': Turn Constraints into Comic Innovation    Introduction   Have you ever created a perfect comic panel only to have AI's ratios or m...",
+    "tags": "ai comics,generative art,comic creation,ai innovation,digital illustration,tech creativity,vibe coding,storytelling ai",
+    "banner": "/images/overcoming-ai-image-limits-experience-comic-creator-paul-graham-7c7ze.jpg",
+    "banner_webp": "/images/overcoming-ai-image-limits-experience-comic-creator-paul-graham-7c7ze.webp",
+    "banner_avif": "/images/overcoming-ai-image-limits-experience-comic-creator-paul-graham-7c7ze.avif"
+  },{
+    "title": "Choosing AI Image Models: Essential Factors in Comic Creation",
+    "url": "/2026/01/06/choosing-ai-image-models-essential-factors-in-comic-creation.html",
+    "date": "Jan 6, 2026",
+    "description": "Like most creative industries, the comic book industry is undergoing a radical transformation.",
+    "tags": "ai,llms",
+    "banner": "/images/choosing-ai-image-models-essential-factors-comic-creation-paul-graham-yqyne.jpg",
+    "banner_webp": "/images/choosing-ai-image-models-essential-factors-comic-creation-paul-graham-yqyne.webp",
+    "banner_avif": "/images/choosing-ai-image-models-essential-factors-comic-creation-paul-graham-yqyne.avif"
+  },{
+    "title": "Beyond 'Vibe Coding': Kiro Brings Discipline to AI Development",
+    "url": "/2025/12/29/beyond-vibe-coding-kiro-brings-discipline-to-ai-development.html",
+    "date": "Dec 29, 2025",
+    "description": "The world of AI-assisted software development is rapidly moving beyond 'vibe coding',the intuitive, often chaotic process of iterating with a large language ...",
+    "tags": "content strategy,ai,workflow,content creation,digital marketing,quality content,tech,marketing strategy",
+    "banner": "/images/beyond-vibe-coding-kiro-brings-discipline-ai-paul-graham-iv73e.jpg",
+    "banner_webp": "/images/beyond-vibe-coding-kiro-brings-discipline-ai-paul-graham-iv73e.webp",
+    "banner_avif": "/images/beyond-vibe-coding-kiro-brings-discipline-ai-paul-graham-iv73e.avif"
+  },{
+    "title": "AntiGravity and Gemini: The Agentic Development Revolution",
+    "url": "/2025/12/23/antigravity-and-gemini-the-agentic-development-revolution.html",
+    "date": "Dec 23, 2025",
+    "description": "For years, AI in our code editors has been a helpful 'copilot,' offering smart autocomplete and function suggestions.",
+    "tags": "agentic ai,ai,software development,tech innovation,future of work,gemini,developer tools,productivity",
+    "banner": "/images/antigravity-gemini-agentic-development-revolution-paul-graham-dnjee.jpg",
+    "banner_webp": "/images/antigravity-gemini-agentic-development-revolution-paul-graham-dnjee.webp",
+    "banner_avif": "/images/antigravity-gemini-agentic-development-revolution-paul-graham-dnjee.avif"
+  },{
+    "title": "From Gamebooks to Generative Worlds: The LLM Storytelling Revolution",
+    "url": "/2025/12/18/from-gamebooks-to-generative-worlds-the-llm-storytelling-revolution.html",
+    "date": "Dec 18, 2025",
+    "description": "From Paper to Pixels: The Dawn of Player Agency   The foundation of modern interactive narrative was laid not on silicon, but on paper.",
+    "tags": "ai,llm,interactive narrative,storytelling,generative ai,content creation,tech innovation,future of storytelling",
+    "banner": "/images/from-gamebooks-to-generative-worlds-the-llm-storytelling-revolution.jpg",
+    "banner_webp": "/images/from-gamebooks-to-generative-worlds-the-llm-storytelling-revolution.webp",
+    "banner_avif": "/images/from-gamebooks-to-generative-worlds-the-llm-storytelling-revolution.avif"
+  },{
+    "title": "AI and the Democratization of Journalism: A New Era of Accountability🚀",
+    "url": "/2025/12/11/ai-and-the-democratization-of-journalism-a-new-era-of-accountability.html",
+    "date": "Dec 11, 2025",
+    "description": "Could a lone researcher with a $20 monthly subscription out-scope a multi-million-dollar news organization?",
+    "tags": "investigative journalism,future of media,technology,innovation,ai,journalism,tech ethics,citizen journalism",
+    "banner": "/images/ai-democratization-journalism-new-era-accountability-paul-graham-pnf4e.jpg",
+    "banner_webp": "/images/ai-democratization-journalism-new-era-accountability-paul-graham-pnf4e.webp",
+    "banner_avif": "/images/ai-democratization-journalism-new-era-accountability-paul-graham-pnf4e.avif"
+  },{
+    "title": "Polarization by Design: How AI is Making Political Division a Rational Strategy",
+    "url": "/2025/12/05/polarization-by-design-how-ai-is-making-political-division-a-rational-strategy.html",
+    "date": "Dec 5, 2025",
+    "description": "From AI-generated robocalls to hyper-targeted deepfakes, the 2024 U.S.",
+    "tags": "ai,political science,polarization,generative ai,future of politics",
+    "banner": "/images/polarization-design-how-ai-making-political-division-rational-graham-jepge.jpg",
+    "banner_webp": "/images/polarization-design-how-ai-making-political-division-rational-graham-jepge.webp",
+    "banner_avif": "/images/polarization-design-how-ai-making-political-division-rational-graham-jepge.avif"
+  },{
+    "title": "Disposable Software in the Age of AI: Risks and Rewards",
+    "url": "/2025/12/03/disposable-software-in-the-age-of-ai-risks-and-rewards.html",
+    "date": "Dec 3, 2025",
+    "description": "When faced with a single, niche digital task—like reformatting a CSV or a thousand files—developers often over-engineer, while others default to manual work.",
+    "tags": "ai,software development,tech trends,developer tools,future of work,code quality,generative ai",
+    "banner": "/images/disposable-software-age-ai-risks-rewards-paul-graham-iexre.jpg",
+    "banner_webp": "/images/disposable-software-age-ai-risks-rewards-paul-graham-iexre.webp",
+    "banner_avif": "/images/disposable-software-age-ai-risks-rewards-paul-graham-iexre.avif"
+  },{
+    "title": "Cognitive Distance: Navigating the Limits to T-Shaped Skills",
+    "url": "/2025/11/28/cognitive-distance-navigating-the-limits-to-t-shaped-skills.html",
+    "date": "Nov 28, 2025",
+    "description": "Ever felt your brain hitting a static wall when switching from intense data analysis to creative brainstorming, then pivoting again for technical support?",
+    "tags": "cognitive distance,t shaped skills,ai coding,future of work,productivity,professional development",
+    "banner": "/images/cognitive-distance-navigating-limits-t-shaped-skills-paul-graham-itoee.jpg",
+    "banner_webp": "/images/cognitive-distance-navigating-limits-t-shaped-skills-paul-graham-itoee.webp",
+    "banner_avif": "/images/cognitive-distance-navigating-limits-t-shaped-skills-paul-graham-itoee.avif"
+  },{
+    "title": "The Context Gap: AI Code Generation Still Demands Humans",
+    "url": "/2025/11/25/the-context-gap-ai-code-generation-still-demands-humans.html",
+    "date": "Nov 25, 2025",
+    "description": "While AI adoption in coding has exploded, so has developer scepticism.",
+    "tags": "ai,software development,developer productivity,context gap,git hub copilot,future of work",
+    "banner": "/images/context-gap-ai-code-generation-still-demands-humans-paul-graham-j1x1c.jpg",
+    "banner_webp": "/images/context-gap-ai-code-generation-still-demands-humans-paul-graham-j1x1c.webp",
+    "banner_avif": "/images/context-gap-ai-code-generation-still-demands-humans-paul-graham-j1x1c.avif"
+  },{
+    "title": "AI-Powered App Development: Building an Comic Creator Web App",
+    "url": "/2025/11/20/ai-powered-app-development-building-an-comic-creator-web-app.html",
+    "date": "Nov 20, 2025",
+    "description": "The digital world is demanding faster, more complex applications.",
+    "tags": "software development,ai,code,frameworks,tech trends,innovation,future of tech",
+    "banner": "/images/ai-powered-app-development-building-comic-creator-web-paul-graham-pqwde.jpg",
+    "banner_webp": "/images/ai-powered-app-development-building-comic-creator-web-paul-graham-pqwde.webp",
+    "banner_avif": "/images/ai-powered-app-development-building-comic-creator-web-paul-graham-pqwde.avif"
+  },{
+    "title": "Turning Passion into Profit: Monetizing Apps with Scale",
+    "url": "/2025/09/23/turning-passion-into-profit-monetizing-apps-with-scale.html",
+    "date": "Sep 23, 2025",
+    "description": "As Dreamweaver evolves from a personal learning project to a potential educational tool, I'm thinking bigger—about advanced features, scalability, and sustai...",
+    "tags": "",
+    "banner": "/images/turning-passion-profit-monetizing-apps-scale-paul-graham-us5ke.jpg",
+    "banner_webp": "/images/turning-passion-profit-monetizing-apps-scale-paul-graham-us5ke.webp",
+    "banner_avif": "/images/turning-passion-profit-monetizing-apps-scale-paul-graham-us5ke.avif"
+  },{
+    "title": "Bringing Shakespeare to Life: Why Headless Helps AI Integration",
+    "url": "/2025/09/18/bringing-shakespeare-to-life-why-headless-helps-ai-integration.html",
+    "date": "Sep 18, 2025",
+    "description": "Imagine seeing the enchanted forest of  A Midsummer Night's Dream  come alive.",
+    "tags": "web development,next.js,firebase,generative ai,headless cms,self taught dev",
+    "banner": "/images/bringing-shakespeare-life-why-headless-helps-ai-paul-graham-ocaue.jpg",
+    "banner_webp": "/images/bringing-shakespeare-life-why-headless-helps-ai-paul-graham-ocaue.webp",
+    "banner_avif": "/images/bringing-shakespeare-life-why-headless-helps-ai-paul-graham-ocaue.avif"
+  },{
+    "title": "From Clunky to Clear: Redesigning UX for My Shakespeare App",
+    "url": "/2025/09/16/from-clunky-to-clear-redesigning-ux-for-my-shakespeare-app.html",
+    "date": "Sep 16, 2025",
+    "description": "When I set out to build   Dreamweaver  , my goal was to create an interactive learning tool that would make the works of William Shakespeare more accessible ...",
+    "tags": "web development,next.js,firebase,generative ai,headless cms,ux,t-shaped skills",
+    "banner": "/images/from-clunky-clear-redesigning-ux-my-shakespeare-app-paul-graham-qfmte.jpg",
+    "banner_webp": "/images/from-clunky-clear-redesigning-ux-my-shakespeare-app-paul-graham-qfmte.webp",
+    "banner_avif": "/images/from-clunky-clear-redesigning-ux-my-shakespeare-app-paul-graham-qfmte.avif"
+  },{
+    "title": "How I Built a Modern Web App: Learning Next.js & Headless CMS Approach",
+    "url": "/2025/09/15/how-i-built-a-modern-web-app-learning-nextjs-headless-cms-approach.html",
+    "date": "Sep 15, 2025",
+    "description": "I'm always trying to learn and improve my craft, and web development has many tools and frameworks to choose from.",
+    "tags": "web development,next.js,firebase,generative ai,headless cms,self taught dev",
+    "banner": "/images/how-i-built-modern-web-app-learning-nextjs-headless-cms-paul-graham-ikrke.jpg",
+    "banner_webp": "/images/how-i-built-modern-web-app-learning-nextjs-headless-cms-paul-graham-ikrke.webp",
+    "banner_avif": "/images/how-i-built-modern-web-app-learning-nextjs-headless-cms-paul-graham-ikrke.avif"
+  },{
+    "title": "Navigating Optimizely: A DXP for Every Digital Leader 🌍",
+    "url": "/2025/05/13/navigating-optimizely-a-dxp-for-every-digital-leader.html",
+    "date": "May 13, 2025",
+    "description": "A Digital Experience Platform (DXP) is more than a content management system. It's an integrated set of technologies designed to help organisations create, manage, deliver, and optimise personalised digital experiences across every channel- web, mobile, apps, and beyond. The best DXPS unify content, data, experimentation, and personalisation, giving teams the agility to adapt and scale.",
+    "tags": "optimizely,dxp,digital experience,headless cms,web development,personalization,ab testing,digital transformation,composable architecture,microsites",
+    "banner": "/images/navigating-optimizely-a-dxp-for-every-digital-leader.jpg",
+    "banner_webp": "/images/navigating-optimizely-a-dxp-for-every-digital-leader.webp",
+    "banner_avif": "/images/navigating-optimizely-a-dxp-for-every-digital-leader.avif"
+  },{
+    "title": "Vibe Coding Masterclass: Harmony in Code and Creativity ⚖️",
+    "url": "/2025/05/09/vibe-coding-masterclass-harmony-in-code-and-creativity.html",
+    "date": "May 9, 2025",
+    "description": "Parts 1 and 2 of the Vibe Coding Masterclass explored vibe coding's origins and the new AI-powered toolkit changing how we build software.",
+    "tags": "vibe coding,ai coding,software development,team culture,innovation",
+    "banner": "/images/vibe-coding-masterclass-harmony-code-creativity-paul-graham-rrm7e.jpg",
+    "banner_webp": "/images/vibe-coding-masterclass-harmony-code-creativity-paul-graham-rrm7e.webp",
+    "banner_avif": "/images/vibe-coding-masterclass-harmony-code-creativity-paul-graham-rrm7e.avif"
+  },{
+    "title": "Vibe Coding Masterclass: Your AI-Powered Coding Arsenal 🚀",
+    "url": "/2025/05/08/vibe-coding-masterclass-your-ai-powered-coding-arsenal.html",
+    "date": "May 8, 2025",
+    "description": "In  Part 1    Questioning the Code, Exploring the Naivety of LLMs  , we uncovered both the promise and pitfalls of AI-generated code-speedy results, but ofte...",
+    "tags": "vibe coding,ai coding,prompt engineering,software development,innovation",
+    "banner": "/images/vibe-coding-masterclass-your-ai-powered-arsenal-paul-graham-tvnje.jpg",
+    "banner_webp": "/images/vibe-coding-masterclass-your-ai-powered-arsenal-paul-graham-tvnje.webp",
+    "banner_avif": "/images/vibe-coding-masterclass-your-ai-powered-arsenal-paul-graham-tvnje.avif"
+  },{
+    "title": "Vibe Coding Masterclass: Questioning the Code, Exploring the Naivety of LLMs",
+    "url": "/2025/05/07/vibe-coding-masterclass-questioning-the-code-exploring-the-naivety-of-llms.html",
+    "date": "May 7, 2025",
+    "description": "The rise of AI-powered coding assistants has been nothing short of revolutionary.",
+    "tags": "vibe coding,ai coding,software development,llm,tech innovation",
+    "banner": "/images/vibe-coding-masterclass-questioning-code-exploring-naivety-graham-xr3me.jpg",
+    "banner_webp": "/images/vibe-coding-masterclass-questioning-code-exploring-naivety-graham-xr3me.webp",
+    "banner_avif": "/images/vibe-coding-masterclass-questioning-code-exploring-naivety-graham-xr3me.avif"
+  },{
+    "title": "Understanding Optimizely: Content Marketing Platform (CMP)",
+    "url": "/2025/05/06/understanding-optimizely-content-marketing-platform-cmp.html",
+    "date": "May 6, 2025",
+    "description": "What if your entire content marketing operation, strategy, creation, collaboration, and distribution could finally work together?",
+    "tags": "optimizely,content marketing,digital experience,marketing technology,agency client collaboration,content strategy,optimizely cmp,digital marketing introduction",
+    "banner": "/images/understanding-optimizely-content-marketing-platform-cmp-paul-graham-dpo2e.jpg",
+    "banner_webp": "/images/understanding-optimizely-content-marketing-platform-cmp-paul-graham-dpo2e.webp",
+    "banner_avif": "/images/understanding-optimizely-content-marketing-platform-cmp-paul-graham-dpo2e.avif"
+  },{
+    "title": "The Creative Pause: Why Taking Breaks Is Essential for Inspiration and Flow",
+    "url": "/2025/05/01/the-creative-pause-why-taking-breaks-is-essential-for-inspiration-and-flow.html",
+    "date": "May 1, 2025",
+    "description": "Have you ever noticed your best ideas come when you're away from your desk?",
+    "tags": "creativity,flow state,productivity,developer mindset,work culture",
+    "banner": "/images/creative-pause-why-taking-breaks-essential-flow-paul-graham-stq8c.jpg",
+    "banner_webp": "/images/creative-pause-why-taking-breaks-essential-flow-paul-graham-stq8c.webp",
+    "banner_avif": "/images/creative-pause-why-taking-breaks-essential-flow-paul-graham-stq8c.avif"
+  },{
+    "title": "The Future of Medicine: How AI is Changing Healthcare",
+    "url": "/2025/04/29/the-future-of-medicine-how-ai-is-changing-healthcare.html",
+    "date": "Apr 29, 2025",
+    "description": "Artificial intelligence (AI) is transforming various aspects, and it's having a significant impact on healthcare.",
+    "tags": "ai healthcare,digital health,medical ai,innovation,health tech",
+    "banner": "/images/future-medicine-how-ai-changing-healthcare-paul-graham-zimhc.jpg",
+    "banner_webp": "/images/future-medicine-how-ai-changing-healthcare-paul-graham-zimhc.webp",
+    "banner_avif": "/images/future-medicine-how-ai-changing-healthcare-paul-graham-zimhc.avif"
+  },{
+    "title": "Navigating Optimizely: ODP Modern Customer Data Platform 🌐",
+    "url": "/2025/04/27/navigating-optimizely-odp-modern-customer-data-platform.html",
+    "date": "Apr 27, 2025",
+    "description": "Understanding your customers is critical in today's competitive digital landscape. Generic marketing and one-size-fits-all website experiences no longer meet the personalised demands of modern consumers. Enter the Optimizely Data Platform (ODP) , a robust customer data platform (CDP) designed to unify customer data and deliver tailored experiences. This article explores how ODP can transform your website engagement through personalisation.",
+    "tags": "optimizely,odp,customer data platform,personalization,marketing,website optimization,digital marketing,customer experience",
+    "banner": "/images/navigating-optimizely-odp-modern-customer-data-platform.jpg",
+    "banner_webp": "/images/navigating-optimizely-odp-modern-customer-data-platform.webp",
+    "banner_avif": "/images/navigating-optimizely-odp-modern-customer-data-platform.avif"
+  },{
+    "title": "AI & The Future of Employment: Preparing for the AI-Driven Future (Part 3)",
+    "url": "/2025/04/26/ai-the-future-of-employment-preparing-for-the-ai-driven-future-part-3.html",
+    "date": "Apr 26, 2025",
+    "description": "AI is no longer a distant trend—it's a present reality. As we've seen, it's transforming jobs, creating new opportunities, and raising real challenges.",
+    "tags": "future of work,ai,upskilling,leadership,policy",
+    "banner": "/images/ai-future-employment-preparing-ai-driven-part-3-paul-graham-n0kne.jpg",
+    "banner_webp": "/images/ai-future-employment-preparing-ai-driven-part-3-paul-graham-n0kne.webp",
+    "banner_avif": "/images/ai-future-employment-preparing-ai-driven-part-3-paul-graham-n0kne.avif"
+  },{
+    "title": "AI & The Future of Employment: New Opportunities and Challenges in the Age of AI (Part 2)",
+    "url": "/2025/04/25/ai-the-future-of-employment-new-opportunities-and-challenges-in-the-age-of-ai-part-2.html",
+    "date": "Apr 25, 2025",
+    "description": "AI isn't just changing how we work—it's opening doors to entirely new careers and transforming what it means to be employable.",
+    "tags": "future of work,ai,careers,digital transformation,skills",
+    "banner": "/images/ai-future-employment-new-opportunities-challenges-age-paul-graham-vijke.jpg",
+    "banner_webp": "/images/ai-future-employment-new-opportunities-challenges-age-paul-graham-vijke.webp",
+    "banner_avif": "/images/ai-future-employment-new-opportunities-challenges-age-paul-graham-vijke.avif"
+  },{
+    "title": "AI & The Future of Employment: How AI Is Transforming the World of Work (Part 1)",
+    "url": "/2025/04/24/ai-the-future-of-employment-how-ai-is-transforming-the-world-of-work-part-1.html",
+    "date": "Apr 24, 2025",
+    "description": "AI is transforming the workplace at a rate faster than any technology before.",
+    "tags": "future of work,ai,careers,digital transformation,expertise",
+    "banner": "/images/ai-future-employment-how-transforming-world-work-part-paul-graham-1nfye.jpg",
+    "banner_webp": "/images/ai-future-employment-how-transforming-world-work-part-paul-graham-1nfye.webp",
+    "banner_avif": "/images/ai-future-employment-how-transforming-world-work-part-paul-graham-1nfye.avif"
+  },{
+    "title": "Navigating Optimizely",
+    "url": "/2025/04/23/navigating-optimizely.html",
+    "date": "Apr 23, 2025",
+    "description": "Ever wondered how to streamline your digital strategy with one powerful platform?",
+    "tags": "optimizely,digital experience platform,cms,ecommerce,ab testing",
+    "banner": "/images/navigating-optimizely-paul-graham.png",
+    "banner_webp": "/images/navigating-optimizely-paul-graham.webp",
+    "banner_avif": "/images/navigating-optimizely-paul-graham.avif"
+  },{
+    "title": "A Simple Guide to CodeAct and MCP",
+    "url": "/2025/04/23/a-simple-guide-to-codeact-and-mcp.html",
+    "date": "Apr 23, 2025",
+    "description": "What They Are and How to Use Them Safely",
+    "tags": "",
+    "banner": "/images/guide-to-codeact-mcp-paul-graham.png",
+    "banner_webp": "/images/guide-to-codeact-mcp-paul-graham.webp",
+    "banner_avif": "/images/guide-to-codeact-mcp-paul-graham.avif"
+  },{
+    "title": "Understanding CodeAct and MCP: A Guide for Professionals",
+    "url": "/2025/04/22/understanding-codeact-and-mcp-a-guide-for-professionals.html",
+    "date": "Apr 22, 2025",
+    "description": "AI is no longer just a buzzword---it's a tool we're all learning to wield.",
+    "tags": "ai,tech trends,cyber security,code act,mcp,future of ai,agentic ai,tech safety",
+    "banner": "/images/understanding-codeact-mcp-guide-professionals-paul-graham-wjz2e.jpg",
+    "banner_webp": "/images/understanding-codeact-mcp-guide-professionals-paul-graham-wjz2e.webp",
+    "banner_avif": "/images/understanding-codeact-mcp-guide-professionals-paul-graham-wjz2e.avif"
+  },{
+    "title": "Securing Your Web Apps in 2025: Easy Lessons from IBM X-Force",
+    "url": "/2025/04/21/securing-your-web-apps-in-2025-easy-lessons-from-ibm-x-force.html",
+    "date": "Apr 21, 2025",
+    "description": "Let's Keep Your Web App Safe : Have you ever worried about someone breaking into your web app?",
+    "tags": "cyber security,web development,tech trends,ai,security,ibm",
+    "banner": "/images/securing-your-web-apps-2025-easy-lessons-from-ibm-x-force-paul-graham-7ps0e.jpg",
+    "banner_webp": "/images/securing-your-web-apps-2025-easy-lessons-from-ibm-x-force-paul-graham-7ps0e.webp",
+    "banner_avif": "/images/securing-your-web-apps-2025-easy-lessons-from-ibm-x-force-paul-graham-7ps0e.avif"
+  },{
+    "title": "When Will It Go Hot?",
+    "url": "/2025/04/19/when-will-it-go-hot.html",
+    "date": "Apr 19, 2025",
+    "description": "Russia, China, and the Shadow War That's Already Here",
+    "tags": "",
+    "banner": "/images/when-will-it-go-hot-paul-graham.png",
+    "banner_webp": "/images/when-will-it-go-hot-paul-graham.webp",
+    "banner_avif": "/images/when-will-it-go-hot-paul-graham.avif"
+  },{
+    "title": "Journalism in the AI Era",
+    "url": "/2025/04/19/journalism-in-the-ai-era.html",
+    "date": "Apr 19, 2025",
+    "description": "AI Challenges and New Ideas for News",
+    "tags": "future of journalism,a iin media,digital advertising,transparency,foi,media innovation",
+    "banner": "/images/journalism-in-the-ai-era.png",
+    "banner_webp": "/images/journalism-in-the-ai-era.webp",
+    "banner_avif": "/images/journalism-in-the-ai-era.avif"
+  },{
+    "title": "Agentic AI Swarms",
+    "url": "/2025/04/19/agentic-ai-swarms.html",
+    "date": "Apr 19, 2025",
+    "description": "Collaborative Intelligence and Navigating Risks",
+    "tags": "agentic ai,cyber security,ai innovation,future of work,ethical ai",
+    "banner": "/images/agentic-ai-swarms.png",
+    "banner_webp": "/images/agentic-ai-swarms.webp",
+    "banner_avif": "/images/agentic-ai-swarms.avif"
+  },{
+    "title": "Journalism in the AI Era: The AI Paradox and the Collapse of Digital Advertising",
+    "url": "/2025/04/16/journalism-in-the-ai-era-the-ai-paradox-and-the-collapse-of-digital-advertising.html",
+    "date": "Apr 16, 2025",
+    "description": "Digital advertising is in crisis. As AI-powered platforms dominate content curation, traditional newsrooms are losing both ad revenue and audience share. This shift is forcing the industry to rethink how it funds the kind of deep, public-interest reporting that holds power to account. Can journalism survive in a world where AI both threatens and enables the news?",
+    "tags": "future of journalism,ai in media,digital advertising,ai innovation",
+    "banner": "/images/journalism-in-the-ai-era-the-ai-paradox-and-the-collapse-of-digital-advertising.jpg",
+    "banner_webp": "/images/journalism-in-the-ai-era-the-ai-paradox-and-the-collapse-of-digital-advertising.webp",
+    "banner_avif": "/images/journalism-in-the-ai-era-the-ai-paradox-and-the-collapse-of-digital-advertising.avif"
+  },{
+    "title": "Agentic AI Swarms: Unleashing Collaborative Intelligence (Part 1)",
+    "url": "/2025/04/14/agentic-ai-swarms-unleashing-collaborative-intelligence-part-1.html",
+    "date": "Apr 14, 2025",
+    "description": "Imagine intelligent agents collaborating to solve complex problems like a supercharged ant colony. This is the essence of Agentic AI swarms. These systems revolutionise industries with decentralised decision-making, providing unmatched adaptability and efficiency. This article explores AI swarms' operations and their transformative applications across sectors.",
+    "tags": "agentic ai,ai swarms,ai innovation,cyber security",
+    "banner": "/images/agentic-ai-swarms-unleashing-collaborative-intelligence-part-1.jpg",
+    "banner_webp": "/images/agentic-ai-swarms-unleashing-collaborative-intelligence-part-1.webp",
+    "banner_avif": "/images/agentic-ai-swarms-unleashing-collaborative-intelligence-part-1.avif"
+  },{
+    "title": "Your Career Runway Just Got Longer",
+    "url": "/2025/04/13/your-career-runway-just-got-longer.html",
+    "date": "Apr 13, 2025",
+    "description": "How AI Lets You Focus on Wisdom, Not Tech",
+    "tags": "",
+    "banner": "/images/your-career-runway-just-got-longer.jpeg",
+    "banner_webp": "/images/your-career-runway-just-got-longer.jpeg",
+    "banner_avif": "/images/your-career-runway-just-got-longer.jpeg"
+  },{
+    "title": "Future of AI and Autonomous Systems 🚀",
+    "url": "/2025/04/12/future-of-ai-and-autonomous-systems.html",
+    "date": "Apr 12, 2025",
+    "description": "In    The Universal Adapter for Agentic AI Systems 🌐   , we explored how MCP is a foundational framework for connecting AI systems with tools and workflows.",
+    "tags": "future of mcp,agentic ai,google a2a,quantum computing,smart cities",
+    "banner": "/images/future-of-ai-and-autonomous-systems.png",
+    "banner_webp": "/images/future-of-ai-and-autonomous-systems.webp",
+    "banner_avif": "/images/future-of-ai-and-autonomous-systems.avif"
+  },{
+    "title": "Generative AI is Changing User Behaviour ",
+    "url": "/2025/04/12/generative-ai-is-changing-user-behaviour.html",
+    "date": "Apr 12, 2025",
+    "description": "Generative AI tools like ChatGPT and Bard are transforming digital interactions.",
+    "tags": "generative ai,future of commerce,aiux,digital transformation,personalization",
+    "banner": "/images/2025-04-12-generative-ai-is-changing-user-behaviour.png",
+    "banner_webp": "/images/2025-04-12-generative-ai-is-changing-user-behaviour.webp",
+    "banner_avif": "/images/2025-04-12-generative-ai-is-changing-user-behaviour.avif"
+  },{
+    "title": "Ethical Challenges and Building Trust in Autonomous AI ⚖️",
+    "url": "/2025/04/12/ethical-challenges-and-building-trust-in-autonomous-ai.html",
+    "date": "Apr 12, 2025",
+    "description": "In    Model Context Protocol: The Universal Adapter for Agentic AI Systems 🌐   , we explored MCP's transformative potential to connect AI systems with tools ...",
+    "tags": "mcp ethics,ai regulation,tech governance,responsible ai,future of work",
+    "banner": "/images/ethical-challenges-and-building-trust-in-autonomous-ai.png",
+    "banner_webp": "/images/ethical-challenges-and-building-trust-in-autonomous-ai.webp",
+    "banner_avif": "/images/ethical-challenges-and-building-trust-in-autonomous-ai.avif"
+  },{
+    "title": "Securing AI Systems Against Cybercrime and Warfare🔒",
+    "url": "/2025/04/12/securing-ai-systems-against-cybercrime-and-warfare.html",
+    "date": "Apr 12, 2025",
+    "description": "In    Model Context Protocol: The Universal Adapter for Agentic AI Systems 🌐   , we explored how MCP bridges AI models with tools and workflows.",
+    "tags": "mcp security,cyber warfare,ai ethics,zero trust,cyber defense",
+    "banner": "/images/securing-ai-systems-against-cybercrime-and-warfare.png",
+    "banner_webp": "/images/securing-ai-systems-against-cybercrime-and-warfare.webp",
+    "banner_avif": "/images/securing-ai-systems-against-cybercrime-and-warfare.avif"
+  },{
+    "title": "The Era of Extended Context",
+    "url": "/2025/04/12/the-era-of-extended-context.html",
+    "date": "Apr 12, 2025",
+    "description": "What If AI Could Read 10 Million Words at Once?",
+    "tags": "ai,llm,innovation,future tech,devops,meta,llama,gemini",
+    "banner": "/images/the-era-of-extended-context.png",
+    "banner_webp": "/images/the-era-of-extended-context.webp",
+    "banner_avif": "/images/the-era-of-extended-context.avif"
+  },{
+    "title": "Universal Adapter for Agentic AI🌐",
+    "url": "/2025/04/12/universal-adapter-for-agentic-ai.html",
+    "date": "Apr 12, 2025",
+    "description": "If you've been following my posts on Agentic AI, Optimizely, and the future of autonomous systems, you're already familiar with the transformative potential ...",
+    "tags": "agentic ai,model context protocol,ai integration,future of work,enterprise tech",
+    "banner": "/images/universal-adapter-for-agentic-ai.png",
+    "banner_webp": "/images/universal-adapter-for-agentic-ai.webp",
+    "banner_avif": "/images/universal-adapter-for-agentic-ai.avif"
+  },{
+    "title": "Future-Proofing Optimizely",
+    "url": "/2025/04/04/future-proofing-optimizely.html",
+    "date": "Apr 4, 2025",
+    "description": "Unlocking Optimizely with Frontend Frameworks",
+    "tags": "optimizely,ai,edge computing,zero trust,reactjs,vuejs,blazor,svelte",
+    "banner": "/images/future-proofing-optimizely.png",
+    "banner_webp": "/images/future-proofing-optimizely.webp",
+    "banner_avif": "/images/future-proofing-optimizely.avif"
+  },{
+    "title": "Mastering Optimizely's Headless CMS",
+    "url": "/2025/04/04/mastering-optimizelys-headless-cms.html",
+    "date": "Apr 4, 2025",
+    "description": "Unlocking Optimizely with Frontend Frameworks",
+    "tags": "optimizely,headless cms,reactjs,blazor,web development",
+    "banner": "/images/mastering-optimizely-s-headless-cms.png",
+    "banner_webp": "/images/mastering-optimizely-s-headless-cms.webp",
+    "banner_avif": "/images/mastering-optimizely-s-headless-cms.avif"
+  },{
+    "title": "Choosing The Framework",
+    "url": "/2025/04/04/choosing-the-framework.html",
+    "date": "Apr 4, 2025",
+    "description": "Unlocking Optimizely with Frontend Frameworks",
+    "tags": "reactjs,blazor,vuejs,svelte,optimizely tips,web development,dotnet",
+    "banner": "/images/choosing-the-framework.png",
+    "banner_webp": "/images/choosing-the-framework.webp",
+    "banner_avif": "/images/choosing-the-framework.avif"
+  },{
+    "title": "Frontend Meets Backend, A Power Duo",
+    "url": "/2025/04/04/frontend-meets-backend-a-power-duo.html",
+    "date": "Apr 4, 2025",
+    "description": "Unlocking Optimizely with Frontend Frameworks",
+    "tags": "optimizely,web development,headless cms,tech strategy,digital experiences",
+    "banner": "/images/frontend-meets-backend-a-power-duo.png",
+    "banner_webp": "/images/frontend-meets-backend-a-power-duo.webp",
+    "banner_avif": "/images/frontend-meets-backend-a-power-duo.avif"
+  },{
+    "title": "Balancing Innovation & Discipline",
+    "url": "/2025/03/29/balancing-innovation-discipline.html",
+    "date": "Mar 29, 2025",
+    "description": "What happens when coding feels too easy? Parts 1 and 2 traced vibe coding's rise, from Karpathy's tweet to its AI-powered toolkit.",
+    "tags": "ai,vibe coding,software development,programming,tech trends",
+    "banner": "/images/vibe-coding-part-3-balancing-innovation.png",
+    "banner_webp": "/images/vibe-coding-part-3-balancing-innovation.webp",
+    "banner_avif": "/images/vibe-coding-part-3-balancing-innovation.avif"
+  },{
+    "title": "Your AI Coding Partner",
+    "url": "/2025/03/29/your-ai-coding-partner.html",
+    "date": "Mar 29, 2025",
+    "description": "What if your coding partner never slept, never judged, and always had a suggestion ready?",
+    "tags": "vibe coding,ai,software development,programming,tech trends",
+    "banner": "/images/your-ai-coding-partner.png",
+    "banner_webp": "/images/your-ai-coding-partner.webp",
+    "banner_avif": "/images/your-ai-coding-partner.avif"
+  },{
+    "title": "The Origins of a New Coding Paradigm",
+    "url": "/2025/03/29/the-origins-of-a-new-coding-paradigm.html",
+    "date": "Mar 29, 2025",
+    "description": "Ever wonder how coding could feel less like a solo grind and more like a creative jam session?",
+    "tags": "vibe coding,programming,ai,software development,innovation,rubber duck debugging,pseudocode",
+    "banner": "/images/the-origins-of-a-new-coding-paradigm.png",
+    "banner_webp": "/images/the-origins-of-a-new-coding-paradigm.webp",
+    "banner_avif": "/images/the-origins-of-a-new-coding-paradigm.avif"
+  },{
+    "title": "The Future of E-Commerce",
+    "url": "/2025/03/29/the-future-of-e-commerce.html",
+    "date": "Mar 29, 2025",
+    "description": "AI and Personalization with Optimizely Commerce",
+    "tags": "ecommerce,ai,personalization,optimizely,digital marketing,machine learning,online retail,conversion optimization",
+    "banner": "/images/the-future-of-e-commerce.png",
+    "banner_webp": "/images/the-future-of-e-commerce.webp",
+    "banner_avif": "/images/the-future-of-e-commerce.avif"
+  },{
+    "title": "The Future with Super Intelligence",
+    "url": "/2025/03/29/the-future-with-super-intelligence.html",
+    "date": "Mar 29, 2025",
+    "description": "Building on the optimism and potential we explored in Part 3 ( The Promise of Super Intelligence ), it's time to  take practical steps  for an SI-ready future.",
+    "tags": "ai ready,cyber prep,future tech",
+    "banner": "/images/the-future-with-super-intelligence.png",
+    "banner_webp": "/images/the-future-with-super-intelligence.webp",
+    "banner_avif": "/images/the-future-with-super-intelligence.avif"
+  },{
+    "title": "The Promise of Super Intelligence",
+    "url": "/2025/03/29/the-promise-of-super-intelligence.html",
+    "date": "Mar 29, 2025",
+    "description": "After dissecting risks and readiness in Part 2 (The Reach of Super Intelligence), let's dive into the exciting potential of Superintelligence.",
+    "tags": "innovation,ai leadership,cyber defense",
+    "banner": "/images/the-promise-of-super-intelligence.png",
+    "banner_webp": "/images/the-promise-of-super-intelligence.webp",
+    "banner_avif": "/images/the-promise-of-super-intelligence.avif"
+  },{
+    "title": "The Reach of Super Intelligence",
+    "url": "/2025/03/29/the-reach-of-super-intelligence.html",
+    "date": "Mar 29, 2025",
+    "description": "In Part 1 ( The Dawn of Super Intelligence ), we explored the rapid development of Superintelligence (SI) and the global race to achieve it, highlighting the...",
+    "tags": "cyber warfare,security trends,super intelligence,ai,cyber security,global stability,future of tech",
+    "banner": "/images/the-reach-of-super-intelligence.png",
+    "banner_webp": "/images/the-reach-of-super-intelligence.webp",
+    "banner_avif": "/images/the-reach-of-super-intelligence.avif"
+  },{
+    "title": "The Dawn of Super Intelligence",
+    "url": "/2025/03/29/the-dawn-of-super-intelligence.html",
+    "date": "Mar 29, 2025",
+    "description": "Imagine a rival nation or corporation unveiling a  Superintelligence (SI)  tomorrow that could outthink us in cyber warfare, economics, or strategy.",
+    "tags": "ai,super intelligence,agi,artificial general intelligence,artificial intelligence,machine learning,deep learning,neural networks,paul graham",
+    "banner": "/images/dawn-of-super-intelligence.png",
+    "banner_webp": "/images/dawn-of-super-intelligence.webp",
+    "banner_avif": "/images/dawn-of-super-intelligence.avif"
+  },{
+    "title": "AI Agents and Cybercrime",
+    "url": "/2025/03/29/ai-agents-and-cybercrime.html",
+    "date": "Mar 29, 2025",
+    "description": "How 'Manus' Could Reshape Criminal Activity Online",
+    "tags": "manus,operator,ai agents,deep fakes,cyber crime,open manus",
+    "banner": "/images/ai-agents-and-cybercrime.png",
+    "banner_webp": "/images/ai-agents-and-cybercrime.webp",
+    "banner_avif": "/images/ai-agents-and-cybercrime.avif"
+  },{
+    "title": "Tailwind vs. Bootstrap",
+    "url": "/2025/03/10/tailwind-vs-bootstrap.html",
+    "date": "Mar 10, 2025",
+    "description": "Which CSS Framework Should You Choose",
+    "tags": "tailwind,css,bootstrap,accessibility,html",
+    "banner": "/images/tailwind-vs-bootstrap.jpeg",
+    "banner_webp": "/images/tailwind-vs-bootstrap.jpeg",
+    "banner_avif": "/images/tailwind-vs-bootstrap.jpeg"
+  },{
+    "title": "Beyond Moore's Law 2025",
+    "url": "/2025/03/10/beyond-moores-law-2025.html",
+    "date": "Mar 10, 2025",
+    "description": "At the Time : Moore's Law—the doubling of transistor counts every two years—was nearing its physical limits.",
+    "tags": "beyond moores law,tech future,innovation,moore's law",
+    "banner": "/images/beyond-moore-s-law-2025.png",
+    "banner_webp": "/images/beyond-moore-s-law-2025.webp",
+    "banner_avif": "/images/beyond-moore-s-law-2025.avif"
+  },{
+    "title": "Moore's Law 2025",
+    "url": "/2025/03/10/moores-law-2025.html",
+    "date": "Mar 10, 2025",
+    "description": "At the Time : Nearly a decade ago, I highlighted the looming end of Moore's Law—the observation that transistor counts doubled every two years—due to physica...",
+    "tags": "moore's law,tech innovation,future tech",
+    "banner": "/images/moore-s-law-2025.png",
+    "banner_webp": "/images/moore-s-law-2025.webp",
+    "banner_avif": "/images/moore-s-law-2025.avif"
+  },{
+    "title": "RISC-V and China",
+    "url": "/2025/03/10/risc-v-and-china.html",
+    "date": "Mar 10, 2025",
+    "description": "Road to Technology Independence",
+    "tags": "risc,semiconductors,technology independence,ai,innovation",
+    "banner": "/images/risc-v-and-china.png",
+    "banner_webp": "/images/risc-v-and-china.webp",
+    "banner_avif": "/images/risc-v-and-china.avif"
+  },{
+    "title": "North Korea and Iran",
+    "url": "/2025/03/10/north-korea-and-iran.html",
+    "date": "Mar 10, 2025",
+    "description": "Welcome to the third instalment of our 'Cyberwarfare and Global Stability' series.",
+    "tags": "",
+    "banner": "/images/7ddaad6e10dd.png",
+    "banner_webp": "/images/7ddaad6e10dd.webp",
+    "banner_avif": "/images/7ddaad6e10dd.avif"
+  },{
+    "title": "China's Cyber Espionage",
+    "url": "/2025/03/10/chinas-cyber-espionage.html",
+    "date": "Mar 10, 2025",
+    "description": "Undermining Western Capabilities",
+    "tags": "cyber security,china,cyber threat,global stability,tech policy,cyber espionage,western capabilities,cyber warfare",
+    "banner": "/images/18c02d29b098.png",
+    "banner_webp": "/images/18c02d29b098.webp",
+    "banner_avif": "/images/18c02d29b098.avif"
+  },{
+    "title": "The Cyber Threat from Russia",
+    "url": "/2025/03/04/the-cyber-threat-from-russia.html",
+    "date": "Mar 4, 2025",
+    "description": "Cyberwarfare and Global Stability",
+    "tags": "cyber security,russian cyber threats,global stability,tech policy",
+    "banner": "/images/2f89306a6c2f.png",
+    "banner_webp": "/images/2f89306a6c2f.webp",
+    "banner_avif": "/images/2f89306a6c2f.avif"
+  },{
+    "title": "Beyond Technical Debt",
+    "url": "/2025/03/03/beyond-technical-debt.html",
+    "date": "Mar 3, 2025",
+    "description": "Overcoming The Burden of Legacy Systems",
+    "tags": "digital transformation,legacy systems,innovation,tech strategy,leadership,a iin development",
+    "banner": "/images/beyond-technical-debt.png",
+    "banner_webp": "/images/beyond-technical-debt.webp",
+    "banner_avif": "/images/beyond-technical-debt.avif"
+  },{
+    "title": "Architecting Zero-Trust Systems",
+    "url": "/2025/03/03/architecting-zero-trust-systems.html",
+    "date": "Mar 3, 2025",
+    "description": "In today's digital landscape, cybersecurity has become essential for web developers.",
+    "tags": "",
+    "banner": "/images/architecting-zero-trust-systems.png",
+    "banner_webp": "/images/architecting-zero-trust-systems.webp",
+    "banner_avif": "/images/architecting-zero-trust-systems.avif"
+  },{
+    "title": "Regulatory, Ethical & Developer Guidance: The Rise of Agentic AI Part 3",
+    "url": "/2025/03/01/regulatory-ethical-developer-guidance-the-rise-of-agentic-ai-part-3.html",
+    "date": "Mar 1, 2025",
+    "description": "We've reached the last part of our Agentic AI series. We've discussed what it is, where it's popping up, and the hurdles we must overcome.",
+    "tags": "ai ethics,regulatory framework,developer guidance,tech future,ai innovation,tech ethics,future of ai,responsible ai",
+    "banner": "/images/part-3-regulatory-ethical-developer-guiding-future-ai-paul-graham-91lqc.jpg",
+    "banner_webp": "/images/part-3-regulatory-ethical-developer-guiding-future-ai-paul-graham-91lqc.webp",
+    "banner_avif": "/images/part-3-regulatory-ethical-developer-guiding-future-ai-paul-graham-91lqc.avif"
+  },{
+    "title": "Real-World Applications & Challenges: The Rise of Agentic AI Part 2",
+    "url": "/2025/02/28/real-world-applications-challenges-the-rise-of-agentic-ai-part-2.html",
+    "date": "Feb 28, 2025",
+    "description": "Welcome to Part 2 of our three-part series on Agentic AI. In Part 1, we explored the core concepts of Agentic AI, including its autonomy, adaptability, colla...",
+    "tags": "agentic ai applications,tech innovation,ai challenges,future of work",
+    "banner": "/images/part-2-real-world-impacts-applications-challenges-paul-graham-jwowe.jpg",
+    "banner_webp": "/images/part-2-real-world-impacts-applications-challenges-paul-graham-jwowe.webp",
+    "banner_avif": "/images/part-2-real-world-impacts-applications-challenges-paul-graham-jwowe.avif"
+  },{
+    "title": "A New Era of Intelligence: Part 1 The Rise of Agentic AI",
+    "url": "/2025/02/27/a-new-era-of-intelligence-part-1-the-rise-of-agentic-ai.html",
+    "date": "Feb 27, 2025",
+    "description": "Imagine a world where complex tasks are seamlessly managed, data analysis is instantaneous, and personalised solutions are delivered before you even realise ...",
+    "tags": "agentic ai,artificial intelligence,future tech,ai innovation",
+    "banner": "/images/rise-agentic-ai-part-1-new-era-intelligence-paul-graham-ydmge.jpg",
+    "banner_webp": "/images/rise-agentic-ai-part-1-new-era-intelligence-paul-graham-ydmge.webp",
+    "banner_avif": "/images/rise-agentic-ai-part-1-new-era-intelligence-paul-graham-ydmge.avif"
+  },{
+    "title": "Jailbreaking Large Language Models: Technical Vulnerabilities, Defensive Strategies",
+    "url": "/2025/02/26/jailbreaking-large-language-models.html",
+    "date": "Feb 26, 2025",
+    "description": "LLMs, such as ChatGPT and Gemini, generate human-like text across industries, from customer service to research. However, their integration raises concerns about \"jailbreaking,\" where attackers exploit models to bypass safety restrictions, potentially leading to harmful outputs.",
+    "tags": "ai,llms",
+    "banner": "/images/jailbreaking-large-language-models.png",
+    "banner_webp": "/images/jailbreaking-large-language-models.webp",
+    "banner_avif": "/images/jailbreaking-large-language-models.avif"
+  },{
+    "title": "Understanding the Limbic System: Our Unsung Hero (and Saboteur) for Productivity",
+    "url": "/2025/02/25/understanding-the-limbic-system-our-unsung-hero-and-saboteur-for-productivity.html",
+    "date": "Feb 25, 2025",
+    "description": "Ever feel like your brain is working against you? Are you in a loop of distractions and mental fog, especially when facing a complex coding challenge?",
+    "tags": "productivity,limbic system,flow state,workplace motivation,software development,neuroscience,brain health,emotional intelligence",
+    "banner": "/images/understanding-limbic-system-our-unsung-hero-saboteur-paul-graham-rus0c.jpg",
+    "banner_webp": "/images/understanding-limbic-system-our-unsung-hero-saboteur-paul-graham-rus0c.webp",
+    "banner_avif": "/images/understanding-limbic-system-our-unsung-hero-saboteur-paul-graham-rus0c.avif"
+  },{
+    "title": "Beyond Accessibility Compliance",
+    "url": "/2025/02/24/beyond-accessibility-compliance.html",
+    "date": "Feb 24, 2025",
+    "description": "Inclusive Design for Overlooked Disabilities",
+    "tags": "accessibility,inclusive design,web development,disability awareness,ux design,digital inclusion,universal design,accessibility matters",
+    "banner": "/images/beyond-accessibility.png",
+    "banner_webp": "/images/beyond-accessibility.webp",
+    "banner_avif": "/images/beyond-accessibility.avif"
+  },{
+    "title": "Revolutionizing Bureaucracy with AI",
+    "url": "/2025/02/23/revolutionizing-bureaucracy-with-ai.html",
+    "date": "Feb 23, 2025",
+    "description": "Balancing Efficiency and Human Impact",
+    "tags": "ai,future of work,ethical ai,bureaucracy,innovation,compliance,gov tech,regulatory affairs",
+    "banner": "/images/revolutionizing-bureaucracy-with-ai.png",
+    "banner_webp": "/images/revolutionizing-bureaucracy-with-ai.webp",
+    "banner_avif": "/images/revolutionizing-bureaucracy-with-ai.avif"
+  },{
+    "title": "Majorana, Microsoft, and Quantum Computers",
+    "url": "/2025/02/22/majorana-microsoft-and-quantum-computers.html",
+    "date": "Feb 22, 2025",
+    "description": "Will They Replace Your Desktop?",
+    "tags": "quantum computing,tech innovation",
+    "banner": "/images/majorana-microsoft-and-quantum-computers.png",
+    "banner_webp": "/images/majorana-microsoft-and-quantum-computers.webp",
+    "banner_avif": "/images/majorana-microsoft-and-quantum-computers.avif"
+  },{
+    "title": "How AI is Revolutionizing Websites: From Creation to Optimization",
+    "url": "/2025/02/21/how-ai-is-revolutionizing-websites-from-creation-to-optimization.html",
+    "date": "Feb 21, 2025",
+    "description": "The AI-Powered Website Revolution: A Double-Edged Sword? 🤖",
+    "tags": "a iin web dev,future of tech,website innovation,web development,artificial intelligence",
+    "banner": "/images/how-ai-is-revolutionizing-websites-from-creation-to-optimization.png",
+    "banner_webp": "/images/how-ai-is-revolutionizing-websites-from-creation-to-optimization.webp",
+    "banner_avif": "/images/how-ai-is-revolutionizing-websites-from-creation-to-optimization.avif"
+  },{
+    "title": "A Critical Evaluation of Flutter vs MAUI: Unified App Development",
+    "url": "/2025/02/20/a-critical-evaluation-of-flutter-vs-maui-unified-app-development.html",
+    "date": "Feb 20, 2025",
+    "description": "When it comes to cross-platform app development, the choice of framework can make or break your project.",
+    "tags": "app development,cross platform,flutter,maui,tech insights",
+    "banner": "/images/critical-evaluation-flutter-vs-maui-unified-app-paul-graham-8jqfe.jpg",
+    "banner_webp": "/images/critical-evaluation-flutter-vs-maui-unified-app-paul-graham-8jqfe.webp",
+    "banner_avif": "/images/critical-evaluation-flutter-vs-maui-unified-app-paul-graham-8jqfe.avif"
+  },{
+    "title": "The Hidden Perils of Cost-Cutting in AI",
+    "url": "/2025/02/19/the-hidden-perils-of-cost-cutting-in-ai.html",
+    "date": "Feb 19, 2025",
+    "description": " Safeguarding Expertise in a Knowledge Economy",
+    "tags": "ai,leadership,future of work,economic resilience,ethical ai,knowledge economy",
+    "banner": "/images/the-hidden-perils-of-cost-cutting-in-ai.png",
+    "banner_webp": "/images/the-hidden-perils-of-cost-cutting-in-ai.webp",
+    "banner_avif": "/images/the-hidden-perils-of-cost-cutting-in-ai.avif"
+  },{
+    "title": "Grok-3, Elon Musk's \"Maximally Truthful\" AI",
+    "url": "/2025/02/18/grok-3-elon-musks-maximally-truthful-ai.html",
+    "date": "Feb 18, 2025",
+    "description": "The Global Clash Over Censorship and Control",
+    "tags": "ai ethics,tech policy,innovation,censorship,grok3,elon musk",
+    "banner": "/images/grok-3-elon-musk-s-maximally-truthful-ai.png",
+    "banner_webp": "/images/grok-3-elon-musk-s-maximally-truthful-ai.webp",
+    "banner_avif": "/images/grok-3-elon-musk-s-maximally-truthful-ai.avif"
+  },{
+    "title": "The current state of AI in the Workplace",
+    "url": "/2025/02/17/the-current-state-of-ai-in-the-workplace.html",
+    "date": "Feb 17, 2025",
+    "description": "What Does Anthropic's Economic Index Show",
+    "tags": "future of work,ai,leadership,innovation,data driven,a iimpact,workforce trends,anthropic",
+    "banner": "/images/the-current-state-of-ai-in-the-workplace.png",
+    "banner_webp": "/images/the-current-state-of-ai-in-the-workplace.webp",
+    "banner_avif": "/images/the-current-state-of-ai-in-the-workplace.avif"
+  },{
+    "title": "Censorship Techniques in LLMs",
+    "url": "/2025/02/16/censorship-techniques-in-llms.html",
+    "date": "Feb 16, 2025",
+    "description": "Pros, Cons, and Global Regulations",
+    "tags": "llm,ai,censorship,artificial intelligence,machine learning,ai regulations,ethical ai,bias mitigation",
+    "banner": "/images/censorship-techniques.png",
+    "banner_webp": "/images/censorship-techniques.webp",
+    "banner_avif": "/images/censorship-techniques.avif"
+  },{
+    "title": "AI Training and Copyright: Lessons from Thomson Reuters vs. Ross Intelligence",
+    "url": "/2025/02/14/ai-training-and-copyright-lessons-from-thomson-reuters-vs-ross-intelligence.html",
+    "date": "Feb 14, 2025",
+    "description": "Artificial intelligence (AI) is transforming industries, but legal challenges remain.",
+    "tags": "ai,copyright,legal tech,innovation,data ethics,thomson reuters,ross intelligence",
+    "banner": "/images/ai-training-and-copyright-lessons-from-thomson-reuters-vs-ross-intelligence.png",
+    "banner_webp": "/images/ai-training-and-copyright-lessons-from-thomson-reuters-vs-ross-intelligence.webp",
+    "banner_avif": "/images/ai-training-and-copyright-lessons-from-thomson-reuters-vs-ross-intelligence.avif"
+  },{
+    "title": "Narrative Capture: How David and Goliath Distorted the DeepSeek News",
+    "url": "/2025/02/13/narrative-capture-how-david-and-goliath-distorted-the-deepseek-news.html",
+    "date": "Feb 13, 2025",
+    "description": "When we hear 'artificial intelligence', images of rapid progress, groundbreaking innovations, and a future of possibilities immediately come to mind.",
+    "tags": "deep seek,ai innovation,narrative capture,media literacy,tech news,innovation,data analysis",
+    "banner": "/images/narrative-capture-how-david-goliath-distorted-deepseek-paul-graham-dl57c.jpg",
+    "banner_webp": "/images/narrative-capture-how-david-goliath-distorted-deepseek-paul-graham-dl57c.webp",
+    "banner_avif": "/images/narrative-capture-how-david-goliath-distorted-deepseek-paul-graham-dl57c.avif"
+  },{
+    "title": "The Need for Speed: Velocity Hacks for Web Development and Experimentation",
+    "url": "/2025/02/12/the-need-for-speed-velocity-hacks-for-web-development-and-experimentation.html",
+    "date": "Feb 12, 2025",
+    "description": "In today's fast-paced digital landscape, website velocity is no longer a luxury—it's a necessity.",
+    "tags": "velocity,web development,experimentation,ux,digital strategy,tech leadership",
+    "banner": "/images/the-need-for-speed-velocity-hacks-for-web-development-and-experimentation.png",
+    "banner_webp": "/images/the-need-for-speed-velocity-hacks-for-web-development-and-experimentation.webp",
+    "banner_avif": "/images/the-need-for-speed-velocity-hacks-for-web-development-and-experimentation.avif"
+  },{
+    "title": "LLM-Powered Backend DevOps: Code, Security, Performance",
+    "url": "/2025/02/09/llm-powered-backend-devops-code-security-performance.html",
+    "date": "Feb 9, 2025",
+    "description": "The tech world is buzzing with the transformative potential of large language models (LLMs).",
+    "tags": "llm,devops,backend,ai security,performance,scalability,ai",
+    "banner": "/images/llm-powered-backend-devops-code-security-performance-paul-graham-af4me.jpg",
+    "banner_webp": "/images/llm-powered-backend-devops-code-security-performance-paul-graham-af4me.webp",
+    "banner_avif": "/images/llm-powered-backend-devops-code-security-performance-paul-graham-af4me.avif"
+  },{
+    "title": "LLM Distillation: Why Gaining Certainty Might Cost Creativity",
+    "url": "/2025/02/08/llm-distillation-why-gaining-certainty-might-cost-creativity.html",
+    "date": "Feb 8, 2025",
+    "description": "Why optimisation has its costs",
+    "tags": "llm,model distillation,ai tradeoffs,deep seek,open ai,tech strategy,ethical ai",
+    "banner": "/images/llm-distillation-efficiency.png",
+    "banner_webp": "/images/llm-distillation-efficiency.webp",
+    "banner_avif": "/images/llm-distillation-efficiency.avif"
+  },{
+    "title": "EU Accessibility Act ⚖️: Turn Compliance into Competitive Advantage",
+    "url": "/2025/02/04/eu-accessibility-act-turn-compliance-into-competitive-advantage.html",
+    "date": "Feb 4, 2025",
+    "description": "With the EU Accessibility Act (EAA) enforcement deadline approaching in June 2025, agencies have a unique opportunity to lead clients beyond compliance tow...",
+    "tags": "eu accessibility act,inclusive design,digital consulting,optimizely,tech ethics",
+    "banner": "/images/eu-accessibility-act.png",
+    "banner_webp": "/images/eu-accessibility-act.webp",
+    "banner_avif": "/images/eu-accessibility-act.avif"
+  },{
+    "title": "Hidden Dangers of Compromised AI: Code Generation and LLMs Demand Vigilance",
+    "url": "/2025/02/02/hidden-dangers-of-compromised-ai-code-generation-and-llms-demand-vigilance.html",
+    "date": "Feb 2, 2025",
+    "description": "Recent vulnerabilities in DeepSeek's AI model highlight urgent risks—and solutions.",
+    "tags": "ai risks,llm security,code generation,deep seek,ai vulnerabilities,ethical ai,ai bias,cyber security",
+    "banner": "/images/hidden-dangers-of-compromised-ai-code-generation-and-llms-demand-vigilance.png",
+    "banner_webp": "/images/hidden-dangers-of-compromised-ai-code-generation-and-llms-demand-vigilance.webp",
+    "banner_avif": "/images/hidden-dangers-of-compromised-ai-code-generation-and-llms-demand-vigilance.avif"
+  },{
+    "title": "Distilling Large Language Models: DeepSeek's Pathway to Efficient AI",
+    "url": "/2025/02/02/distilling-large-language-models.html",
+    "date": "Feb 2, 2025",
+    "description": "Artificial intelligence is an evolving landscape of technologies, and large language models (LLMs) have gained acceptance and have become indispensable tools. However, their immense size and resource requirements can be prohibitive.",
+    "tags": "llm,distillation,ai,deep learning,machine learning,deep seek,efficiency,innovation",
+    "banner": "/images/distilling-large-language-models.png",
+    "banner_webp": "/images/distilling-large-language-models.webp",
+    "banner_avif": "/images/distilling-large-language-models.avif"
+  },{
+    "title": "OpenAI Operators first step to AgenticAI: Get Your Website Ready",
+    "url": "/2025/01/28/openai-operators-first-step-to-agenticai-get-your-website-ready.html",
+    "date": "Jan 28, 2025",
+    "description": "OpenAI  has recently launched  Operator , an innovative AI agent designed to perform various online tasks on your behalf.",
+    "tags": "open ai,ai,website optimization,web development,future of work,automation,seo,accessibility",
+    "banner": "/images/openai-operators-first-step-agentai-get-your-website-ready-graham-jnube.jpg",
+    "banner_webp": "/images/openai-operators-first-step-agentai-get-your-website-ready-graham-jnube.webp",
+    "banner_avif": "/images/openai-operators-first-step-agentai-get-your-website-ready-graham-jnube.avif"
+  },{
+    "title": "The Pitfalls of Panopticon AI: Learning from COVID and Building Trust",
+    "url": "/2025/01/23/the-pitfalls-of-panopticon-ai.html",
+    "date": "Jan 23, 2025",
+    "description": "Larry Ellison's recent remarks about omnipresent AI cameras enforcing proper behavior highlight a troubling vision of a society under constant surveillance. While AI holds immense potential to advance humanity, deploying it as an all-seeing eye threatens to erode the very freedoms that nurture innovation and personal growth.",
+    "tags": "ai,ethics,privacy,healthcare,future of work,stargate",
+    "banner": "/images/the-pitfalls-of-panopticon-ai.png",
+    "banner_webp": "/images/the-pitfalls-of-panopticon-ai.webp",
+    "banner_avif": "/images/the-pitfalls-of-panopticon-ai.avif"
+  },{
+    "title": "The LLM Revolution: Threat or Opportunity for Software Developers?",
+    "url": "/2025/01/23/the-llm-revolution.html",
+    "date": "Jan 23, 2025",
+    "description": "The rise of Large Language Models (LLMs) like GPT-4 is reshaping the software development landscape, stirring both excitement and apprehension. Impressive demonstrations of code generation have led some to fear that developers might become obsolete. Yet, others see LLMs as powerful allies that can enhance productivity and creativity. Let's dive deep into the realities of LLMs, explore their limitations and opportunities, and consider how they are redefining the role of the software developer.",
+    "tags": "llm,ai,artificial intelligence,generative ai,machine learning,deep learning,ai tools,software development",
+    "banner": "/images/the-llm-revolution.png",
+    "banner_webp": "/images/the-llm-revolution.webp",
+    "banner_avif": "/images/the-llm-revolution.avif"
+  },{
+    "title": "Modern Web Architecture",
+    "url": "/2025/01/22/modern-web-architecture.html",
+    "date": "Jan 22, 2025",
+    "description": "Scalability and Performance, Optimizely Can Help!",
+    "tags": "web architecture,scalability,performance,web development,software architecture,microservices,api,serverless",
+    "banner": "/images/modern-web-architecture.jpg",
+    "banner_webp": "/images/modern-web-architecture.webp",
+    "banner_avif": "/images/modern-web-architecture.avif"
+  },{
+    "title": "Cutting-Edge Tech for Amazing UX: A Web Dev Guide",
+    "url": "/2025/01/16/cutting-edge-tech-for-amazing-ux.html",
+    "date": "Jan 16, 2025",
+    "description": "User experience (UX) is paramount in today's fast-paced digital world.",
+    "tags": "user experience,web design,ai,machine learning,ar,vr,amp,voice search",
+    "banner": "/images/cutting-edge-tech-for-amazing-ux.png",
+    "banner_webp": "/images/cutting-edge-tech-for-amazing-ux.webp",
+    "banner_avif": "/images/cutting-edge-tech-for-amazing-ux.avif"
+  },{
+    "title": "Taming Technical Debt: A Technical Architect's Guide to Website Health",
+    "url": "/2025/01/14/taming-technical-debt.html",
+    "date": "Jan 14, 2025",
+    "description": "As a Technical Architect, I've seen firsthand how technical debt can cripple websites. Like building a house with cheap materials to meet a deadline, taking shortcuts in software development creates an \"implied cost of rework\" down the line.",
+    "tags": "technical debt,web development,software engineering,code quality,refactoring,agile,tech",
+    "banner": "/images/taming-technical-debt.png",
+    "banner_webp": "/images/taming-technical-debt.webp",
+    "banner_avif": "/images/taming-technical-debt.avif"
+  },{
+    "title": "Ready your website for LLMs: Tackling Markup, Protection, and Privacy Challenges",
+    "url": "/2025/01/09/ready-your-website-for-llms-tackling-markup-protection-and-privacy-challenges.html",
+    "date": "Jan 9, 2025",
+    "description": "Large language models (LLMs) are changing the game for online content.",
+    "tags": "llms,ai,web development,privacy,markup",
+    "banner": "/images/ready-your-website-llms-tackling-markup-protection-privacy-graham-kfxwe.jpg",
+    "banner_webp": "/images/ready-your-website-llms-tackling-markup-protection-privacy-graham-kfxwe.webp",
+    "banner_avif": "/images/ready-your-website-llms-tackling-markup-protection-privacy-graham-kfxwe.avif"
+  },{
+    "title": "Brand Architecture: 3 Ways It Impacts Your Website (and How Optimizely Can Help)",
+    "url": "/2025/01/06/brand-architecture.html",
+    "date": "Jan 6, 2025",
+    "description": "Is your website a true reflection of your brand? How you structure your brands, products, and services—your brand architecture—plays a massive role in your online success. Let's explore how different brand architectures impact websites, offer key considerations and best practices, and demonstrate how Optimizely can help consultants optimize their digital offerings.",
+    "tags": "brand architecture,digital strategy,seo,content strategy,user experience,web design,headless cms,optimizely",
+    "banner": "/images/brand-architecture.png",
+    "banner_webp": "/images/brand-architecture.webp",
+    "banner_avif": "/images/brand-architecture.avif"
+  },{
+    "title": "Website Overhaul: When a Rebuild Is Better Than a Refresh",
+    "url": "/2024/12/19/website-overhaul.html",
+    "date": "Dec 19, 2024",
+    "description": "A current website is crucial for business success in today's fast-paced digital landscape. While regular updates are helpful, a complete rebuild is sometimes the more effective—or even necessary—solution.",
+    "tags": "website rebuild,user experience,web design,seo,digital strategy,web development,security,tech trends",
+    "banner": "/images/website-overhaul.png",
+    "banner_webp": "/images/website-overhaul.webp",
+    "banner_avif": "/images/website-overhaul.avif"
+  },{
+    "title": "Website Refresh Guide",
+    "url": "/2024/12/16/website-refresh-guide.html",
+    "date": "Dec 16, 2024",
+    "description": "A well-structured and functional website is crucial for maintaining a strong online presence in today's digital environment. Regular updates can revitalize your website, aligning it with your audience's changing needs and giving you a competitive edge.",
+    "tags": "website refresh,user experience,web design,seo,digital strategy,web development,analytics,ai",
+    "banner": "/images/website-refresh-guide.png",
+    "banner_webp": "/images/website-refresh-guide.webp",
+    "banner_avif": "/images/website-refresh-guide.avif"
+  },{
+    "title": "Harnessing KPIs",
+    "url": "/2024/12/11/harnessing-kpis.html",
+    "date": "Dec 11, 2024",
+    "description": "In today's fiercely competitive digital landscape, even minor improvements can make a significant difference and give you an edge over competitors. In this article, I'll focus on three essential components, speed, visibility, and accessibility, to help ensure your website excels.",
+    "tags": "website optimization,kpis,devops,web performance,accessibility,seo tools,web development,search engine optimization",
+    "banner": "/images/harnessing-kpis.png",
+    "banner_webp": "/images/harnessing-kpis.webp",
+    "banner_avif": "/images/harnessing-kpis.avif"
+  },{
+    "title": "Optimizing HTML Markup",
+    "url": "/2024/11/19/optimizing-html-markup.html",
+    "date": "Nov 19, 2024",
+    "description": "Crafting optimized HTML markup is not just about creating clean and readable code—it's a vital practice for enhancing web experimentation and A/B testing. This article will delve into the best practices for optimizing your HTML markup to ensure you can efficiently conduct experiments that yield reliable and actionable insights.",
+    "tags": "f0f0f0,333,0066cc,4 caf50,home,about,services,contact",
+    "banner": "/images/optimizing-html-markup.png",
+    "banner_webp": "/images/optimizing-html-markup.webp",
+    "banner_avif": "/images/optimizing-html-markup.avif"
+  },{
+    "title": "Fostering a Collaborative Agency-Client Relationship",
+    "url": "/2024/11/13/fostering-a-collaborative-agency-client-relationship.html",
+    "date": "Nov 13, 2024",
+    "description": "Having worked across multiple agencies, I have seen first-hand what makes client relationships thrive and what can lead them astray. Over the years, I have distilled my experiences into actionable insights.",
+    "tags": "client agency collaboration,digital marketing,project management,client success,relationship building,agency life,business strategy,marketing tips",
+    "banner": "/images/fostering-a-collaborative-agency-client-relationship.png",
+    "banner_webp": "/images/fostering-a-collaborative-agency-client-relationship.webp",
+    "banner_avif": "/images/fostering-a-collaborative-agency-client-relationship.avif"
+  },{
+    "title": "Fostering a Collaborative Client-Agency Relationship: A Guide for Clients",
+    "url": "/2024/11/05/fostering-a-collaborative-client-agency-relationship.html",
+    "date": "Nov 5, 2024",
+    "description": "Navigating the dynamic world of web development can be a complex journey, especially when working with an agency. A collaborative client-agency relationship is the key to unlocking successful projects and achieving your goals.",
+    "tags": "client agency partnership,web development,collaboration,business success,project management,trust and respect,digital transformation,agile development",
+    "banner": "/images/fostering-a-collaborative-client-agency-relationship.png",
+    "banner_webp": "/images/fostering-a-collaborative-client-agency-relationship.webp",
+    "banner_avif": "/images/fostering-a-collaborative-client-agency-relationship.avif"
+  },{
+    "title": "The Benefits of Using Microsites and How Optimizely Can Help",
+    "url": "/2024/10/30/the-benefits-of-using-microsites-and-how-optimizely-can-help.html",
+    "date": "Oct 30, 2024",
+    "description": "I worked on many websites during my time, and we also faced a similar challenge: too much functionality crammed into one monolithic website. This is often done for multiple reasons, from SLA to licensing, content management, or unplanned growth, sometimes caused by the site going viral.",
+    "tags": "microsites,web development,optimizely,digital transformation,content management,user experience,seo,personalization",
+    "banner": "/images/the-benefits-of-using-microsites-and-how-optimizely-can-help.png",
+    "banner_webp": "/images/the-benefits-of-using-microsites-and-how-optimizely-can-help.webp",
+    "banner_avif": "/images/the-benefits-of-using-microsites-and-how-optimizely-can-help.avif"
+  },{
+    "title": "Unlocking the Power of Headless CMS with Optimizely",
+    "url": "/2024/10/23/unlocking-the-power-of-headless-cms-with-optimizely.html",
+    "date": "Oct 23, 2024",
+    "description": "In today's rapidly evolving digital landscape, we need to be constantly innovative to stand still and not simply to deliver exceptional user experiences.",
+    "tags": "headless cms,optimizely,digital innovation,product owners,content management,api first,personalization,ab testing",
+    "banner": "/images/unlocking-the-power-of-headless-cms-with-optimizely.png",
+    "banner_webp": "/images/unlocking-the-power-of-headless-cms-with-optimizely.webp",
+    "banner_avif": "/images/unlocking-the-power-of-headless-cms-with-optimizely.avif"
+  },{
+    "title": "Balancing Ethics and Experimentation",
+    "url": "/2024/10/08/balancing-ethics-and-experimentation.html",
+    "date": "Oct 8, 2024",
+    "description": "Ensuring Fairness for Vulnerable Users",
+    "tags": "ab testing,experimentation,ethical testing,ethics,digital optimization,optimizely,user experience,ux design",
+    "banner": "/images/balancing-ethics-and-experimentation.png",
+    "banner_webp": "/images/balancing-ethics-and-experimentation.webp",
+    "banner_avif": "/images/balancing-ethics-and-experimentation.avif"
+  },{
+    "title": "Beyond Moore's Law, the future of processing and what we can expect to see",
+    "url": "/2016/05/30/beyond-moores-law-the-future-of-processing-and-what-we-can-expect-to-see.html",
+    "date": "May 30, 2016",
+    "description": "In my previous post, I discussed the end of Moore's Law and how the industry responds by leveraging techniques like parallel processing and SOC d...",
+    "tags": "",
+    "banner": "/images/beyond-moore-s-law-the-future-of-processing-and-what-we-can-expect-to-see.jpeg",
+    "banner_webp": "/images/beyond-moore-s-law-the-future-of-processing-and-what-we-can-expect-to-see.jpeg",
+    "banner_avif": "/images/beyond-moore-s-law-the-future-of-processing-and-what-we-can-expect-to-see.jpeg"
+  },{
+    "title": "Dunning-Kruger or when confidence equals incompetence",
+    "url": "/2016/05/03/dunning-kruger-or-when-confidence-equals-incompetence.html",
+    "date": "May 3, 2016",
+    "description": "In this post, I wish to return to discussing a non-technical phenomenon.",
+    "tags": "psychology,cognitive bias,self-awareness",
+    "banner": "/images/dunning-kruger-or-when-confidence-equals-incompetence.jpeg",
+    "banner_webp": "/images/dunning-kruger-or-when-confidence-equals-incompetence.jpeg",
+    "banner_avif": "/images/dunning-kruger-or-when-confidence-equals-incompetence.jpeg"
+  },{
+    "title": "Moore's Law and what it means now, and the challenges the industry faces.",
+    "url": "/2016/04/24/moores-law-and-what-it-means-now-and-the-challenges-the-industry-faces.html",
+    "date": "Apr 24, 2016",
+    "description": "For this post, I will discuss  Moore's law . Initially, I planned to include a section about what we can expect in the future.",
+    "tags": "moores law,technology,industry challenges",
+    "banner": "/images/2025-01-15-moores-law-and-what-it-means-now-and-the-challenges-the-industry-faces.png",
+    "banner_webp": "/images/2025-01-15-moores-law-and-what-it-means-now-and-the-challenges-the-industry-faces.webp",
+    "banner_avif": "/images/2025-01-15-moores-law-and-what-it-means-now-and-the-challenges-the-industry-faces.avif"
+  },{
+    "title": "How you can Utilise Flow to ensure Happy and Productive Developers!",
+    "url": "/2016/04/10/how-you-can-utilise-flow-to-ensure-happy-and-productive-developers.html",
+    "date": "Apr 10, 2016",
+    "description": "Developers work best when they're allowed to program without interruptions, something I've written about in a previous post on  Context Shifting .",
+    "tags": "psychology,cognitive bias,self-awareness",
+    "banner": "/images/how-you-can-utilise-flow-to-ensure-happy-and-productive-developers.jpeg",
+    "banner_webp": "/images/how-you-can-utilise-flow-to-ensure-happy-and-productive-developers.jpeg",
+    "banner_avif": "/images/how-you-can-utilise-flow-to-ensure-happy-and-productive-developers.jpeg"
+  },{
+    "title": "Managing Decision Fatigue for Technical Directors and Project Managers",
+    "url": "/2016/03/24/managing-decision-fatigue-for-technical-directors-and-project-managers.html",
+    "date": "Mar 24, 2016",
+    "description": "I've previously discussed  Content Shifting  and why minimising distractions is essential, allowing developers to retain focus and ensuring time isn't wasted...",
+    "tags": "productivity,development,agile,time management",
+    "banner": "/images/managing-decision-fatigue-paul-graham.jpg",
+    "banner_webp": "/images/managing-decision-fatigue-paul-graham.webp",
+    "banner_avif": "/images/managing-decision-fatigue-paul-graham.avif"
+  },{
+    "title": "Apple forced the FBI's hand, so it couldn't complain that it opened a can of worms.",
+    "url": "/2016/03/16/apple-forced-the-fbis-hand-so-it-couldnt-complain-that-it-opened-a-can-of-worms.html",
+    "date": "Mar 16, 2016",
+    "description": "April 3, 2016Previously, I've written about the FBI's attempt to get Apple to Unlock the iPhone used by one of the San Bernardino terrorists in an attack tha...",
+    "tags": "apple,fbi,security,privacy,iphone,technology",
+    "banner": "/images/apple-forced-fbi-hand-paul-graham.jpg",
+    "banner_webp": "/images/apple-forced-fbi-hand-paul-graham.webp",
+    "banner_avif": "/images/apple-forced-fbi-hand-paul-graham.avif"
+  },{
+    "title": "Apple opened the can of worms and will be fighting an uphill battle",
+    "url": "/2016/03/16/apple-opened-the-can-of-worms-and-will-be-fighting-an-uphill-battle.html",
+    "date": "Mar 16, 2016",
+    "description": "March 14, 2016On Tuesday, February 16, Judge Sheri Pymof issued a court order, under the All Writs Act, asking Apple to help the Federal Bureau of Investigat...",
+    "tags": "apple,ai,llms,privacy,regulation",
+    "banner": "/images/apple-opened-can-of-worms-paul-graham.jpg",
+    "banner_webp": "/images/apple-opened-can-of-worms-paul-graham.webp",
+    "banner_avif": "/images/apple-opened-can-of-worms-paul-graham.avif"
+  },{
+    "title": "How Context Switching destroys Developers' Productivity and how to fix it!",
+    "url": "/2016/02/17/how-context-switching-destroys-developers-productivity-and-how-to-fix-it.html",
+    "date": "Feb 17, 2016",
+    "description": "Any CTO or development manager must understand how to maintain a developer's efficiency.",
+    "tags": "productivity,development,agile,time management",
+    "banner": "/images/how-context-switching-destroys-paul-graham.jpg",
+    "banner_webp": "/images/how-context-switching-destroys-paul-graham.webp",
+    "banner_avif": "/images/how-context-switching-destroys-paul-graham.avif"
+  }]

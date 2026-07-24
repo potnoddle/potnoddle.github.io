@@ -1,0 +1,481 @@
+[{
+        "name": "Productivity",
+        "count": 9
+      },{
+        "name": "Development",
+        "count": 2
+      },{
+        "name": "Agile",
+        "count": 4
+      },{
+        "name": "Time Management",
+        "count": 2
+      },{
+        "name": "Apple",
+        "count": 2
+      },{
+        "name": "AI",
+        "count": 69
+      },{
+        "name": "LLMs",
+        "count": 8
+      },{
+        "name": "Privacy",
+        "count": 4
+      },{
+        "name": "Security",
+        "count": 3
+      },{
+        "name": "Technology",
+        "count": 3
+      },{
+        "name": "Psychology",
+        "count": 2
+      },{
+        "name": "Cognitive Bias",
+        "count": 2
+      },{
+        "name": "Self-Awareness",
+        "count": 2
+      },{
+        "name": "AB Testing",
+        "count": 4
+      },{
+        "name": "Experimentation",
+        "count": 2
+      },{
+        "name": "Ethics",
+        "count": 3
+      },{
+        "name": "Optimizely",
+        "count": 26
+      },{
+        "name": "User Experience",
+        "count": 6
+      },{
+        "name": "UX Design",
+        "count": 4
+      },{
+        "name": "Headless CMS",
+        "count": 10
+      },{
+        "name": "Content Management",
+        "count": 2
+      },{
+        "name": "Personalization",
+        "count": 7
+      },{
+        "name": "Microsites",
+        "count": 2
+      },{
+        "name": "Web Development",
+        "count": 22
+      },{
+        "name": "Digital Transformation",
+        "count": 15
+      },{
+        "name": "SEO",
+        "count": 7
+      },{
+        "name": "Project Management",
+        "count": 2
+      },{
+        "name": "Digital Marketing",
+        "count": 4
+      },{
+        "name": "Business Strategy",
+        "count": 6
+      },{
+        "name": "Website Optimization",
+        "count": 3
+      },{
+        "name": "DevOps",
+        "count": 4
+      },{
+        "name": "Web Performance",
+        "count": 3
+      },{
+        "name": "Accessibility",
+        "count": 5
+      },{
+        "name": "Web Design",
+        "count": 4
+      },{
+        "name": "Digital Strategy",
+        "count": 5
+      },{
+        "name": "Tech Trends",
+        "count": 12
+      },{
+        "name": "Content Strategy",
+        "count": 4
+      },{
+        "name": "Software Engineering",
+        "count": 10
+      },{
+        "name": "Code Quality",
+        "count": 2
+      },{
+        "name": "Tech",
+        "count": 3
+      },{
+        "name": "Machine Learning",
+        "count": 13
+      },{
+        "name": "Web Architecture",
+        "count": 2
+      },{
+        "name": "Scalability",
+        "count": 2
+      },{
+        "name": "Performance",
+        "count": 2
+      },{
+        "name": "Software Architecture",
+        "count": 11
+      },{
+        "name": "LLM",
+        "count": 11
+      },{
+        "name": "Artificial Intelligence",
+        "count": 22
+      },{
+        "name": "Generative AI",
+        "count": 21
+      },{
+        "name": "Deep Learning",
+        "count": 3
+      },{
+        "name": "Software Development",
+        "count": 12
+      },{
+        "name": "Future Of Work",
+        "count": 32
+      },{
+        "name": "Open AI",
+        "count": 2
+      },{
+        "name": "Automation",
+        "count": 2
+      },{
+        "name": "Deep Seek",
+        "count": 4
+      },{
+        "name": "Innovation",
+        "count": 23
+      },{
+        "name": "Ethical AI",
+        "count": 6
+      },{
+        "name": "Cyber Security",
+        "count": 15
+      },{
+        "name": "Inclusive Design",
+        "count": 4
+      },{
+        "name": "Tech Ethics",
+        "count": 4
+      },{
+        "name": "Tech Strategy",
+        "count": 3
+      },{
+        "name": "AI Security",
+        "count": 2
+      },{
+        "name": "UX",
+        "count": 2
+      },{
+        "name": "Tech Leadership",
+        "count": 16
+      },{
+        "name": "AI Innovation",
+        "count": 7
+      },{
+        "name": "Censorship",
+        "count": 2
+      },{
+        "name": "Leadership",
+        "count": 6
+      },{
+        "name": "Anthropic",
+        "count": 4
+      },{
+        "name": "AI Ethics",
+        "count": 6
+      },{
+        "name": "Tech Policy",
+        "count": 4
+      },{
+        "name": "Future of Tech",
+        "count": 3
+      },{
+        "name": "Quantum Computing",
+        "count": 2
+      },{
+        "name": "Tech Innovation",
+        "count": 8
+      },{
+        "name": "Gov Tech",
+        "count": 2
+      },{
+        "name": "Digital Inclusion",
+        "count": 3
+      },{
+        "name": "Flow State",
+        "count": 2
+      },{
+        "name": "Agentic AI",
+        "count": 14
+      },{
+        "name": "Future Tech",
+        "count": 4
+      },{
+        "name": "Tech Future",
+        "count": 2
+      },{
+        "name": "Future of AI",
+        "count": 3
+      },{
+        "name": "Responsible AI",
+        "count": 3
+      },{
+        "name": "Global Stability",
+        "count": 3
+      },{
+        "name": "Cyber Warfare",
+        "count": 3
+      },{
+        "name": "Semiconductors",
+        "count": 3
+      },{
+        "name": "Moore's Law",
+        "count": 2
+      },{
+        "name": "Super Intelligence",
+        "count": 2
+      },{
+        "name": "Cyber Defense",
+        "count": 2
+      },{
+        "name": "Ecommerce",
+        "count": 2
+      },{
+        "name": "Vibe Coding",
+        "count": 7
+      },{
+        "name": "Programming",
+        "count": 3
+      },{
+        "name": "ReactJS",
+        "count": 3
+      },{
+        "name": "Blazor",
+        "count": 3
+      },{
+        "name": "VueJS",
+        "count": 2
+      },{
+        "name": "Svelte",
+        "count": 2
+      },{
+        "name": "Edge Computing",
+        "count": 3
+      },{
+        "name": "Zero Trust",
+        "count": 3
+      },{
+        "name": "Model Context Protocol",
+        "count": 2
+      },{
+        "name": "Gemini",
+        "count": 2
+      },{
+        "name": "Digital Advertising",
+        "count": 2
+      },{
+        "name": "CMS",
+        "count": 2
+      },{
+        "name": "Careers",
+        "count": 2
+      },{
+        "name": "Digital Health",
+        "count": 2
+      },{
+        "name": "Digital Experience",
+        "count": 7
+      },{
+        "name": "AI Coding",
+        "count": 4
+      },{
+        "name": "Prompt Engineering",
+        "count": 3
+      },{
+        "name": "DXP",
+        "count": 2
+      },{
+        "name": "Next.js",
+        "count": 3
+      },{
+        "name": "Firebase",
+        "count": 3
+      },{
+        "name": "Self Taught Dev",
+        "count": 2
+      },{
+        "name": "Developer Productivity",
+        "count": 2
+      },{
+        "name": "Future of Work",
+        "count": 2
+      },{
+        "name": "Developer Tools",
+        "count": 2
+      },{
+        "name": "Storytelling",
+        "count": 2
+      },{
+        "name": "Content Creation",
+        "count": 2
+      },{
+        "name": "Intellectual Property",
+        "count": 2
+      },{
+        "name": "No FAKES Act",
+        "count": 2
+      },{
+        "name": "C2PA",
+        "count": 3
+      },{
+        "name": "Tech Debt",
+        "count": 2
+      },{
+        "name": "Engineering Excellence",
+        "count": 2
+      },{
+        "name": "National Security",
+        "count": 6
+      },{
+        "name": "Geopolitics",
+        "count": 3
+      },{
+        "name": "Defense Tech",
+        "count": 2
+      },{
+        "name": "Military Tech",
+        "count": 3
+      },{
+        "name": "Defense",
+        "count": 2
+      },{
+        "name": "Military AI",
+        "count": 2
+      },{
+        "name": "Gen AI",
+        "count": 2
+      },{
+        "name": "AI Strategy",
+        "count": 3
+      },{
+        "name": "Enterprise Architecture",
+        "count": 4
+      },{
+        "name": "Lang Graph",
+        "count": 2
+      },{
+        "name": "Enterprise AI",
+        "count": 6
+      },{
+        "name": "Claude Mythos",
+        "count": 2
+      },{
+        "name": "Open Source",
+        "count": 2
+      },{
+        "name": "Mythos",
+        "count": 2
+      },{
+        "name": "GitHub",
+        "count": 2
+      },{
+        "name": "Technical Leadership",
+        "count": 3
+      },{
+        "name": "Sovereign Vision",
+        "count": 5
+      },{
+        "name": "Taste",
+        "count": 2
+      },{
+        "name": "Latent Space",
+        "count": 3
+      },{
+        "name": "Tech Sovereignty",
+        "count": 2
+      },{
+        "name": "AI Architecture",
+        "count": 4
+      },{
+        "name": "Data Governance",
+        "count": 3
+      },{
+        "name": "Opal",
+        "count": 2
+      },{
+        "name": "CMP",
+        "count": 2
+      },{
+        "name": "Data Sovereignty",
+        "count": 2
+      },{
+        "name": "Optimizely Opal",
+        "count": 5
+      },{
+        "name": "LinkedIn",
+        "count": 5
+      },{
+        "name": "Multi Agent Systems",
+        "count": 3
+      },{
+        "name": "Tech For Good",
+        "count": 2
+      },{
+        "name": "Tech Architecture",
+        "count": 2
+      },{
+        "name": "Data Analytics",
+        "count": 2
+      },{
+        "name": "Generative Engine Optimization",
+        "count": 2
+      },{
+        "name": "Enterprise CMS",
+        "count": 2
+      },{
+        "name": "AI Orchestration",
+        "count": 4
+      },{
+        "name": "Cognitive Load",
+        "count": 2
+      },{
+        "name": "Future Of Tech",
+        "count": 2
+      },{
+        "name": "Future Of AI",
+        "count": 2
+      },{
+        "name": "AI Infrastructure",
+        "count": 3
+      },{
+        "name": "Engineering Leadership",
+        "count": 2
+      },{
+        "name": "Dev Ops",
+        "count": 2
+      },{
+        "name": "Data Centers",
+        "count": 2
+      },{
+        "name": "Cloud Computing",
+        "count": 2
+      }]

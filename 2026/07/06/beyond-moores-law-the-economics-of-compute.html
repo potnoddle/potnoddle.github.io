@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data: https://potnoddle.github.io  https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net;">
+  <title>Beyond Moore&#39;s Law: The Economics of Compute - Paul John Graham Blog</title>
+  <style>.skip-link{position:absolute;top:-100px;left:0;z-index:9999;}</style>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+  <style>
+    /**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px;
+}
+
+/**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+/**
+ * Links
+ */
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(22.9483471074, 86.2541322314, 168.5516528926);
+}
+a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+.social-media-list a:hover {
+  text-decoration: none;
+}
+.social-media-list a:hover .username {
+  text-decoration: underline;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - 30px * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    max-width: -webkit-calc(800px - (30px));
+    max-width: calc(800px - (30px));
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/**
+ * Clearfix
+ */
+.footer-col-wrapper:after, .wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Icons
+ */
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #828282;
+  padding-right: 5px;
+  vertical-align: text-top;
+}
+
+.social-media-list li + li {
+  padding-top: 5px;
+}
+
+/**
+ * Tables
+ */
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: rgb(62.9, 62.9, 62.9);
+  border-collapse: collapse;
+  border: 1px solid #e8e8e8;
+}
+table tr:nth-child(even) {
+  background-color: rgb(247.3, 247.3, 247.3);
+}
+table th, table td {
+  padding: 9.999999999px 15px;
+}
+table th {
+  background-color: rgb(239.65, 239.65, 239.65);
+  border: 1px solid rgb(221.8, 221.8, 221.8);
+  border-bottom-color: rgb(201.4, 201.4, 201.4);
+}
+table td {
+  border: 1px solid #e8e8e8;
+}
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid rgb(66.25, 66.25, 66.25);
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+}
+.site-title, .site-title:visited {
+  color: rgb(66.25, 66.25, 66.25);
+}
+
+.site-nav {
+  float: right;
+  line-height: 54px;
+}
+.site-nav .nav-trigger {
+  display: none;
+}
+.site-nav .menu-icon {
+  display: none;
+}
+.site-nav .page-link {
+  color: #111;
+  line-height: 1.5;
+}
+.site-nav .page-link:not(:last-child) {
+  margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+  }
+  .site-nav label[for=nav-trigger] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .site-nav .menu-icon > svg {
+    fill: rgb(66.25, 66.25, 66.25);
+  }
+  .site-nav input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+  .site-nav .page-link {
+    display: block;
+    margin-left: 20px;
+    padding: 5px 10px;
+  }
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: #828282;
+  margin-left: -15px;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
+  width: calc(35% - 30px / 2);
+}
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - 30px / 2);
+}
+
+.footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - 30px / 2);
+}
+
+@media screen and (max-width: 800px) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - 30px / 2);
+  }
+  .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
+  }
+}
+/**
+ * Page content
+ */
+.page-content {
+  padding: 30px 0;
+  flex: 1;
+}
+
+.page-heading {
+  font-size: 32px;
+}
+
+.post-list-heading {
+  font-size: 28px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+.post-list > li {
+  margin-bottom: 30px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #828282;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+@media screen and (max-width: 800px) {
+  .post-title {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+  margin-bottom: 30px;
+}
+.post-content h2 {
+  font-size: 32px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h2 {
+    font-size: 28px;
+  }
+}
+.post-content h3 {
+  font-size: 26px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h3 {
+    font-size: 22px;
+  }
+}
+.post-content h4 {
+  font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h4 {
+    font-size: 18px;
+  }
+}
+
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+  background: #fff;
+}
+.highlighter-rouge .highlight {
+  background: #eef;
+}
+.highlight .c {
+  color: #998;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .k {
+  font-weight: bold;
+}
+.highlight .o {
+  font-weight: bold;
+}
+.highlight .cm {
+  color: #998;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #998;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .gd {
+  color: #000;
+  background-color: #fdd;
+}
+.highlight .gd .x {
+  color: #000;
+  background-color: #faa;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gr {
+  color: #a00;
+}
+.highlight .gh {
+  color: #999;
+}
+.highlight .gi {
+  color: #000;
+  background-color: #dfd;
+}
+.highlight .gi .x {
+  color: #000;
+  background-color: #afa;
+}
+.highlight .go {
+  color: #888;
+}
+.highlight .gp {
+  color: #555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaa;
+}
+.highlight .gt {
+  color: #a00;
+}
+.highlight .kc {
+  font-weight: bold;
+}
+.highlight .kd {
+  font-weight: bold;
+}
+.highlight .kp {
+  font-weight: bold;
+}
+.highlight .kr {
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #458;
+  font-weight: bold;
+}
+.highlight .m {
+  color: #099;
+}
+.highlight .s {
+  color: #d14;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .nb {
+  color: #0086B3;
+}
+.highlight .nc {
+  color: #458;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne {
+  color: #900;
+  font-weight: bold;
+}
+.highlight .nf {
+  color: #900;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow {
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbb;
+}
+.highlight .mf {
+  color: #099;
+}
+.highlight .mh {
+  color: #099;
+}
+.highlight .mi {
+  color: #099;
+}
+.highlight .mo {
+  color: #099;
+}
+.highlight .sb {
+  color: #d14;
+}
+.highlight .sc {
+  color: #d14;
+}
+.highlight .sd {
+  color: #d14;
+}
+.highlight .s2 {
+  color: #d14;
+}
+.highlight .se {
+  color: #d14;
+}
+.highlight .sh {
+  color: #d14;
+}
+.highlight .si {
+  color: #d14;
+}
+.highlight .sx {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #d14;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .bp {
+  color: #999;
+}
+.highlight .vc {
+  color: #008080;
+}
+.highlight .vg {
+  color: #008080;
+}
+.highlight .vi {
+  color: #008080;
+}
+.highlight .il {
+  color: #099;
+}
+
+/*# sourceMappingURL=main.css.map */
+    /* Global responsive image styles to prevent Cumulative Layout Shift (CLS) */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FontAwesome font-display overrides */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2') format('woff2');
+}
+
+/* Skip to Content Link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #005a9c;
+  color: white !important;
+  padding: 10px 20px;
+  z-index: 9999;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom-right-radius: 5px;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #ffd54f !important;
+}
+
+/* Global Focus Styles */
+*:focus-visible {
+  outline: 3px solid #005a9c !important;
+  outline-offset: 2px !important;
+}
+
+/* Accessibility Control Panel (Widget) */
+.a11y-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.a11y-toggle-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #005a9c;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.a11y-toggle-btn:hover {
+  transform: scale(1.05);
+  background-color: #004070;
+}
+.a11y-panel {
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 320px;
+  max-height: 80vh;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 20px;
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #333;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.a11y-panel.open {
+  display: block;
+}
+.a11y-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.a11y-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111;
+}
+.a11y-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  padding: 4px;
+}
+.a11y-close-btn:hover {
+  color: #000;
+}
+.a11y-section {
+  margin-bottom: 20px;
+}
+.a11y-section h3 {
+  font-size: 0.95rem;
+  margin: 0 0 10px 0;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.a11y-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.a11y-btn {
+  background: #f5f5f7;
+  border: 1px solid #d2d2d7;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+}
+.a11y-btn:hover {
+  background: #e8e8ed;
+}
+.a11y-btn.active {
+  background: #005a9c;
+  color: white;
+  border-color: #005a9c;
+}
+.a11y-btn-full {
+  grid-column: span 2;
+}
+
+/* Contrast Theme Applications */
+body.a11y-theme-dark {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+body.a11y-theme-dark .site-header,
+body.a11y-theme-dark .site-footer {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+body.a11y-theme-dark a,
+body.a11y-theme-dark .post-link {
+  color: #90caf9 !important;
+}
+body.a11y-theme-dark .post-link:hover,
+body.a11y-theme-dark a:hover {
+  color: #e3f2fd !important;
+  text-decoration: underline !important;
+}
+body.a11y-theme-dark .post-meta,
+body.a11y-theme-dark .post-item-content p {
+  color: #aaa !important;
+}
+body.a11y-theme-dark .post-item {
+  border-color: #333 !important;
+}
+
+body.a11y-theme-light {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+body.a11y-theme-light a {
+  color: #004488 !important;
+}
+body.a11y-theme-light .site-header,
+body.a11y-theme-light .site-footer {
+  background-color: #f8f9fa !important;
+  border-color: #000000 !important;
+}
+body.a11y-theme-light .post-item {
+  border-color: #000000 !important;
+}
+
+/* Dyslexia theme styling */
+body.a11y-theme-dyslexia {
+  background-color: #fbf5e2 !important;
+  color: #2b1d0c !important;
+}
+body.a11y-theme-dyslexia .site-header,
+body.a11y-theme-dyslexia .site-footer {
+  background-color: #f7eed0 !important;
+  border-color: #e1cf9b !important;
+}
+body.a11y-theme-dyslexia a {
+  color: #b05c00 !important;
+}
+body.a11y-theme-dyslexia .post-item {
+  border-color: #e1cf9b !important;
+}
+
+/* Fonts styling */
+body.a11y-font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+body.a11y-font-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+body.a11y-font-dyslexic {
+  /* Using a combination of Comic Neue and custom spacing rules to emulate OpenDyslexic characteristics */
+  font-family: "Comic Neue", "Comic Sans MS", cursive, sans-serif !important;
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+
+/* Sizes styling */
+body.a11y-size-large {
+  font-size: 1.2rem !important;
+}
+body.a11y-size-large h1 { font-size: 2.2rem !important; }
+body.a11y-size-large h2 { font-size: 1.8rem !important; }
+body.a11y-size-large h3 { font-size: 1.5rem !important; }
+
+body.a11y-size-xlarge {
+  font-size: 1.4rem !important;
+}
+body.a11y-size-xlarge h1 { font-size: 2.5rem !important; }
+body.a11y-size-xlarge h2 { font-size: 2.1rem !important; }
+body.a11y-size-xlarge h3 { font-size: 1.8rem !important; }
+
+/* Spacing styling */
+body.a11y-spacing-spacious {
+  line-height: 1.95 !important;
+  letter-spacing: 0.08em !important;
+  word-spacing: 0.12em !important;
+}
+
+/* Reading Progress Bar */
+.reading-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: transparent;
+  z-index: 10000;
+}
+.reading-progress-bar {
+  height: 100%;
+  background: #005a9c;
+  width: 0%;
+  transition: width 0.1s ease-out;
+}
+body.a11y-theme-dark .reading-progress-bar {
+  background: #ffd54f;
+}
+body.a11y-theme-dyslexia .reading-progress-bar {
+  background: #b05c00;
+}
+
+/* Text-to-speech visual highlighter */
+.tts-highlight {
+  background-color: rgba(255, 235, 59, 0.45);
+  border-bottom: 2px solid #fbc02d;
+  border-radius: 2px;
+  transition: background-color 0.15s ease;
+}
+body.a11y-theme-dark .tts-highlight {
+  background-color: rgba(255, 213, 79, 0.3);
+  border-bottom-color: #ffd54f;
+  color: white !important;
+}
+
+/* Search engine UI styles on Homepage */
+.search-container {
+  margin: 2rem 0;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+body.a11y-theme-dark .search-container {
+  background: #1e1e1e;
+  box-shadow: none;
+  border: 1px solid #333;
+}
+body.a11y-theme-dyslexia .search-container {
+  background: #f7eed0;
+  border: 1px solid #e1cf9b;
+}
+
+.search-input-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.search-input-wrapper i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.search-input:focus {
+  border-color: #005a9c;
+  outline: none;
+}
+body.a11y-theme-dark .search-input {
+  background: #2b2b2b;
+  color: white;
+  border-color: #444;
+}
+
+.tags-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  min-height: 40px; /* Reserves space for tag buttons to prevent layout shifts (CLS) */
+}
+.tag-btn {
+  background: white;
+  border: 1px solid #d2d2d7;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.tag-btn:hover {
+  background: #e8e8ed;
+}
+.tag-btn.active {
+  background: #005a9c;
+  color: white;
+  border-color: #005a9c;
+}
+body.a11y-theme-dark .tag-btn {
+  background: #2b2b2b;
+  color: #e0e0e0;
+  border-color: #444;
+}
+body.a11y-theme-dark .tag-btn.active {
+  background: #ffd54f;
+  color: black;
+  border-color: #ffd54f;
+}
+body.a11y-theme-dyslexia .tag-btn {
+  background: #fbf5e2;
+  color: #2b1d0c;
+  border-color: #e1cf9b;
+}
+body.a11y-theme-dyslexia .tag-btn.active {
+  background: #b05c00;
+  color: white;
+  border-color: #b05c00;
+}
+
+.search-meta-info {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+}
+body.a11y-theme-dark .search-meta-info {
+  color: #aaa;
+}
+
+/* Post Table of Contents (TOC) layout styles */
+.post-layout-container {
+  display: flex;
+  flex-direction: column;
+}
+.post-toc-column {
+  display: none; /* Hide on mobile to prevent layout shifts as TOC loads asynchronously */
+}
+@media (min-width: 900px) {
+  .post-layout-container {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .post-content-column {
+    flex: 1;
+    min-width: 0; /* Prevents overflow */
+  }
+  .post-toc-column {
+    display: block; /* Show as sidebar on desktop */
+    flex: 0 0 240px;
+    position: sticky;
+    top: 30px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .post-toc-column:has(nav) {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  body.a11y-theme-dark .post-toc-column:has(nav) {
+    background: #1e1e1e;
+    border-color: #333;
+  }
+  body.a11y-theme-dyslexia .post-toc-column:has(nav) {
+    background: #f7eed0;
+    border-color: #e1cf9b;
+  }
+}
+
+.post-toc h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+body.a11y-theme-dark .post-toc h2 {
+  color: #ccc;
+  border-color: #333;
+}
+.post-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.post-toc li {
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+.post-toc-h2 {
+  font-weight: 600;
+}
+.post-toc-h3 {
+  padding-left: 12px;
+  color: #666;
+}
+body.a11y-theme-dark .post-toc-h3 a {
+  color: #aaa !important;
+}
+.post-toc a {
+  text-decoration: none;
+}
+.post-toc a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+  .post-layout-container {
+    gap: 40px;
+  }
+  .post-toc-column {
+    flex: 0 0 280px;
+  }
+}
+
+/* Screen reader only utility class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Tag filter list expandable toggle button */
+.tag-toggle-btn {
+  background: transparent;
+  border: 1px dashed #005a9c;
+  color: #005a9c;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+}
+.tag-toggle-btn:hover {
+  background: rgba(0, 90, 156, 0.05);
+  border-style: solid;
+}
+body.a11y-theme-dark .tag-toggle-btn {
+  border-color: #ffd54f;
+  color: #ffd54f;
+}
+body.a11y-theme-dark .tag-toggle-btn:hover {
+  background: rgba(255, 213, 79, 0.1);
+}
+body.a11y-theme-dyslexia .tag-toggle-btn {
+  border-color: #b05c00;
+  color: #b05c00;
+}
+body.a11y-theme-dyslexia .tag-toggle-btn:hover {
+  background: rgba(176, 92, 0, 0.05);
+}
+
+/* Ensure post-meta date has sufficient contrast in the default light theme */
+.post-meta {
+  color: #5f5f5f;
+}
+
+/* Footer and RSS Subscribe Contrast Overrides */
+.site-footer,
+.site-footer p,
+.site-footer .contact-list,
+.site-footer .footer-col,
+.site-footer .p-name {
+  color: #444444 !important;
+}
+
+.site-footer a,
+.rss-subscribe a {
+  color: #005a9c !important;
+  text-decoration: underline !important;
+}
+
+.rss-subscribe {
+  color: #444444 !important;
+}
+
+/* Theme-specific Overrides */
+body.a11y-theme-dark .site-footer,
+body.a11y-theme-dark .site-footer p,
+body.a11y-theme-dark .site-footer .contact-list,
+body.a11y-theme-dark .site-footer .footer-col,
+body.a11y-theme-dark .site-footer .p-name,
+body.a11y-theme-dark .rss-subscribe {
+  color: #e0e0e0 !important;
+}
+
+body.a11y-theme-dark .site-footer a,
+body.a11y-theme-dark .rss-subscribe a {
+  color: #80b3ff !important;
+}
+
+body.a11y-theme-light .site-footer,
+body.a11y-theme-light .site-footer p,
+body.a11y-theme-light .site-footer .contact-list,
+body.a11y-theme-light .site-footer .footer-col,
+body.a11y-theme-light .site-footer .p-name,
+body.a11y-theme-light .rss-subscribe {
+  color: #111111 !important;
+}
+
+body.a11y-theme-light .site-footer a,
+body.a11y-theme-light .rss-subscribe a {
+  color: #004488 !important;
+}
+
+body.a11y-theme-dyslexia .site-footer,
+body.a11y-theme-dyslexia .site-footer p,
+body.a11y-theme-dyslexia .site-footer .contact-list,
+body.a11y-theme-dyslexia .site-footer .footer-col,
+body.a11y-theme-dyslexia .site-footer .p-name,
+body.a11y-theme-dyslexia .rss-subscribe {
+  color: #2b1d0c !important;
+}
+
+body.a11y-theme-dyslexia .site-footer a,
+body.a11y-theme-dyslexia .rss-subscribe a {
+  color: #b05c00 !important;
+}
+
+/* Core article and page link overrides for contrast and usability */
+.post-content a,
+.post-toc-column a,
+.p-author,
+.original-article a,
+.rss-subscribe a,
+.breadcrumb a {
+  color: #005a9c !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+}
+
+.post-content a:hover,
+.post-content a:focus,
+.post-toc-column a:hover,
+.post-toc-column a:focus,
+.p-author:hover,
+.p-author:focus,
+.original-article a:hover,
+.original-article a:focus,
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  color: #003d6b !important;
+}
+
+/* Ensure post meta text has sufficient contrast */
+.post-meta,
+.post-meta time {
+  color: #555555 !important;
+}
+
+/* Ensure these links adjust correctly when dark or dyslexia themes are active */
+body.a11y-theme-dark .post-content a,
+body.a11y-theme-dark .post-toc-column a,
+body.a11y-theme-dark .p-author,
+body.a11y-theme-dark .original-article a,
+body.a11y-theme-dark .breadcrumb a {
+  color: #90caf9 !important;
+}
+body.a11y-theme-dark .post-content a:hover,
+body.a11y-theme-dark .post-toc-column a:hover,
+body.a11y-theme-dark .p-author:hover,
+body.a11y-theme-dark .original-article a:hover,
+body.a11y-theme-dark .breadcrumb a:hover {
+  color: #e3f2fd !important;
+}
+body.a11y-theme-dark .post-meta,
+body.a11y-theme-dark .post-meta time {
+  color: #aaaaaa !important;
+}
+
+body.a11y-theme-dyslexia .post-content a,
+body.a11y-theme-dyslexia .post-toc-column a,
+body.a11y-theme-dyslexia .p-author,
+body.a11y-theme-dyslexia .original-article a,
+body.a11y-theme-dyslexia .breadcrumb a {
+  color: #b05c00 !important;
+}
+body.a11y-theme-dyslexia .post-content a:hover,
+body.a11y-theme-dyslexia .post-toc-column a:hover,
+body.a11y-theme-dyslexia .p-author:hover,
+body.a11y-theme-dyslexia .original-article a:hover,
+body.a11y-theme-dyslexia .breadcrumb a:hover {
+  color: #8a4800 !important;
+}
+body.a11y-theme-dyslexia .post-meta,
+body.a11y-theme-dyslexia .post-meta time {
+  color: #3b2a14 !important;
+}
+
+/* Footer Social Icon Styling, Alignment & Underline Fix */
+.social-media-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.social-media-list li {
+  margin: 0;
+}
+.social-media-list li + li {
+  padding-top: 0px;
+}
+.social-media-list a {
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.social-media-list a span {
+  text-decoration: underline !important;
+}
+.social-media-list a:hover span {
+  text-decoration: underline !important;
+}
+body.a11y-theme-dark .social-media-list a {
+  color: #90caf9 !important;
+}
+body.a11y-theme-dyslexia .social-media-list a {
+  color: #b05c00 !important;
+}
+
+/* Ensure blockquotes and their child elements have sufficient contrast */
+blockquote {
+  color: #444444 !important;
+  border-left: 4px solid #005a9c !important;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-style: italic;
+}
+blockquote p, blockquote em {
+  color: #444444 !important;
+}
+
+/* Theme overrides for blockquotes */
+body.a11y-theme-dark blockquote {
+  color: #e0e0e0 !important;
+  border-left-color: #ffd54f !important;
+  background: #1e1e1e;
+}
+body.a11y-theme-dark blockquote p, body.a11y-theme-dark blockquote em {
+  color: #e0e0e0 !important;
+}
+
+body.a11y-theme-dyslexia blockquote {
+  color: #2b1d0c !important;
+  border-left-color: #b05c00 !important;
+  background: #f7eed0;
+}
+body.a11y-theme-dyslexia blockquote p, body.a11y-theme-dyslexia blockquote em {
+  color: #2b1d0c !important;
+}
+
+/* Post Banner Styles - Moved here to prevent layout shifts (CLS) on load */
+.post-banner-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.post-banner {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+@media (min-width: 600px) {
+  .post-banner {
+    aspect-ratio: 21 / 9;
+  }
+}
+@media (min-width: 1200px) {
+  .post-banner {
+    aspect-ratio: 32 / 9;
+  }
+}
+
+/* Home Post List Layout Styles - Moved here to prevent layout shifts (CLS) on load */
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+.post-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+@media (min-width: 600px) {
+  .post-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+.post-banner-link {
+  flex: 0 0 200px;
+  margin-bottom: 15px;
+}
+@media (min-width: 600px) {
+  .post-banner-link {
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+}
+.post-list-banner {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.post-list-banner:hover {
+  transform: scale(1.02);
+}
+.post-item-content {
+  flex: 1;
+}
+.post-item h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Custom Icon Font Classes (Subsetted FontAwesome 6 Free & Brands classes to prevent unused CSS issues) */
+.fa, .fas, .fab, .far {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fas, .fa {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.fab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+
+.fa-bookmark::before { content: "\f02e"; }
+.fa-linkedin::before { content: "\f08c"; }
+.fa-chevron-down::before { content: "\f078"; }
+.fa-chevron-up::before { content: "\f077"; }
+.fa-home::before { content: "\f015"; }
+.fa-folder::before { content: "\f07b"; }
+.fa-file-alt::before { content: "\f15c"; }
+.fa-newspaper::before { content: "\f1ea"; }
+.fa-universal-access::before { content: "\f29a"; }
+.fa-sliders-h::before { content: "\f1de"; }
+.fa-times::before { content: "\f00d"; }
+.fa-play::before { content: "\f04b"; }
+.fa-stop::before { content: "\f04d"; }
+.fa-tachometer-alt::before { content: "\f3fd"; }
+
+  </style>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin><!-- Standard SEO Meta Tags --><meta name="description" content="As physical silicon scaling reaches its atomic limits, compute performance must grow through hardware-software co-design. This article explores how on-die pe..."><meta name="author" content="Paul Graham"><link rel="canonical" href="https://potnoddle.github.io/2026/07/06/beyond-moores-law-the-economics-of-compute.html">
+
+<!-- OpenGraph Metadata -->
+<meta property="og:title" content="Beyond Moore&#39;s Law: The Economics of Compute - Paul John Graham Blog">
+<meta property="og:locale" content="en_GB"><meta property="og:description" content="As physical silicon scaling reaches its atomic limits, compute performance must grow through hardware-software co-design. This article explores how on-die pe..."><meta property="og:url" content="https://potnoddle.github.io/2026/07/06/beyond-moores-law-the-economics-of-compute.html">
+<meta property="og:site_name" content="Paul John Graham Blog"><meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-07-06T10:00:00+00:00"><meta property="article:author" content="https://potnoddle.github.io/"><meta property="og:image" content="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute.jpg"><!-- Twitter Card Metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beyond Moore&#39;s Law: The Economics of Compute - Paul John Graham Blog"><meta name="twitter:description" content="As physical silicon scaling reaches its atomic limits, compute performance must grow through hardware-software co-design. This article explores how on-die pe..."><meta name="twitter:image" content="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute.jpg"><!-- JSON-LD Structured Schema (Generative Engine Optimization) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Beyond Moore's Law: The Economics of Compute",
+  "description": "As physical silicon scaling reaches its atomic limits, compute performance must grow through hardware-software co-design. This article explores how on-die pe...",
+  "datePublished": "2026-07-06T10:00:00+00:00",
+  "dateModified": "2026-07-06T10:00:00+00:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://potnoddle.github.io/2026/07/06/beyond-moores-law-the-economics-of-compute.html"
+  },
+  "image": "https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute.jpg",
+  "dependencies": "Optimizely Content Modeling Engine",
+  "author": {
+    "@type": "Person",
+    "name": "Paul John Graham",
+    "givenName": "Paul John",
+    "familyName": "Graham",
+    "url": "https://potnoddle.github.io/",
+    "jobTitle": "Technical Director & Enterprise Architect",
+    "description": "Expert in Optimizely DXP, Sovereign AI, and Model Context Protocol.",
+    "sameAs": [
+      "https://www.linkedin.com/in/pauljgraham/",
+      "https://pauljohngraham.substack.com/"
+    ],
+    "knowsAbout": [
+      "Optimizely CMS",
+      "Optimizely DXP",
+      "Model Context Protocol (MCP)",
+      "Sovereign AI Architecture",
+      "Enterprise Web Development",
+      "Generative Engine Optimisation (GEO)",
+      "Answer Engine Optimisation (AEO)"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Paul John Graham Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://potnoddle.github.io/images/logo.png"
+    }
+  }
+}
+</script>
+<link type="application/atom+xml" rel="alternate" href="https://potnoddle.github.io/feed.xml" title="Paul John Graham Blog" /><!-- Google Tag Manager (Lazy Loaded) -->
+<script>
+(function() {
+  var gtmLoaded = false;
+  function loadGTM() {
+    if (gtmLoaded) return;
+    gtmLoaded = true;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WVKN2V4K');
+    // Remove listeners
+    window.removeEventListener('scroll', loadGTM);
+    window.removeEventListener('mousemove', loadGTM);
+    window.removeEventListener('touchstart', loadGTM);
+    window.removeEventListener('keydown', loadGTM);
+  }
+  // Add listeners
+  window.addEventListener('scroll', loadGTM, { passive: true });
+  window.addEventListener('mousemove', loadGTM, { passive: true });
+  window.addEventListener('touchstart', loadGTM, { passive: true });
+  window.addEventListener('keydown', loadGTM, { passive: true });
+  // Fallback timeout
+  setTimeout(loadGTM, 4000);
+})();
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) GA4 (Lazy Loaded) -->
+<script>
+(function() {
+  var gaLoaded = false;
+  function loadGA() {
+    if (gaLoaded) return;
+    gaLoaded = true;
+    
+    // Inject the script
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=G-15SG2G9DET";
+    document.head.appendChild(s);
+    
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-15SG2G9DET');
+    
+    // Remove listeners
+    window.removeEventListener('scroll', loadGA);
+    window.removeEventListener('mousemove', loadGA);
+    window.removeEventListener('touchstart', loadGA);
+    window.removeEventListener('keydown', loadGA);
+  }
+  
+  window.addEventListener('scroll', loadGA, { passive: true });
+  window.addEventListener('mousemove', loadGA, { passive: true });
+  window.addEventListener('touchstart', loadGA, { passive: true });
+  window.addEventListener('keydown', loadGA, { passive: true });
+  // Fallback timeout
+  setTimeout(loadGA, 4000);
+})();
+</script>
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVKN2V4K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a href="#main-content" class="skip-link">Skip to main content</a><header class="site-header">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Paul John Graham Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.3,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/sitemap.html">Sitemap</a></div>
+      </nav></div>
+</header>
+<main id="main-content" class="page-content" role="main" aria-label="Content">
+    <div class="wrapper">
+      <div class="reading-progress-container" aria-hidden="true">
+  <div class="reading-progress-bar"></div>
+</div>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-top: 15px; margin-bottom: 10px; font-size: 0.95rem; color: #555;">
+    <a href="/">Home</a> &gt; 
+    <a href="/2026/">2026</a> &gt; 
+    <a href="/2026/07/">July</a>
+  </nav>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Beyond Moore&#39;s Law: The Economics of Compute</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2026-07-06T10:00:00+00:00" itemprop="datePublished">
+        Jul 6, 2026
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="p-author h-card" itemprop="name url" href="https://www.linkedin.com/in/pauljgraham/" target="_blank">Paul Graham</a>
+          </span></p>
+  </header>
+
+  
+    <div class="post-banner-container">
+      <picture>
+        
+          
+          <source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-wide.avif" type="image/avif" width="1200" height="338">
+          <source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-wide.webp" type="image/webp" width="1200" height="338">
+          <source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-wide.jpg" type="image/jpeg" width="1200" height="338">
+        
+        
+          
+          <source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-medium.avif" type="image/avif" width="900" height="386">
+          <source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-medium.webp" type="image/webp" width="900" height="386">
+          <source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-medium.jpg" type="image/jpeg" width="900" height="386">
+        
+        
+          
+          <source srcset="/images/beyond-moores-law-the-economics-of-compute-mobile.avif" type="image/avif" width="600" height="338">
+          <source srcset="/images/beyond-moores-law-the-economics-of-compute-mobile.webp" type="image/webp" width="600" height="338">
+          <img itemprop="image" src="/images/beyond-moores-law-the-economics-of-compute-mobile.jpg" alt="Beyond Moore's Law: The Economics of Compute" class="post-banner" decoding="async" fetchpriority="high" width="600" height="338">
+        
+      </picture>
+    </div>
+  
+
+  <div class="post-layout-container">
+    <aside class="post-toc-column">
+      <!-- Table of contents will be generated here by JS -->
+    </aside>
+    <div class="post-content-column">
+      <div class="post-content e-content" itemprop="articleBody" id="article-body">
+        <div>
+
+
+
+<h3>Beyond Moore&#x27;s Law: The Economics of Compute</h3>
+
+<h2>Introduction</h2>
+
+<p>Building upon the economic arguments mapped out in The <a href="/2026/06/30/the-ai-market-paradox-hardware-deflation-and-the-shift-to-localised-compute.html">AI Market Paradox: Hardware Deflation and the Shift to Localised Compute</a> , physical silicon scaling is colliding with fundamental atomic limits. Traditional die-shrinks yield diminishing returns, crippled by <a href="https://en.wikipedia.org/wiki/Quantum_tunnelling" target="_blank">quantum tunnelling</a> and thermal degradation.</p>
+
+<p>Sustaining performance scaling mandates rigorous <a href="https://en.wikipedia.org/wiki/Hardware/software_co-design" target="_blank">hardware-software co-design</a> to replace diminishing <a href="https://en.wikipedia.org/wiki/Nanolithography" target="_blank">advanced lithography</a> returns. Resolving these physical constraints requires executing two distinct architectural strategies:</p>
+
+<ul>
+
+    <li><strong> Edge/IoT Persistence Paradigm </strong> : Delivering low-power, localised sovereignty using on-die persistent memory ( <a href="https://en.wikipedia.org/wiki/Spin-transfer_torque" target="_blank">STT-MRAM</a> and <a href="https://en.wikipedia.org/wiki/Resistive_random-access_memory" target="_blank">RRAM</a> ).</li>
+
+    <li><strong> HPC/Datacenter Post-Silicon Paradigm </strong> : Deploying extreme-environment architectures via <a href="https://en.wikipedia.org/wiki/Photonics" target="_blank">Photonic</a> and <a href="https://en.wikipedia.org/wiki/Superconducting_logic" target="_blank">Superconducting logic</a> .</li>
+
+</ul>
+
+<p>This guide dismantles the classic <a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck" target="_blank">von Neumann bottleneck</a> across both domains. Orchestrating these physical and logical capabilities—from coordinating physical cache evictions via topology-aware <a href="https://en.wikipedia.org/wiki/Compiler" target="_blank">compilers</a> to bypassing system buses—enables the fundamental recalibration of system latency, power consumption, and total hardware infrastructure budgets.</p>
+
+<h3>Sustaining Moore&#x27;s Law through Co-Design</h3>
+
+<p>The von Neumann bottleneck is responsible for up to 80% of systemic energy dissipation and computational latency in modern architectures. Moving data across physical buses between processing cores and separate memory units severely throttles throughput.</p>
+
+<p>Overcoming this structural inefficiency requires tightly coupling three core execution layers:</p>
+
+<ul>
+
+    <li><strong> Hardware Topology </strong> : Mapping execution units directly to localised memory arrays.</li>
+
+    <li><strong> Compiler Instruction Scheduling </strong> : Injecting physical memory barriers explicitly into the binary.</li>
+
+    <li><strong> Execution Runtimes </strong> : Aligning software lifetimes with physical cache flushes.</li>
+
+</ul>
+
+<p>Eliminating the chasm between logic and memory lowers computational costs and extends performance scaling beyond physical silicon limits. The deployment models that dictate these optimisations vary with environmental constraints.</p>
+
+<p><picture><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-2-wide.avif" type="image/avif"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-2-wide.webp" type="image/webp"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-2-wide.jpg" type="image/jpeg"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-2-medium.avif" type="image/avif"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-2-medium.webp" type="image/webp"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-2-medium.jpg" type="image/jpeg"><source srcset="/images/beyond-moores-law-the-economics-of-compute-2-mobile.avif" type="image/avif"><source srcset="/images/beyond-moores-law-the-economics-of-compute-2-mobile.webp" type="image/webp"><img src="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute-2-mobile.jpg" alt="Physical scaling limit vs performance &amp; cost scaling vectors across Edge and HPC environments" width="1376" height="689" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;" loading="lazy"></picture></p>
+
+<h3>Dismantling the von Neumann Wall with STT-MRAM &amp; RRAM (The Edge Paradigm)</h3>
+
+<p>Legacy on-die memories cannot scale to meet the demands of advanced logic at the edge. The breakdown of scaling manifests across two primary memory architectures:</p>
+
+<ul>
+
+    <li><a href="https://en.wikipedia.org/wiki/Static_random-access_memory" target="_blank"><strong> SRAM </strong></a><strong> Degradation </strong> : Requires a six-transistor (6T) cell design, driving critical static power leakage at sub-5nm nodes ( <a href="https://en.wikipedia.org/wiki/FinFET" target="_blank">FinFET</a> / <a href="https://en.wikipedia.org/wiki/Multigate_device#Gate-all-around_FET_(GAAFET)" target="_blank">GAA</a> ).</li>
+
+    <li><a href="https://en.wikipedia.org/wiki/Flash_memory" target="_blank"><strong> Embedded Flash (eFlash) </strong></a><strong> Limits </strong> : Halts at 28nm because high write voltages (&gt;10V) degrade the ultra-thin oxides of modern logic gates.</li>
+
+</ul>
+
+<p>To bypass these limits, foundries deploy two distinct <a href="https://en.wikipedia.org/wiki/Back_end_of_line" target="_blank">back-end-of-line (BEOL)</a> persistent memory technologies directly on the processor die:</p>
+
+<ul>
+
+    <li><strong> STT-MRAM Scalability </strong> : Toggles <a href="https://en.wikipedia.org/wiki/Magnetic_tunnel_junction" target="_blank">magnetic tunnel junctions</a> via Spin-Transfer Torque, scaling past 22nm to yield 3-4x higher density than SRAM with drastically reduced leakage [Evaluation of STT-MRAM as a Scratchpad for Training in ML Accelerators](https://arxiv.org/abs/2308.02024v1).</li>
+
+    <li><strong> RRAM Efficiency </strong> : Operates via localised oxygen vacancy migration, establishing an energy-efficient, forming-free bulk switching architecture suited for localised compute topologies [Multi-level, Forming Free, Bulk Switching Trilayer RRAM for Neuromorphic Computing at the Edge](https://arxiv.org/abs/2310.13844v1).</li>
+
+</ul>
+
+<p><picture><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-3-wide.avif" type="image/avif"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-3-wide.webp" type="image/webp"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-3-wide.jpg" type="image/jpeg"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-3-medium.avif" type="image/avif"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-3-medium.webp" type="image/webp"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-3-medium.jpg" type="image/jpeg"><source srcset="/images/beyond-moores-law-the-economics-of-compute-3-mobile.avif" type="image/avif"><source srcset="/images/beyond-moores-law-the-economics-of-compute-3-mobile.webp" type="image/webp"><img src="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute-3-mobile.jpg" alt="SRAM FinFET power leakage vs on-die persistent memory efficiency" width="1403" height="692" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;" loading="lazy"></picture></p>
+
+<h3>Exotic Core Architectures: Datacenter Scaling &amp; Extreme Environments</h3>
+
+<p>General-purpose datacenter cores hitting thermal ceilings force massive multi-megawatt facilities to adopt two extreme-environment logic pipelines:</p>
+
+<ul>
+
+    <li><strong> Photonic Matrix Operations </strong> : Substitute electrical currents with lightwaves to execute analogue <a href="https://en.wikipedia.org/wiki/Matrix_multiplication" target="_blank">matrix-vector multiplications</a> .</li>
+
+    <li><strong> Optical Coprocessing Yields </strong> : Operate devoid of <a href="https://en.wikipedia.org/wiki/Joule_heating" target="_blank">Joule heating</a> , processing deep learning workloads to slash power consumption at hyperscale [Analogue Photonics Computing for Information Processing, Inference and Optimisation](https://arxiv.org/abs/2301.11760v2).</li>
+
+</ul>
+
+<p>For ultra-high-speed pipelines, <a href="https://en.wikipedia.org/wiki/Rapid_single_flux_quantum" target="_blank">Single Flux Quantum (SFQ)</a> logic operates strictly at <a href="https://en.wikipedia.org/wiki/Cryogenics" target="_blank">cryogenic temperatures</a> . Utilising magnetic flux quanta within <a href="https://en.wikipedia.org/wiki/Josephson_effect" target="_blank">Josephson junctions</a> as digital logic states, SFQ achieves switching frequencies exceeding 100 GHz; ( <a href="https://arxiv.org/abs/2202.01407v1" target="_blank">DigiQ: A Scalable Digital Controller for Quantum Computers Using SFQ Logic</a> ).</p>
+
+<p>Maintaining these frequencies requires immense <a href="https://en.wikipedia.org/wiki/Liquid_helium" target="_blank">liquid helium</a> cooling infrastructure to sustain 4 Kelvin operating environments. These architectures mandate rigid infrastructural models that are entirely separate from localised device-deployment economics.</p>
+
+<p><picture><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-4-wide.avif" type="image/avif"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-4-wide.webp" type="image/webp"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-4-wide.jpg" type="image/jpeg"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-4-medium.avif" type="image/avif"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-4-medium.webp" type="image/webp"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-4-medium.jpg" type="image/jpeg"><source srcset="/images/beyond-moores-law-the-economics-of-compute-4-mobile.avif" type="image/avif"><source srcset="/images/beyond-moores-law-the-economics-of-compute-4-mobile.webp" type="image/webp"><img src="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute-4-mobile.jpg" alt="Lightwave analogue matrix processors vs single flux quantum logic pipelines in a datacenter environment" width="1376" height="768" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;" loading="lazy"></picture></p>
+
+<h3>The Economics of Specialisation: Edge Sovereignty and Precision Limits</h3>
+
+<p>Custom domain-specific silicon drives an economic shift toward localised, low-power compute. Scaling these deployments requires calculating strict return-on-investment parameters against two critical economic factors:</p>
+
+<ul>
+
+    <li><strong> TCO Dynamics </strong> : <a href="https://en.wikipedia.org/wiki/Total_cost_of_ownership" target="_blank">Total cost of ownership (TCO)</a> decreases sharply across high-volume edge environments.</li>
+
+    <li><strong> Tape-out Barriers </strong> : Custom silicon demands massive upfront <a href="https://en.wikipedia.org/wiki/Tape-out" target="_blank">tape-out</a> capital, requiring precise volume forecasts to justify initial fabrication expenses.</li>
+
+</ul>
+
+<p>Within these environments, Analogue <a href="https://en.wikipedia.org/wiki/In-memory_processing" target="_blank">Compute-in-Memory (CIM)</a> architectures map neural network weights directly to the physical conductances (G = 1/R) of RRAM crossbars. Input values operate as voltages (V), calculating outputs natively as currents (I = V \times G) via <a href="https://en.wikipedia.org/wiki/Ohm%27s_law" target="_blank">Ohm&#x27;s Law</a> and <a href="https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff%27s_current_law" target="_blank">Kirchhoff&#x27;s Current Law</a> [An RRAM compute-in-memory architecture for high energy-efficient processing of binary matrix-vector multiplication in cryptography](https://arxiv.org/abs/2501.10702v5).</p>
+
+<p>Executing math directly in the memory array eliminates instruction fetch cycles, yet exposes the architecture to three debilitating physical realities:</p>
+
+<ul>
+
+    <li><strong> Conductance Drift </strong> : Physical degradation shifts resistance values, altering the mathematical output over time.</li>
+
+    <li><strong> Thermal Interference </strong> : Uncontrolled <a href="https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise" target="_blank">thermal noise</a> creates low <a href="https://en.wikipedia.org/wiki/Signal-to-noise_ratio" target="_blank">signal-to-noise ratios (SNR)</a> .</li>
+
+    <li><strong> Precision Capping </strong> : These drifts restrict RRAM crossbars strictly to highly quantised environments (e.g., 4-bit or 8-bit inference workloads).</li>
+
+</ul>
+
+<p>These physics govern edge capability constraints. The RRAM crossbars operate efficiently for fixed neural network weights, disqualifying them entirely from generalised, high-precision mathematical workloads.</p>
+
+<p><picture><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-5-wide.avif" type="image/avif"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-5-wide.webp" type="image/webp"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-5-wide.jpg" type="image/jpeg"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-5-medium.avif" type="image/avif"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-5-medium.webp" type="image/webp"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-5-medium.jpg" type="image/jpeg"><source srcset="/images/beyond-moores-law-the-economics-of-compute-5-mobile.avif" type="image/avif"><source srcset="/images/beyond-moores-law-the-economics-of-compute-5-mobile.webp" type="image/webp"><img src="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute-5-mobile.jpg" alt="Cost comparison -- generalised cloud TPU vs domain-specific on-premises silicon, including tape-out breakeven point" width="1292" height="703" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;" loading="lazy"></picture></p>
+
+<h3>The Software Paradigm Shift: Compiling for Heterogeneous Topology</h3>
+
+<p>Exotic physical architectures and on-die persistence require compilers programmed with explicit mappings to hardware topologies. A persistent memory pointer referencing a volatile address (stack or heap) instantiates a <a href="https://en.wikipedia.org/wiki/Dangling_pointer" target="_blank">dangling pointer</a> immediately following a power cycle.</p>
+
+<p>Relying exclusively on software abstractions like <a href="https://arxiv.org/abs/2204.03289v1" target="_blank">Persistent Memory Objects</a> , introduces severe structural vulnerabilities. Ensuring byte-addressable persistent memory safety requires merging logical constraints with two hardware-level enforcements:</p>
+
+<ul>
+
+    <li><strong> Logical Validation </strong> : Leveraging compile-time lifetime analysis, such as <a href="https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html" target="_blank">Rust&#x27;s borrow checker</a> , to secure cross-domain memory references.</li>
+
+    <li><strong> Physical Eviction Coordination </strong> : Evolving compilers into &quot;topology-aware&quot; engines that map logical lifetimes to physical CPU cache evictions.</li>
+
+</ul>
+
+<p>Achieving <a href="https://en.wikipedia.org/wiki/Crash_consistency" target="_blank">crash consistency</a> prevents data corruption across ungraceful power cycles. The compiler must inject precise hardware execution barriers (such as CLFLUSH or CLWB for cache line write-backs, paired with strict memory store fences) directly into the execution pipeline, guaranteeing byte persistence before power loss.</p>
+
+<p>To enforce these boundaries at compile time, the memory pipeline can leverage Rust&#x27;s phantom data and lifetime mechanics to strictly isolate non-volatile references:</p>
+
+<pre><code>/// A pointer pointing strictly to a location in Non-Volatile Memory.
+/// The `&#x27;p` lifetime constraint ensures this pointer cannot point to volatile stack/heap frames.
+#[derive(Clone, Copy, Debug)]
+pub struct NvPtr&lt;&#x27;p, T&gt; {
+    offset: u64,
+    _marker: PhantomData&lt;&amp;&#x27;p T&gt;,
+}</code></pre>
+
+<p>Syncing these compiler-enforced barriers with log-based atomic commits fundamentally alters memory pipelines. Because the <strong><em> &#x27;p </em></strong> lifetime guarantees that the underlying object graphs cannot safely point to transient volatile frames, high-overhead serialisation formats <a href="https://en.wikipedia.org/wiki/JSON" target="_blank"><strong> JSON </strong></a> , <a href="https://en.wikipedia.org/wiki/Protocol_Buffers" target="_blank"><strong> Protobuf </strong></a> ) become completely obsolete.</p>
+
+<p>Live, physically verified object graphs remain robust across sudden power losses, routing tasks directly to byte-addressable persistent memory tiers without serialisation latency.</p>
+
+<p><picture><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-6-wide.avif" type="image/avif"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-6-wide.webp" type="image/webp"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-6-wide.jpg" type="image/jpeg"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-6-medium.avif" type="image/avif"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-6-medium.webp" type="image/webp"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-6-medium.jpg" type="image/jpeg"><source srcset="/images/beyond-moores-law-the-economics-of-compute-6-mobile.avif" type="image/avif"><source srcset="/images/beyond-moores-law-the-economics-of-compute-6-mobile.webp" type="image/webp"><img src="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute-6-mobile.jpg" alt="Compilers injecting CLWB and store fences mapped against Rust lifetime constraints for persistent objects" width="1330" height="637" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;" loading="lazy"></picture></p>
+
+<h2>Conclusion &amp; Strategic Advice</h2>
+
+<p>The next era of performance scaling demands hybrid memory topologies that blend SRAM for <a href="https://en.wikipedia.org/wiki/CPU_cache" target="_blank">L1/L2 caches</a> , STT-MRAM for L3 persistence, and RRAM for localised inference weights. Real-world write endurance and fabrication yields at sub-10nm nodes introduce major commercial uncertainties, driving steep tape-out costs that demand precise deployment forecasts.</p>
+
+<p>The operational realities of modern compute divide strictly into two hardware trajectories:</p>
+
+<ul>
+
+    <li><strong> Hyperscale Acceleration </strong> : Datacenters adopting extreme environments governed by photonic matrices and cryogenic logic.</li>
+
+    <li><strong> Edge Persistence </strong> : Domain-specific endpoints scaled through localised, low-precision persistent arrays.</li>
+
+</ul>
+
+<p>Mapping software semantics directly to physical hardware interfaces drives unprecedented operational efficiency. Coordinating cache flushes and memory barriers directly at the compiler level transitions topology-aware compilation from an optional optimisation to a strict architectural necessity.</p>
+
+<p>Auditing internal compilers and memory management stacks immediately validates compatibility with heterogeneous, persistent physical topologies. For a deeper dive into verifying local execution pipelines on these topologies, proceed to the next instalment: Designing Cryptographic Signatures for AI-Generated Ledgers.</p>
+
+<p><picture><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-7-wide.avif" type="image/avif"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-7-wide.webp" type="image/webp"><source media="(min-width: 1200px)" srcset="/images/beyond-moores-law-the-economics-of-compute-7-wide.jpg" type="image/jpeg"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-7-medium.avif" type="image/avif"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-7-medium.webp" type="image/webp"><source media="(min-width: 600px)" srcset="/images/beyond-moores-law-the-economics-of-compute-7-medium.jpg" type="image/jpeg"><source srcset="/images/beyond-moores-law-the-economics-of-compute-7-mobile.avif" type="image/avif"><source srcset="/images/beyond-moores-law-the-economics-of-compute-7-mobile.webp" type="image/webp"><img src="https://potnoddle.github.io/images/beyond-moores-law-the-economics-of-compute-7-mobile.jpg" alt="Processor memory hierarchy scorecard (HPC vs Edge)" width="1376" height="700" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;" loading="lazy"></picture></p>
+
+<p>We are officially transitioning from generic processing to heterogeneous, topology-driven compute. 💬 How is your organisation preparing its infrastructure for the end of Moore&#x27;s Law? Drop your thoughts below and ♻️ share this post with your network!</p>
+
+<h3>Further Reading</h3>
+
+<ul>
+
+    <li><a href="https://www.intel.com/content/www/us/en/research/articles/stt-mram.html" target="_blank">Intel: Spin-Transfer Torque MRAM Technology</a></li>
+
+    <li><a href="https://www.tsmc.com/english/dedicatedFoundry/technology/embedded_memory" target="_blank">TSMC: Embedded Memory / RRAM Development</a></li>
+
+    <li><a href="https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html" target="_blank">Rust Documentation: Validating References with Lifetimes</a></li>
+
+</ul>
+
+<h3>More From Me</h3>
+
+<ul>
+
+    <li><a href="/2025/03/10/beyond-moores-law-2025.html">Beyond Moore&#x27;s Law 2025: What Lies Ahead!</a></li>
+
+    <li><a href="/2025/03/10/moores-law-2025.html">Moore&#x27;s Law 2025: Challenges Now And The Future</a></li>
+
+    <li><a href="/2025/02/22/majorana-microsoft-and-quantum-computers.html">Majorana, Microsoft, and Quantum Computers: Will They Replace Your Desktop?</a></li>
+
+    <li><a href="/2025/03/10/risc-v-and-china.html">RISC-V and China: Road to Technology Independence</a></li>
+
+</ul>
+
+</div>
+<hr style="margin-top: 30px; border: 0; border-top: 1px solid #eee;">
+          <p class="original-article" style="margin-top: 20px; font-style: italic; font-weight: 500; color: #555;">
+            Original Article: <a href="https://www.linkedin.com/pulse/beyond-moores-law-economics-compute-paul-graham-mdl9e" target="_blank" style="text-decoration: underline;">Read on LinkedIn</a>
+          </p><p class="post-hashtags" style="margin-top: 30px; font-weight: 600; color: #555;">#FutureOfCompute&nbsp;#Semiconductors&nbsp;#HardwareDesign&nbsp;#EdgeComputing&nbsp;#TechTrends&nbsp;</p></div>
+    </div>
+  </div><a class="u-url" href="/2026/07/06/beyond-moores-law-the-economics-of-compute.html" hidden></a>
+</article>
+
+
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Paul John Graham Blog</h2><div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list"><li><a href="/sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li>
+                <a href="https://www.linkedin.com/in/pauljgraham/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> <span>Linkedin</span></a>
+              </li><li>
+                <a href="https://pauljohngraham.substack.com/" target="_blank"><i class="fas fa-bookmark" aria-hidden="true"></i> <span>Substack</span></a>
+              </li></ul></div>
+    </div>
+
+    <div style="margin-top: 20px; font-size: 0.85rem; color: #888; border-top: 1px solid #e8e8e8; padding-top: 15px;">
+      &copy; 2026 Paul John Graham. All rights reserved. Content protected under a <a href="/LICENSE">Restrictive No-Derivative License</a>.
+    </div>
+
+  </div>
+</footer>
+<script src="/assets/js/accessibility.js" defer></script>
+</body>
+</html>

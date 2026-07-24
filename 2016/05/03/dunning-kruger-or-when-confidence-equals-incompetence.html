@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data: https://potnoddle.github.io  https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net;">
+  <title>Dunning-Kruger or when confidence equals incompetence - Paul John Graham Blog</title>
+  <style>.skip-link{position:absolute;top:-100px;left:0;z-index:9999;}</style>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+  <style>
+    /**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px;
+}
+
+/**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+/**
+ * Links
+ */
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(22.9483471074, 86.2541322314, 168.5516528926);
+}
+a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+.social-media-list a:hover {
+  text-decoration: none;
+}
+.social-media-list a:hover .username {
+  text-decoration: underline;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - 30px * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    max-width: -webkit-calc(800px - (30px));
+    max-width: calc(800px - (30px));
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/**
+ * Clearfix
+ */
+.footer-col-wrapper:after, .wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Icons
+ */
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #828282;
+  padding-right: 5px;
+  vertical-align: text-top;
+}
+
+.social-media-list li + li {
+  padding-top: 5px;
+}
+
+/**
+ * Tables
+ */
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: rgb(62.9, 62.9, 62.9);
+  border-collapse: collapse;
+  border: 1px solid #e8e8e8;
+}
+table tr:nth-child(even) {
+  background-color: rgb(247.3, 247.3, 247.3);
+}
+table th, table td {
+  padding: 9.999999999px 15px;
+}
+table th {
+  background-color: rgb(239.65, 239.65, 239.65);
+  border: 1px solid rgb(221.8, 221.8, 221.8);
+  border-bottom-color: rgb(201.4, 201.4, 201.4);
+}
+table td {
+  border: 1px solid #e8e8e8;
+}
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid rgb(66.25, 66.25, 66.25);
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+}
+.site-title, .site-title:visited {
+  color: rgb(66.25, 66.25, 66.25);
+}
+
+.site-nav {
+  float: right;
+  line-height: 54px;
+}
+.site-nav .nav-trigger {
+  display: none;
+}
+.site-nav .menu-icon {
+  display: none;
+}
+.site-nav .page-link {
+  color: #111;
+  line-height: 1.5;
+}
+.site-nav .page-link:not(:last-child) {
+  margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+  }
+  .site-nav label[for=nav-trigger] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .site-nav .menu-icon > svg {
+    fill: rgb(66.25, 66.25, 66.25);
+  }
+  .site-nav input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+  .site-nav .page-link {
+    display: block;
+    margin-left: 20px;
+    padding: 5px 10px;
+  }
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: #828282;
+  margin-left: -15px;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
+  width: calc(35% - 30px / 2);
+}
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - 30px / 2);
+}
+
+.footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - 30px / 2);
+}
+
+@media screen and (max-width: 800px) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - 30px / 2);
+  }
+  .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
+  }
+}
+/**
+ * Page content
+ */
+.page-content {
+  padding: 30px 0;
+  flex: 1;
+}
+
+.page-heading {
+  font-size: 32px;
+}
+
+.post-list-heading {
+  font-size: 28px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+.post-list > li {
+  margin-bottom: 30px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #828282;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+@media screen and (max-width: 800px) {
+  .post-title {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+  margin-bottom: 30px;
+}
+.post-content h2 {
+  font-size: 32px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h2 {
+    font-size: 28px;
+  }
+}
+.post-content h3 {
+  font-size: 26px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h3 {
+    font-size: 22px;
+  }
+}
+.post-content h4 {
+  font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h4 {
+    font-size: 18px;
+  }
+}
+
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+  background: #fff;
+}
+.highlighter-rouge .highlight {
+  background: #eef;
+}
+.highlight .c {
+  color: #998;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .k {
+  font-weight: bold;
+}
+.highlight .o {
+  font-weight: bold;
+}
+.highlight .cm {
+  color: #998;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #998;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .gd {
+  color: #000;
+  background-color: #fdd;
+}
+.highlight .gd .x {
+  color: #000;
+  background-color: #faa;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gr {
+  color: #a00;
+}
+.highlight .gh {
+  color: #999;
+}
+.highlight .gi {
+  color: #000;
+  background-color: #dfd;
+}
+.highlight .gi .x {
+  color: #000;
+  background-color: #afa;
+}
+.highlight .go {
+  color: #888;
+}
+.highlight .gp {
+  color: #555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaa;
+}
+.highlight .gt {
+  color: #a00;
+}
+.highlight .kc {
+  font-weight: bold;
+}
+.highlight .kd {
+  font-weight: bold;
+}
+.highlight .kp {
+  font-weight: bold;
+}
+.highlight .kr {
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #458;
+  font-weight: bold;
+}
+.highlight .m {
+  color: #099;
+}
+.highlight .s {
+  color: #d14;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .nb {
+  color: #0086B3;
+}
+.highlight .nc {
+  color: #458;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne {
+  color: #900;
+  font-weight: bold;
+}
+.highlight .nf {
+  color: #900;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow {
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbb;
+}
+.highlight .mf {
+  color: #099;
+}
+.highlight .mh {
+  color: #099;
+}
+.highlight .mi {
+  color: #099;
+}
+.highlight .mo {
+  color: #099;
+}
+.highlight .sb {
+  color: #d14;
+}
+.highlight .sc {
+  color: #d14;
+}
+.highlight .sd {
+  color: #d14;
+}
+.highlight .s2 {
+  color: #d14;
+}
+.highlight .se {
+  color: #d14;
+}
+.highlight .sh {
+  color: #d14;
+}
+.highlight .si {
+  color: #d14;
+}
+.highlight .sx {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #d14;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .bp {
+  color: #999;
+}
+.highlight .vc {
+  color: #008080;
+}
+.highlight .vg {
+  color: #008080;
+}
+.highlight .vi {
+  color: #008080;
+}
+.highlight .il {
+  color: #099;
+}
+
+/*# sourceMappingURL=main.css.map */
+    /* Global responsive image styles to prevent Cumulative Layout Shift (CLS) */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FontAwesome font-display overrides */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2') format('woff2');
+}
+
+/* Skip to Content Link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #005a9c;
+  color: white !important;
+  padding: 10px 20px;
+  z-index: 9999;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom-right-radius: 5px;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #ffd54f !important;
+}
+
+/* Global Focus Styles */
+*:focus-visible {
+  outline: 3px solid #005a9c !important;
+  outline-offset: 2px !important;
+}
+
+/* Accessibility Control Panel (Widget) */
+.a11y-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.a11y-toggle-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #005a9c;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.a11y-toggle-btn:hover {
+  transform: scale(1.05);
+  background-color: #004070;
+}
+.a11y-panel {
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 320px;
+  max-height: 80vh;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 20px;
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #333;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.a11y-panel.open {
+  display: block;
+}
+.a11y-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.a11y-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111;
+}
+.a11y-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  padding: 4px;
+}
+.a11y-close-btn:hover {
+  color: #000;
+}
+.a11y-section {
+  margin-bottom: 20px;
+}
+.a11y-section h3 {
+  font-size: 0.95rem;
+  margin: 0 0 10px 0;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.a11y-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.a11y-btn {
+  background: #f5f5f7;
+  border: 1px solid #d2d2d7;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+}
+.a11y-btn:hover {
+  background: #e8e8ed;
+}
+.a11y-btn.active {
+  background: #005a9c;
+  color: white;
+  border-color: #005a9c;
+}
+.a11y-btn-full {
+  grid-column: span 2;
+}
+
+/* Contrast Theme Applications */
+body.a11y-theme-dark {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+body.a11y-theme-dark .site-header,
+body.a11y-theme-dark .site-footer {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+body.a11y-theme-dark a,
+body.a11y-theme-dark .post-link {
+  color: #90caf9 !important;
+}
+body.a11y-theme-dark .post-link:hover,
+body.a11y-theme-dark a:hover {
+  color: #e3f2fd !important;
+  text-decoration: underline !important;
+}
+body.a11y-theme-dark .post-meta,
+body.a11y-theme-dark .post-item-content p {
+  color: #aaa !important;
+}
+body.a11y-theme-dark .post-item {
+  border-color: #333 !important;
+}
+
+body.a11y-theme-light {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+body.a11y-theme-light a {
+  color: #004488 !important;
+}
+body.a11y-theme-light .site-header,
+body.a11y-theme-light .site-footer {
+  background-color: #f8f9fa !important;
+  border-color: #000000 !important;
+}
+body.a11y-theme-light .post-item {
+  border-color: #000000 !important;
+}
+
+/* Dyslexia theme styling */
+body.a11y-theme-dyslexia {
+  background-color: #fbf5e2 !important;
+  color: #2b1d0c !important;
+}
+body.a11y-theme-dyslexia .site-header,
+body.a11y-theme-dyslexia .site-footer {
+  background-color: #f7eed0 !important;
+  border-color: #e1cf9b !important;
+}
+body.a11y-theme-dyslexia a {
+  color: #b05c00 !important;
+}
+body.a11y-theme-dyslexia .post-item {
+  border-color: #e1cf9b !important;
+}
+
+/* Fonts styling */
+body.a11y-font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+body.a11y-font-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+body.a11y-font-dyslexic {
+  /* Using a combination of Comic Neue and custom spacing rules to emulate OpenDyslexic characteristics */
+  font-family: "Comic Neue", "Comic Sans MS", cursive, sans-serif !important;
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+
+/* Sizes styling */
+body.a11y-size-large {
+  font-size: 1.2rem !important;
+}
+body.a11y-size-large h1 { font-size: 2.2rem !important; }
+body.a11y-size-large h2 { font-size: 1.8rem !important; }
+body.a11y-size-large h3 { font-size: 1.5rem !important; }
+
+body.a11y-size-xlarge {
+  font-size: 1.4rem !important;
+}
+body.a11y-size-xlarge h1 { font-size: 2.5rem !important; }
+body.a11y-size-xlarge h2 { font-size: 2.1rem !important; }
+body.a11y-size-xlarge h3 { font-size: 1.8rem !important; }
+
+/* Spacing styling */
+body.a11y-spacing-spacious {
+  line-height: 1.95 !important;
+  letter-spacing: 0.08em !important;
+  word-spacing: 0.12em !important;
+}
+
+/* Reading Progress Bar */
+.reading-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: transparent;
+  z-index: 10000;
+}
+.reading-progress-bar {
+  height: 100%;
+  background: #005a9c;
+  width: 0%;
+  transition: width 0.1s ease-out;
+}
+body.a11y-theme-dark .reading-progress-bar {
+  background: #ffd54f;
+}
+body.a11y-theme-dyslexia .reading-progress-bar {
+  background: #b05c00;
+}
+
+/* Text-to-speech visual highlighter */
+.tts-highlight {
+  background-color: rgba(255, 235, 59, 0.45);
+  border-bottom: 2px solid #fbc02d;
+  border-radius: 2px;
+  transition: background-color 0.15s ease;
+}
+body.a11y-theme-dark .tts-highlight {
+  background-color: rgba(255, 213, 79, 0.3);
+  border-bottom-color: #ffd54f;
+  color: white !important;
+}
+
+/* Search engine UI styles on Homepage */
+.search-container {
+  margin: 2rem 0;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+body.a11y-theme-dark .search-container {
+  background: #1e1e1e;
+  box-shadow: none;
+  border: 1px solid #333;
+}
+body.a11y-theme-dyslexia .search-container {
+  background: #f7eed0;
+  border: 1px solid #e1cf9b;
+}
+
+.search-input-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.search-input-wrapper i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.search-input:focus {
+  border-color: #005a9c;
+  outline: none;
+}
+body.a11y-theme-dark .search-input {
+  background: #2b2b2b;
+  color: white;
+  border-color: #444;
+}
+
+.tags-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  min-height: 40px; /* Reserves space for tag buttons to prevent layout shifts (CLS) */
+}
+.tag-btn {
+  background: white;
+  border: 1px solid #d2d2d7;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.tag-btn:hover {
+  background: #e8e8ed;
+}
+.tag-btn.active {
+  background: #005a9c;
+  color: white;
+  border-color: #005a9c;
+}
+body.a11y-theme-dark .tag-btn {
+  background: #2b2b2b;
+  color: #e0e0e0;
+  border-color: #444;
+}
+body.a11y-theme-dark .tag-btn.active {
+  background: #ffd54f;
+  color: black;
+  border-color: #ffd54f;
+}
+body.a11y-theme-dyslexia .tag-btn {
+  background: #fbf5e2;
+  color: #2b1d0c;
+  border-color: #e1cf9b;
+}
+body.a11y-theme-dyslexia .tag-btn.active {
+  background: #b05c00;
+  color: white;
+  border-color: #b05c00;
+}
+
+.search-meta-info {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+}
+body.a11y-theme-dark .search-meta-info {
+  color: #aaa;
+}
+
+/* Post Table of Contents (TOC) layout styles */
+.post-layout-container {
+  display: flex;
+  flex-direction: column;
+}
+.post-toc-column {
+  display: none; /* Hide on mobile to prevent layout shifts as TOC loads asynchronously */
+}
+@media (min-width: 900px) {
+  .post-layout-container {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .post-content-column {
+    flex: 1;
+    min-width: 0; /* Prevents overflow */
+  }
+  .post-toc-column {
+    display: block; /* Show as sidebar on desktop */
+    flex: 0 0 240px;
+    position: sticky;
+    top: 30px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .post-toc-column:has(nav) {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  body.a11y-theme-dark .post-toc-column:has(nav) {
+    background: #1e1e1e;
+    border-color: #333;
+  }
+  body.a11y-theme-dyslexia .post-toc-column:has(nav) {
+    background: #f7eed0;
+    border-color: #e1cf9b;
+  }
+}
+
+.post-toc h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+body.a11y-theme-dark .post-toc h2 {
+  color: #ccc;
+  border-color: #333;
+}
+.post-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.post-toc li {
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+.post-toc-h2 {
+  font-weight: 600;
+}
+.post-toc-h3 {
+  padding-left: 12px;
+  color: #666;
+}
+body.a11y-theme-dark .post-toc-h3 a {
+  color: #aaa !important;
+}
+.post-toc a {
+  text-decoration: none;
+}
+.post-toc a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+  .post-layout-container {
+    gap: 40px;
+  }
+  .post-toc-column {
+    flex: 0 0 280px;
+  }
+}
+
+/* Screen reader only utility class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Tag filter list expandable toggle button */
+.tag-toggle-btn {
+  background: transparent;
+  border: 1px dashed #005a9c;
+  color: #005a9c;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+}
+.tag-toggle-btn:hover {
+  background: rgba(0, 90, 156, 0.05);
+  border-style: solid;
+}
+body.a11y-theme-dark .tag-toggle-btn {
+  border-color: #ffd54f;
+  color: #ffd54f;
+}
+body.a11y-theme-dark .tag-toggle-btn:hover {
+  background: rgba(255, 213, 79, 0.1);
+}
+body.a11y-theme-dyslexia .tag-toggle-btn {
+  border-color: #b05c00;
+  color: #b05c00;
+}
+body.a11y-theme-dyslexia .tag-toggle-btn:hover {
+  background: rgba(176, 92, 0, 0.05);
+}
+
+/* Ensure post-meta date has sufficient contrast in the default light theme */
+.post-meta {
+  color: #5f5f5f;
+}
+
+/* Footer and RSS Subscribe Contrast Overrides */
+.site-footer,
+.site-footer p,
+.site-footer .contact-list,
+.site-footer .footer-col,
+.site-footer .p-name {
+  color: #444444 !important;
+}
+
+.site-footer a,
+.rss-subscribe a {
+  color: #005a9c !important;
+  text-decoration: underline !important;
+}
+
+.rss-subscribe {
+  color: #444444 !important;
+}
+
+/* Theme-specific Overrides */
+body.a11y-theme-dark .site-footer,
+body.a11y-theme-dark .site-footer p,
+body.a11y-theme-dark .site-footer .contact-list,
+body.a11y-theme-dark .site-footer .footer-col,
+body.a11y-theme-dark .site-footer .p-name,
+body.a11y-theme-dark .rss-subscribe {
+  color: #e0e0e0 !important;
+}
+
+body.a11y-theme-dark .site-footer a,
+body.a11y-theme-dark .rss-subscribe a {
+  color: #80b3ff !important;
+}
+
+body.a11y-theme-light .site-footer,
+body.a11y-theme-light .site-footer p,
+body.a11y-theme-light .site-footer .contact-list,
+body.a11y-theme-light .site-footer .footer-col,
+body.a11y-theme-light .site-footer .p-name,
+body.a11y-theme-light .rss-subscribe {
+  color: #111111 !important;
+}
+
+body.a11y-theme-light .site-footer a,
+body.a11y-theme-light .rss-subscribe a {
+  color: #004488 !important;
+}
+
+body.a11y-theme-dyslexia .site-footer,
+body.a11y-theme-dyslexia .site-footer p,
+body.a11y-theme-dyslexia .site-footer .contact-list,
+body.a11y-theme-dyslexia .site-footer .footer-col,
+body.a11y-theme-dyslexia .site-footer .p-name,
+body.a11y-theme-dyslexia .rss-subscribe {
+  color: #2b1d0c !important;
+}
+
+body.a11y-theme-dyslexia .site-footer a,
+body.a11y-theme-dyslexia .rss-subscribe a {
+  color: #b05c00 !important;
+}
+
+/* Core article and page link overrides for contrast and usability */
+.post-content a,
+.post-toc-column a,
+.p-author,
+.original-article a,
+.rss-subscribe a,
+.breadcrumb a {
+  color: #005a9c !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+}
+
+.post-content a:hover,
+.post-content a:focus,
+.post-toc-column a:hover,
+.post-toc-column a:focus,
+.p-author:hover,
+.p-author:focus,
+.original-article a:hover,
+.original-article a:focus,
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  color: #003d6b !important;
+}
+
+/* Ensure post meta text has sufficient contrast */
+.post-meta,
+.post-meta time {
+  color: #555555 !important;
+}
+
+/* Ensure these links adjust correctly when dark or dyslexia themes are active */
+body.a11y-theme-dark .post-content a,
+body.a11y-theme-dark .post-toc-column a,
+body.a11y-theme-dark .p-author,
+body.a11y-theme-dark .original-article a,
+body.a11y-theme-dark .breadcrumb a {
+  color: #90caf9 !important;
+}
+body.a11y-theme-dark .post-content a:hover,
+body.a11y-theme-dark .post-toc-column a:hover,
+body.a11y-theme-dark .p-author:hover,
+body.a11y-theme-dark .original-article a:hover,
+body.a11y-theme-dark .breadcrumb a:hover {
+  color: #e3f2fd !important;
+}
+body.a11y-theme-dark .post-meta,
+body.a11y-theme-dark .post-meta time {
+  color: #aaaaaa !important;
+}
+
+body.a11y-theme-dyslexia .post-content a,
+body.a11y-theme-dyslexia .post-toc-column a,
+body.a11y-theme-dyslexia .p-author,
+body.a11y-theme-dyslexia .original-article a,
+body.a11y-theme-dyslexia .breadcrumb a {
+  color: #b05c00 !important;
+}
+body.a11y-theme-dyslexia .post-content a:hover,
+body.a11y-theme-dyslexia .post-toc-column a:hover,
+body.a11y-theme-dyslexia .p-author:hover,
+body.a11y-theme-dyslexia .original-article a:hover,
+body.a11y-theme-dyslexia .breadcrumb a:hover {
+  color: #8a4800 !important;
+}
+body.a11y-theme-dyslexia .post-meta,
+body.a11y-theme-dyslexia .post-meta time {
+  color: #3b2a14 !important;
+}
+
+/* Footer Social Icon Styling, Alignment & Underline Fix */
+.social-media-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.social-media-list li {
+  margin: 0;
+}
+.social-media-list li + li {
+  padding-top: 0px;
+}
+.social-media-list a {
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.social-media-list a span {
+  text-decoration: underline !important;
+}
+.social-media-list a:hover span {
+  text-decoration: underline !important;
+}
+body.a11y-theme-dark .social-media-list a {
+  color: #90caf9 !important;
+}
+body.a11y-theme-dyslexia .social-media-list a {
+  color: #b05c00 !important;
+}
+
+/* Ensure blockquotes and their child elements have sufficient contrast */
+blockquote {
+  color: #444444 !important;
+  border-left: 4px solid #005a9c !important;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-style: italic;
+}
+blockquote p, blockquote em {
+  color: #444444 !important;
+}
+
+/* Theme overrides for blockquotes */
+body.a11y-theme-dark blockquote {
+  color: #e0e0e0 !important;
+  border-left-color: #ffd54f !important;
+  background: #1e1e1e;
+}
+body.a11y-theme-dark blockquote p, body.a11y-theme-dark blockquote em {
+  color: #e0e0e0 !important;
+}
+
+body.a11y-theme-dyslexia blockquote {
+  color: #2b1d0c !important;
+  border-left-color: #b05c00 !important;
+  background: #f7eed0;
+}
+body.a11y-theme-dyslexia blockquote p, body.a11y-theme-dyslexia blockquote em {
+  color: #2b1d0c !important;
+}
+
+/* Post Banner Styles - Moved here to prevent layout shifts (CLS) on load */
+.post-banner-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.post-banner {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+@media (min-width: 600px) {
+  .post-banner {
+    aspect-ratio: 21 / 9;
+  }
+}
+@media (min-width: 1200px) {
+  .post-banner {
+    aspect-ratio: 32 / 9;
+  }
+}
+
+/* Home Post List Layout Styles - Moved here to prevent layout shifts (CLS) on load */
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+.post-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+@media (min-width: 600px) {
+  .post-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+.post-banner-link {
+  flex: 0 0 200px;
+  margin-bottom: 15px;
+}
+@media (min-width: 600px) {
+  .post-banner-link {
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+}
+.post-list-banner {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.post-list-banner:hover {
+  transform: scale(1.02);
+}
+.post-item-content {
+  flex: 1;
+}
+.post-item h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Custom Icon Font Classes (Subsetted FontAwesome 6 Free & Brands classes to prevent unused CSS issues) */
+.fa, .fas, .fab, .far {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fas, .fa {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.fab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+
+.fa-bookmark::before { content: "\f02e"; }
+.fa-linkedin::before { content: "\f08c"; }
+.fa-chevron-down::before { content: "\f078"; }
+.fa-chevron-up::before { content: "\f077"; }
+.fa-home::before { content: "\f015"; }
+.fa-folder::before { content: "\f07b"; }
+.fa-file-alt::before { content: "\f15c"; }
+.fa-newspaper::before { content: "\f1ea"; }
+.fa-universal-access::before { content: "\f29a"; }
+.fa-sliders-h::before { content: "\f1de"; }
+.fa-times::before { content: "\f00d"; }
+.fa-play::before { content: "\f04b"; }
+.fa-stop::before { content: "\f04d"; }
+.fa-tachometer-alt::before { content: "\f3fd"; }
+
+  </style>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin><!-- Standard SEO Meta Tags --><meta name="description" content="In this post, I wish to return to discussing a non-technical phenomenon."><meta name="author" content="Paul Graham"><link rel="canonical" href="https://potnoddle.github.io/2016/05/03/dunning-kruger-or-when-confidence-equals-incompetence.html">
+
+<!-- OpenGraph Metadata -->
+<meta property="og:title" content="Dunning-Kruger or when confidence equals incompetence - Paul John Graham Blog">
+<meta property="og:locale" content="en_GB"><meta property="og:description" content="In this post, I wish to return to discussing a non-technical phenomenon."><meta property="og:url" content="https://potnoddle.github.io/2016/05/03/dunning-kruger-or-when-confidence-equals-incompetence.html">
+<meta property="og:site_name" content="Paul John Graham Blog"><meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-05-03T16:48:00+00:00"><meta property="article:author" content="https://potnoddle.github.io/"><meta property="og:image" content="https://potnoddle.github.io/images/dunning-kruger-or-when-confidence-equals-incompetence.jpeg"><!-- Twitter Card Metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dunning-Kruger or when confidence equals incompetence - Paul John Graham Blog"><meta name="twitter:description" content="In this post, I wish to return to discussing a non-technical phenomenon."><meta name="twitter:image" content="https://potnoddle.github.io/images/dunning-kruger-or-when-confidence-equals-incompetence.jpeg"><!-- JSON-LD Structured Schema (Generative Engine Optimization) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Dunning-Kruger or when confidence equals incompetence",
+  "description": "In this post, I wish to return to discussing a non-technical phenomenon.",
+  "datePublished": "2016-05-03T16:48:00+00:00",
+  "dateModified": "2016-05-03T16:48:00+00:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://potnoddle.github.io/2016/05/03/dunning-kruger-or-when-confidence-equals-incompetence.html"
+  },
+  "image": "https://potnoddle.github.io/images/dunning-kruger-or-when-confidence-equals-incompetence.jpeg",
+  "dependencies": "Optimizely Content Modeling Engine",
+  "author": {
+    "@type": "Person",
+    "name": "Paul John Graham",
+    "givenName": "Paul John",
+    "familyName": "Graham",
+    "url": "https://potnoddle.github.io/",
+    "jobTitle": "Technical Director & Enterprise Architect",
+    "description": "Expert in Optimizely DXP, Sovereign AI, and Model Context Protocol.",
+    "sameAs": [
+      "https://www.linkedin.com/in/pauljgraham/",
+      "https://pauljohngraham.substack.com/"
+    ],
+    "knowsAbout": [
+      "Optimizely CMS",
+      "Optimizely DXP",
+      "Model Context Protocol (MCP)",
+      "Sovereign AI Architecture",
+      "Enterprise Web Development",
+      "Generative Engine Optimisation (GEO)",
+      "Answer Engine Optimisation (AEO)"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Paul John Graham Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://potnoddle.github.io/images/logo.png"
+    }
+  }
+}
+</script>
+<link type="application/atom+xml" rel="alternate" href="https://potnoddle.github.io/feed.xml" title="Paul John Graham Blog" /><!-- Google Tag Manager (Lazy Loaded) -->
+<script>
+(function() {
+  var gtmLoaded = false;
+  function loadGTM() {
+    if (gtmLoaded) return;
+    gtmLoaded = true;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WVKN2V4K');
+    // Remove listeners
+    window.removeEventListener('scroll', loadGTM);
+    window.removeEventListener('mousemove', loadGTM);
+    window.removeEventListener('touchstart', loadGTM);
+    window.removeEventListener('keydown', loadGTM);
+  }
+  // Add listeners
+  window.addEventListener('scroll', loadGTM, { passive: true });
+  window.addEventListener('mousemove', loadGTM, { passive: true });
+  window.addEventListener('touchstart', loadGTM, { passive: true });
+  window.addEventListener('keydown', loadGTM, { passive: true });
+  // Fallback timeout
+  setTimeout(loadGTM, 4000);
+})();
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) GA4 (Lazy Loaded) -->
+<script>
+(function() {
+  var gaLoaded = false;
+  function loadGA() {
+    if (gaLoaded) return;
+    gaLoaded = true;
+    
+    // Inject the script
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=G-15SG2G9DET";
+    document.head.appendChild(s);
+    
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-15SG2G9DET');
+    
+    // Remove listeners
+    window.removeEventListener('scroll', loadGA);
+    window.removeEventListener('mousemove', loadGA);
+    window.removeEventListener('touchstart', loadGA);
+    window.removeEventListener('keydown', loadGA);
+  }
+  
+  window.addEventListener('scroll', loadGA, { passive: true });
+  window.addEventListener('mousemove', loadGA, { passive: true });
+  window.addEventListener('touchstart', loadGA, { passive: true });
+  window.addEventListener('keydown', loadGA, { passive: true });
+  // Fallback timeout
+  setTimeout(loadGA, 4000);
+})();
+</script>
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVKN2V4K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a href="#main-content" class="skip-link">Skip to main content</a><header class="site-header">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Paul John Graham Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.3,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/sitemap.html">Sitemap</a></div>
+      </nav></div>
+</header>
+<main id="main-content" class="page-content" role="main" aria-label="Content">
+    <div class="wrapper">
+      <div class="reading-progress-container" aria-hidden="true">
+  <div class="reading-progress-bar"></div>
+</div>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-top: 15px; margin-bottom: 10px; font-size: 0.95rem; color: #555;">
+    <a href="/">Home</a> &gt; 
+    <a href="/2016/">2016</a> &gt; 
+    <a href="/2016/05/">May</a>
+  </nav>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Dunning-Kruger or when confidence equals incompetence</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2016-05-03T16:48:00+00:00" itemprop="datePublished">
+        May 3, 2016
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="p-author h-card" itemprop="name url" href="https://www.linkedin.com/in/pauljgraham/" target="_blank">Paul Graham</a>
+          </span></p>
+  </header>
+
+  
+    <div class="post-banner-container">
+      <picture>
+        
+          
+          <source media="(min-width: 1200px)" srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-wide.avif" type="image/avif" width="1200" height="338">
+          <source media="(min-width: 1200px)" srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-wide.webp" type="image/webp" width="1200" height="338">
+          <source media="(min-width: 1200px)" srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-wide.jpeg" type="image/jpeg" width="1200" height="338">
+        
+        
+          
+          <source media="(min-width: 600px)" srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-medium.avif" type="image/avif" width="900" height="386">
+          <source media="(min-width: 600px)" srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-medium.webp" type="image/webp" width="900" height="386">
+          <source media="(min-width: 600px)" srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-medium.jpeg" type="image/jpeg" width="900" height="386">
+        
+        
+          
+          <source srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-mobile.avif" type="image/avif" width="600" height="338">
+          <source srcset="/images/dunning-kruger-or-when-confidence-equals-incompetence-mobile.webp" type="image/webp" width="600" height="338">
+          <img itemprop="image" src="/images/dunning-kruger-or-when-confidence-equals-incompetence-mobile.jpeg" alt="Dunning-Kruger or when confidence equals incompetence" class="post-banner" decoding="async" fetchpriority="high" width="600" height="338">
+        
+      </picture>
+    </div>
+  
+
+  <div class="post-layout-container">
+    <aside class="post-toc-column">
+      <!-- Table of contents will be generated here by JS -->
+    </aside>
+    <div class="post-content-column">
+      <div class="post-content e-content" itemprop="articleBody" id="article-body">
+        <h2>Introduction</h2>
+<p>In this post, I wish to return to discussing a non-technical phenomenon. Drawing on my experience working in digital, I will introduce the Dunning-Kruger Effect and argue that understanding it is critical to our modern, fast-moving lives.</p>
+<p>Inspired by the real-life story of a bank robber, <a href="http://opinionator.blogs.nytimes.com/2010/06/20/the-anosognosics-dilemma-1/">McArthur Wheeler</a>, who hid his face from security cameras with lemon juice because he knew lemon juice could be used as invisible ink. Naturally, this didn't work, and he was recognized and caught the same day.</p>
+<p>This incident inspired David Dunning and Justin Kruger to write the scholarly piece "<a href="http://psych.colorado.edu/~vanboven/teaching/p7536_heurbias/p7536_readings/kruger_dunning.pdf">Unskilled and Unaware of It</a>" which showed how people will fail to correctly assess their level of competence in a test, both before and after. In particular, those with the lowest skill level massively overestimated their ability, while the most skilled were too cautious.</p>
+<p><img src="https://potnoddle.github.io/banners/dunning-kruger-chart.png" alt="Dunning Kruger chart" loading="lazy">&lt;h3&gt;Unknown unknowns&lt;/h3&gt;</p>
+<p>There are several explanations for this. Firstly, those with the highest skill level can suffer from the <a href="https://en.wikipedia.org/wiki/Impostor_syndrome">Impostor syndrome</a>, a belief that they are not as skilled as others think they are. Also, it's hard to gauge your expertise concerning others correctly. Finally, those with the lowest skill level lack the knowledge to estimate a task's complexity correctly in the first place.</p>
+<p>Or, in the words of Dunning and Kruger, for a given task, less skilled people will:</p>
+<ul>
+<li>
+<p>fail to recognize their lack of skill</p>
+</li>
+<li>
+<p>fail to recognize the extent of their inadequacy</p>
+</li>
+<li>
+<p>fail to gauge the skill of others accurately</p>
+</li>
+<li>
+<p>recognize and acknowledge their lack of skill only <em>after</em> training</p>
+</li>
+</ul>
+<h3>As seen elsewhere</h3>
+<p>This concept isn't new, and examples can be found throughout philosophy, from the writings of <a href="https://en.wikipedia.org/wiki/Confucius">Confucius</a>, Plato, and Charles Darwin to Bertrand Russel and even Shakespeare.</p>
+<p>"The Foole doth thinke he is wise, but the wiseman knowes himselfe to be a Foole" <em><a href="https://en.wikipedia.org/wiki/As_You_Like_It">As You Like It</a></em></p>
+<p>Here, the idea is that knowing your limits is critical to dispelling your ignorance.</p>
+<h3>A little knowledge is a dangerous thing</h3>
+<p>Clients are inherently in a position of strength and are, naturally, looking for the best value. This leaves them open to overconfidence in their demands and ignorant of limitations. Moreover, those who have contact with clients can also lack the required knowledge, often agreeing to unattainable features and deadlines.</p>
+<p>Also, knowledge differs between people. This, combined with cognitive effects like confirmation bias, can produce widely different expectations, leading to "over-promising and under-delivering" and incorrect deliverables. This is understandable, as no one person can be a master of all things, but it's exacerbated in Digital by the ever-changing environment.</p>
+<h2>Conclusion</h2>
+<p>So, look closer next time you're dealing with someone excessively confident. Remember that confidence is a poor marker of competence. However, if you're not yet concerned, let me raise the stakes. Psychopaths are known for their confidence and ability to manipulate without empathy.</p>
+<p>"˜One thing only I know, and that is that I know nothing'. <a href="https://en.wikipedia.org/wiki/Socrates">Socrates</a></p>
+<p>For those who are considered Gurus, don't despair. Be honest and humble and say you want to do more research to give the best response. Never be pushed into a rash decision; say you'll get back to them and that the best advice takes time. Finally, never delay bad news; be open and honest. We all make mistakes, and people respond well to humility.</p>
+<p>On the other hand, we all need to remember how complex and fast-moving industries like digital are. This requires constantly investing in employee education and forcing management to re-engage with their staff. I've found that most problems are created by those who lack knowledge but hold power.</p>
+<p><em>Please feel free to like, share or comment on this post and leave feedback in the comments below. Also, please check out some posts that are similar to mine.</em></p>
+<p><em><a href="https://potnoddle.github.io/2016/03/24/managing-decision-fatigue-for-technical-directors-and-project-managers.html">Managing decision fatigue</a></em></p>
+<p><em><a href="https://potnoddle.github.io/2016/04/10/how-you-can-utilise-flow-to-ensure-happy-and-productive-developers.html">Utilizing Flow</a></em></p>
+<p><em><a href="https://potnoddle.github.io/2016/02/17/how-context-switching-destroys-developers-productivity-and-how-to-fix-it.html">Understanding Context Shifting</a></em></p>
+<hr style="margin-top: 30px; border: 0; border-top: 1px solid #eee;">
+          <p class="original-article" style="margin-top: 20px; font-style: italic; font-weight: 500; color: #555;">
+            Original Article: <a href="https://www.linkedin.com/pulse/dunning-kruger-when-confidence-equals-incompetence-paul-graham/" target="_blank" style="text-decoration: underline;">Read on LinkedIn</a>
+          </p><p class="post-hashtags" style="margin-top: 30px; font-weight: 600; color: #555;">#Psychology&nbsp;#CognitiveBias&nbsp;#Self-Awareness&nbsp;</p></div>
+    </div>
+  </div><a class="u-url" href="/2016/05/03/dunning-kruger-or-when-confidence-equals-incompetence.html" hidden></a>
+</article>
+
+
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Paul John Graham Blog</h2><div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list"><li><a href="/sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li>
+                <a href="https://www.linkedin.com/in/pauljgraham/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> <span>Linkedin</span></a>
+              </li><li>
+                <a href="https://pauljohngraham.substack.com/" target="_blank"><i class="fas fa-bookmark" aria-hidden="true"></i> <span>Substack</span></a>
+              </li></ul></div>
+    </div>
+
+    <div style="margin-top: 20px; font-size: 0.85rem; color: #888; border-top: 1px solid #e8e8e8; padding-top: 15px;">
+      &copy; 2026 Paul John Graham. All rights reserved. Content protected under a <a href="/LICENSE">Restrictive No-Derivative License</a>.
+    </div>
+
+  </div>
+</footer>
+<script src="/assets/js/accessibility.js" defer></script>
+</body>
+</html>

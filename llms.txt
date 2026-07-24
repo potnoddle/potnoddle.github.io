@@ -1,0 +1,220 @@
+# Paul John Graham Blog
+> An archive of articles from LinkedIn and Substack by Paul John Graham, covering software development, API design, search engine indexing, and technology architecture.
+
+This file provides a clean, markdown-formatted directory of the site's content, specifically optimized for Large Language Models (LLMs) and agentic web validators/crawlers.
+
+## Navigation & Feeds
+
+- [Home Page](https://potnoddle.github.io/): Main homepage.
+- [Full Archive (TXT)](https://potnoddle.github.io/llms-full.txt): Complete full-text archive of all posts for offline or batch AI consumption.
+- [Sitemap (XML)](https://potnoddle.github.io/sitemap.xml): Machine-readable XML sitemap.
+- [Sitemap (TXT)](https://potnoddle.github.io/sitemap.txt): Plain-text URL list.
+- [RSS Feed](https://potnoddle.github.io/feed.xml): XML RSS feed of all articles.
+
+## Social Links
+
+- [LinkedIn Profile](https://www.linkedin.com/in/pauljgraham/): Paul Graham's LinkedIn.
+- [Substack Newsletter](https://pauljohngraham.substack.com/): Substack newsletter.
+
+## Articles Archive
+
+Below is the complete index of articles in chronological order (most recent first):
+
+- [Agentic CMS: Optimizely's Roadmap Signals for 2026–27](https://potnoddle.github.io/2026/07/22/agentic-cms-optimizelys-roadmap-signals-for-202627.html): Published on July 22, 2026.
+- [The Blueprint RISC-V: Unified Memory, Many-Core Scaling, and Geopolitical Sovereignty](https://potnoddle.github.io/2026/07/20/the-blueprint-risc-v-unified-memory-many-core-scaling-and-geopolitical-sovereignty.html): Published on July 20, 2026.
+- [Optimizely Opal Agents: Operational Guide to Orchestration Pipelines](https://potnoddle.github.io/2026/07/17/optimizely-opal-agents-operational-guide-to-orchestration-pipelines.html): Published on July 17, 2026.
+- [Edge-Model Shift: Escaping the Token Tax](https://potnoddle.github.io/2026/07/16/edge-model-shift-escaping-the-token-tax.html): Published on July 16, 2026.
+- [Optimizely GEO Engine: Building with Content Recommendations](https://potnoddle.github.io/2026/07/15/optimizely-geo-engine-building-with-content-recommendations.html): Published on July 15, 2026.
+- [GPU Liquidation Cycle: Buying Smart Amid the AI Bust](https://potnoddle.github.io/2026/07/14/gpu-liquidation-cycle-buying-smart-amid-the-ai-bust.html): Published on July 14, 2026.
+- [Optimizely AEO: Optimising for AI Answers, Not Blue Links](https://potnoddle.github.io/2026/07/13/optimizely-aeo-optimising-for-ai-answers-not-blue-links.html): Published on July 13, 2026.
+- [Sovereign Wall: Navigating the Global Era of Localised AI](https://potnoddle.github.io/2026/07/10/sovereign-wall-navigating-the-global-era-of-localised-ai.html): Published on July 10, 2026.
+- [Optimizely Graph: Migrating from Search & Navigation](https://potnoddle.github.io/2026/07/09/optimizely-graph-migrating-from-search-navigation.html): Published on July 09, 2026.
+- [Silicon Stagnation: Limits, Space Compute, and Data Contamination](https://potnoddle.github.io/2026/07/08/silicon-stagnation-limits-space-compute-and-data-contamination.html): Published on July 08, 2026.
+- [Optimizely One: Centralised Identity for Opti-ID](https://potnoddle.github.io/2026/07/07/optimizely-one-centralised-identity-for-opti-id.html): Published on July 07, 2026.
+- [Beyond Moore's Law: The Economics of Compute](https://potnoddle.github.io/2026/07/06/beyond-moores-law-the-economics-of-compute.html): Published on July 06, 2026.
+- [Skunk Works: The AI Misdirection](https://potnoddle.github.io/2026/07/03/skunk-works-the-ai-misdirection.html): Published on July 03, 2026.
+- [Skunk Works: Reclaiming Joy](https://potnoddle.github.io/2026/07/03/skunk-works-reclaiming-joy.html): Published on July 03, 2026.
+- [Skunk Works: The Existential Panic](https://potnoddle.github.io/2026/07/02/skunk-works-the-existential-panic.html): Published on July 02, 2026.
+- [Skunk Works: Non-Invasive Telemetry](https://potnoddle.github.io/2026/07/02/skunk-works-non-invasive-telemetry.html): Published on July 02, 2026.
+- [Skunk Works: The 70/30 Capital Split](https://potnoddle.github.io/2026/07/01/skunk-works-the-7030-capital-split.html): Published on July 01, 2026.
+- [Optimizely Forms: Custom Actors & Event Pipelines](https://potnoddle.github.io/2026/07/01/optimizely-forms-custom-actors-event-pipelines.html): Published on July 01, 2026.
+- [The AI Market Paradox: Hardware Deflation and the Shift to Localised Compute](https://potnoddle.github.io/2026/06/30/the-ai-market-paradox-hardware-deflation-and-the-shift-to-localised-compute.html): Published on June 30, 2026.
+- [Latent Space: Bridging the Model gap](https://potnoddle.github.io/2026/06/29/latent-space-bridging-the-model-gap.html): Published on June 29, 2026.
+- [Latent Space: The Persistence Barrier](https://potnoddle.github.io/2026/06/28/latent-space-the-persistence-barrier.html): Published on June 28, 2026.
+- [Latent Space: Looped Transformers](https://potnoddle.github.io/2026/06/27/latent-space-looped-transformers.html): Published on June 27, 2026.
+- [Latent Space: The Token Bottleneck](https://potnoddle.github.io/2026/06/26/latent-space-the-token-bottleneck.html): Published on June 26, 2026.
+- [HTMX Hypermedia Returns: The Old/New Architecture of the Web](https://potnoddle.github.io/2026/06/25/htmx-hypermedia-returns-the-oldnew-architecture-of-the-web.html): Published on June 25, 2026.
+- [Optimizely Visual Builder: Clean Code and Semantic HTML](https://potnoddle.github.io/2026/06/24/optimizely-visual-builder-clean-code-and-semantic-html.html): Published on June 24, 2026.
+- [Upgrading Optimizely: CMS 11 to 13 Stepwise Guide](https://potnoddle.github.io/2026/06/23/upgrading-optimizely-cms-11-to-13-stepwise-guide.html): Published on June 23, 2026.
+- [AI Impacts: The AI Career Crossroads](https://potnoddle.github.io/2026/06/22/ai-impacts-the-ai-career-crossroads.html): Published on June 22, 2026.
+- [AI Impacts: Preserving Skill in the Age of AI](https://potnoddle.github.io/2026/06/21/ai-impacts-preserving-skill-in-the-age-of-ai.html): Published on June 21, 2026.
+- [AI Impacts: The Illusion of AI Competence](https://potnoddle.github.io/2026/06/20/ai-impacts-the-illusion-of-ai-competence.html): Published on June 20, 2026.
+- [AI Impacts: Marshalling Creativity in the AI Era](https://potnoddle.github.io/2026/06/19/ai-impacts-marshalling-creativity-in-the-ai-era.html): Published on June 19, 2026.
+- [AI Impacts: How AI-Driven Role Expansion Dilutes Performance](https://potnoddle.github.io/2026/06/18/ai-impacts-how-ai-driven-role-expansion-dilutes-performance.html): Published on June 18, 2026.
+- [AI Impacts: The Workload Paradox & Decision Fatigue](https://potnoddle.github.io/2026/06/17/ai-impacts-the-workload-paradox-decision-fatigue.html): Published on June 17, 2026.
+- [AI Impacts: The New Competitive Threshold](https://potnoddle.github.io/2026/06/16/ai-impacts-the-new-competitive-threshold.html): Published on June 16, 2026.
+- [AI Impacts: The Human Cost of AI Productivity](https://potnoddle.github.io/2026/06/15/ai-impacts-the-human-cost-of-ai-productivity.html): Published on June 15, 2026.
+- [Generative Engine Optimisation: Enterprise GEO With Optimizely Opal](https://potnoddle.github.io/2026/06/14/generative-engine-optimisation-enterprise-geo-with-optimizely-opal.html): Published on June 14, 2026.
+- [Generative Engine Optimisation: Schemas and Content Models for AI Crawlers](https://potnoddle.github.io/2026/06/13/generative-engine-optimisation-schemas-and-content-models-for-ai-crawlers.html): Published on June 13, 2026.
+- [Generative Engine Optimisation: The Death of the Click-Through Estate](https://potnoddle.github.io/2026/06/12/generative-engine-optimisation-the-death-of-the-click-through-estate.html): Published on June 12, 2026.
+- [Access as Accessibility: Measuring Real Channel Reach](https://potnoddle.github.io/2026/06/11/access-as-accessibility-measuring-real-channel-reach.html): Published on June 11, 2026.
+- [Access as Accessibility: Resilient Multi-Channel Delivery Beyond the Smartphone](https://potnoddle.github.io/2026/06/10/access-as-accessibility-resilient-multi-channel-delivery-beyond-the-smartphone.html): Published on June 10, 2026.
+- [Access as Accessibility: Technical UX Patterns for Low-Bandwidth Environments](https://potnoddle.github.io/2026/06/09/access-as-accessibility-technical-ux-patterns-for-low-bandwidth-environments.html): Published on June 09, 2026.
+- [Access as Accessibility: The Problem of Digital Exclusion](https://potnoddle.github.io/2026/06/08/access-as-accessibility-the-problem-of-digital-exclusion.html): Published on June 08, 2026.
+- [Aether Pine: CLI Automation and Multi-Agent Systems](https://potnoddle.github.io/2026/06/04/aether-pine-cli-automation-and-multi-agent-systems.html): Published on June 04, 2026.
+- [Aether Pine: The Author's Shield - Legal Protections for Gen AI](https://potnoddle.github.io/2026/06/03/aether-pine-the-authors-shield-legal-protections-for-gen-ai.html): Published on June 03, 2026.
+- [Aether-Pine: Closed-Loop VLM Feedback for Visual Consistency](https://potnoddle.github.io/2026/06/02/aether-pine-closed-loop-vlm-feedback-for-visual-consistency.html): Published on June 02, 2026.
+- [Aether Pine: Authoring a Children's Books with a Software IDE](https://potnoddle.github.io/2026/06/01/aether-pine-authoring-a-childrens-books-with-a-software-ide.html): Published on June 01, 2026.
+- [Optimizely Opal: Connecting to Core Enterprise Infrastructure](https://potnoddle.github.io/2026/05/29/optimizely-opal-connecting-to-core-enterprise-infrastructure.html): Published on May 29, 2026.
+- [Optimizely Opal: Implementation Blueprint and Strategic Integration Roadmap](https://potnoddle.github.io/2026/05/28/optimizely-opal-implementation-blueprint-and-strategic-integration-roadmap.html): Published on May 28, 2026.
+- [Optimizely Opal: The Hub-and-Spoke Architecture](https://potnoddle.github.io/2026/05/27/optimizely-opal-the-hub-and-spoke-architecture.html): Published on May 27, 2026.
+- [Optimizely Opal: Why Isolated Intelligence Encounters the Enterprise Wall](https://potnoddle.github.io/2026/05/26/optimizely-opal-why-isolated-intelligence-encounters-the-enterprise-wall.html): Published on May 26, 2026.
+- [Optimizely Opal: Architecting Hybrid Intelligence](https://potnoddle.github.io/2026/05/25/optimizely-opal-architecting-hybrid-intelligence.html): Published on May 25, 2026.
+- [Sovereign Vision: Reclaiming Artistry from the Algorithmic Average](https://potnoddle.github.io/2026/05/24/sovereign-vision-reclaiming-artistry-from-the-algorithmic-average.html): Published on May 24, 2026.
+- [Sovereign Vision: Achieved Greatness Through Personal Vision](https://potnoddle.github.io/2026/05/21/sovereign-vision-achieved-greatness-through-personal-vision.html): Published on May 21, 2026.
+- [Sovereign Vision: Practical Guide to Tailored Generative AI](https://potnoddle.github.io/2026/05/20/sovereign-vision-practical-guide-to-tailored-generative-ai.html): Published on May 20, 2026.
+- [Sovereign Vision: Strategic Guide to Digitising Your Auteur's Taste](https://potnoddle.github.io/2026/05/18/sovereign-vision-strategic-guide-to-digitising-your-auteurs-taste.html): Published on May 18, 2026.
+- [Sovereign Vision: Mastering Taste in the Synthetic AI Era](https://potnoddle.github.io/2026/05/15/sovereign-vision-mastering-taste-in-the-synthetic-ai-era.html): Published on May 15, 2026.
+- [Github Spec Kit: Executing Spec-Driven Development with AI](https://potnoddle.github.io/2026/05/11/github-spec-kit-executing-spec-driven-development-with-ai.html): Published on May 11, 2026.
+- [Strategic Clarity: Why, What, How for Technical Leaders](https://potnoddle.github.io/2026/05/09/strategic-clarity-why-what-how-for-technical-leaders.html): Published on May 09, 2026.
+- [NHS England GitHub Privatization: A Flawed Security Posture](https://potnoddle.github.io/2026/05/07/nhs-england-github-privatisation-flawed-security-posture.html): Published on May 07, 2026.
+- [The Mythos Moment: Why Restricting Frontier AI May Accelerate Its Proliferation](https://potnoddle.github.io/2026/05/03/the-mythos-moment-why-restricting-frontier-ai-may-accelerate-its-proliferation.html): Published on May 03, 2026.
+- [Evaluating AI APIs in 2026: Prioritising Functional Constraints and Abilities](https://potnoddle.github.io/2026/05/01/evaluating-ai-apis-in-2026-prioritising-functional-constraints-and-abilities.html): Published on May 01, 2026.
+- [The 2026 AI Threat Landscape: Machine-Speed Autonomous Agents](https://potnoddle.github.io/2026/04/28/the-2026-ai-threat-landscape-machine-speed-autonomous-agents.html): Published on April 28, 2026.
+- [All the Langs: LangChain, LangSmith, LangGraph, and LangFlow!](https://potnoddle.github.io/2026/04/24/all-the-langs-langchain-langsmith-langgraph-and-langflow.html): Published on April 24, 2026.
+- [Power Automate to LangFlow: The AI Complexity Ladder Businesses Must Climb](https://potnoddle.github.io/2026/04/21/power-automate-to-langflow-the-ai-complexity-ladder-businesses-must-climb.html): Published on April 21, 2026.
+- [Global Negotiating: Bridging Cultural Divides in 2026](https://potnoddle.github.io/2026/04/19/global-negotiating-bridging-cultural-divides-in-2026.html): Published on April 19, 2026.
+- [Beyond Mythos: Recursive Self-Correction and Temporal Endurance](https://potnoddle.github.io/2026/04/16/beyond-mythos-recursive-self-correction-and-temporal-endurance.html): Published on April 16, 2026.
+- [The Mythos Economy: From "Thinking" AI to Autonomous Corporate Strategy](https://potnoddle.github.io/2026/04/15/the-mythos-economy-from-thinking-ai-to-autonomous-corporate-strategy.html): Published on April 15, 2026.
+- [Claude Mythos: Project Glasswing and the Rise of Autonomous Offensive AI](https://potnoddle.github.io/2026/04/13/claude-mythos-project-glasswing-and-the-rise-of-autonomous-offensive-ai.html): Published on April 13, 2026.
+- [The Claude Mythos: Why Logic Chaining and Operational Length Are a Major Advance](https://potnoddle.github.io/2026/04/11/the-claude-mythos-why-logic-chaining-and-operational-length-are-a-major-advance.html): Published on April 11, 2026.
+- [AI's Big Split: The Austrian Advantage You Might Be Missing](https://potnoddle.github.io/2026/04/10/ais-big-split-the-austrian-advantage-you-might-be-missing.html): Published on April 10, 2026.
+- [AI's Dual Shift: Escaping or Embracing the Chicago School of AI Efficiency](https://potnoddle.github.io/2026/04/08/ais-dual-shift-escaping-or-embracing-the-chicago-school-of-ai-efficiency.html): Published on April 08, 2026.
+- [AI's Big Split: Chicago Efficiency vs. Austrian Discovery](https://potnoddle.github.io/2026/04/02/ais-big-split-chicago-efficiency-vs-austrian-discovery.html): Published on April 02, 2026.
+- [Digital Oracles: How LLMs Are Changing the Game for Real-World Stress Testing](https://potnoddle.github.io/2026/03/25/digital-oracles-how-llms-are-changing-the-game-for-real-world-stress-testing.html): Published on March 25, 2026.
+- [Beyond the 'God Prompt': A New Playbook for High-Stakes AI ](https://potnoddle.github.io/2026/03/20/beyond-the-god-prompt-a-new-playbook-for-high-stakes-ai.html): Published on March 20, 2026.
+- [Fail-Safe Lethal AI: A 5-Step Modular Framework](https://potnoddle.github.io/2026/03/19/fail-safe-lethal-ai-a-5-step-modular-framework.html): Published on March 19, 2026.
+- [The God Prompt Trap: Single-Prompt Reasoning Amplifies AI Failures](https://potnoddle.github.io/2026/03/17/the-god-prompt-trap-single-prompt-reasoning-amplifies-ai-failures.html): Published on March 17, 2026.
+- [The Accountability Gap: Why Human Oversight Is a Business Imperative](https://potnoddle.github.io/2026/03/13/the-accountability-gap-why-human-oversight-is-a-business-imperative.html): Published on March 13, 2026.
+- [The Silicon Sword: AI Warfare Ethics and Anthropic's Pentagon Standoff](https://potnoddle.github.io/2026/03/11/the-silicon-sword-ai-warfare-ethics-and-anthropics-pentagon-standoff.html): Published on March 11, 2026.
+- [The Silicon Sword: AI and the New Global Arms Race](https://potnoddle.github.io/2026/03/10/the-silicon-sword-ai-and-the-new-global-arms-race.html): Published on March 10, 2026.
+- [The 'Microslop' Fumble: A Perfect Example of Why Censoring Users Backfires](https://potnoddle.github.io/2026/03/06/the-microslop-fumble-a-perfect-example-of-why-censoring-users-backfires.html): Published on March 06, 2026.
+- [Beyond the Hype: How LLMs are Democratizing Access](https://potnoddle.github.io/2026/03/04/beyond-the-hype-how-llms-are-democratizing-access.html): Published on March 04, 2026.
+- [Eroding Alpha: How LLMs, Naive Prompts & AI Herding Amplify Market Volatility](https://potnoddle.github.io/2026/02/23/eroding-alpha-how-llms-naive-prompts-ai-herding-amplify-market-volatility.html): Published on February 23, 2026.
+- [LLM Anti-Patterns: 'One Prompt to Rule Them All'](https://potnoddle.github.io/2026/02/20/llm-anti-patterns-one-prompt-to-rule-them-all.html): Published on February 20, 2026.
+- [The AI Cost-Cutting Trap: Why "Same But Cheaper" is a $1 Trillion Fallacy](https://potnoddle.github.io/2026/02/16/the-ai-cost-cutting-trap-why-same-but-cheaper-is-a-1-trillion-fallacy.html): Published on February 16, 2026.
+- [Bridging the Gap: Programmering Tools for All](https://potnoddle.github.io/2026/02/12/bridging-the-gap-programmering-tools-for-all.html): Published on February 12, 2026.
+- [The Indie Creator's 2026 Survival Guide: My Comic Creator Blueprint](https://potnoddle.github.io/2026/01/16/the-indie-creators-2026-survival-guide-my-comic-creator-blueprint.html): Published on January 16, 2026.
+- [The Indie Creator's 2026 Survival Guide: AI Laws & the No FAKES Act](https://potnoddle.github.io/2026/01/14/the-indie-creators-2026-survival-guide-ai-laws-the-no-fakes-act.html): Published on January 14, 2026.
+- [Overcoming AI Image Limits: Experience for Comic Creator](https://potnoddle.github.io/2026/01/08/overcoming-ai-image-limits-experience-for-comic-creator.html): Published on January 08, 2026.
+- [Choosing AI Image Models: Essential Factors in Comic Creation](https://potnoddle.github.io/2026/01/06/choosing-ai-image-models-essential-factors-in-comic-creation.html): Published on January 06, 2026.
+- [Beyond 'Vibe Coding': Kiro Brings Discipline to AI Development](https://potnoddle.github.io/2025/12/29/beyond-vibe-coding-kiro-brings-discipline-to-ai-development.html): Published on December 29, 2025.
+- [AntiGravity and Gemini: The Agentic Development Revolution](https://potnoddle.github.io/2025/12/23/antigravity-and-gemini-the-agentic-development-revolution.html): Published on December 23, 2025.
+- [From Gamebooks to Generative Worlds: The LLM Storytelling Revolution](https://potnoddle.github.io/2025/12/18/from-gamebooks-to-generative-worlds-the-llm-storytelling-revolution.html): Published on December 18, 2025.
+- [AI and the Democratization of Journalism: A New Era of Accountability🚀](https://potnoddle.github.io/2025/12/11/ai-and-the-democratization-of-journalism-a-new-era-of-accountability.html): Published on December 11, 2025.
+- [Polarization by Design: How AI is Making Political Division a Rational Strategy](https://potnoddle.github.io/2025/12/05/polarization-by-design-how-ai-is-making-political-division-a-rational-strategy.html): Published on December 05, 2025.
+- [Disposable Software in the Age of AI: Risks and Rewards](https://potnoddle.github.io/2025/12/03/disposable-software-in-the-age-of-ai-risks-and-rewards.html): Published on December 03, 2025.
+- [Cognitive Distance: Navigating the Limits to T-Shaped Skills](https://potnoddle.github.io/2025/11/28/cognitive-distance-navigating-the-limits-to-t-shaped-skills.html): Published on November 28, 2025.
+- [The Context Gap: AI Code Generation Still Demands Humans](https://potnoddle.github.io/2025/11/25/the-context-gap-ai-code-generation-still-demands-humans.html): Published on November 25, 2025.
+- [AI-Powered App Development: Building an Comic Creator Web App](https://potnoddle.github.io/2025/11/20/ai-powered-app-development-building-an-comic-creator-web-app.html): Published on November 20, 2025.
+- [Turning Passion into Profit: Monetizing Apps with Scale](https://potnoddle.github.io/2025/09/23/turning-passion-into-profit-monetizing-apps-with-scale.html): Published on September 23, 2025.
+- [Bringing Shakespeare to Life: Why Headless Helps AI Integration](https://potnoddle.github.io/2025/09/18/bringing-shakespeare-to-life-why-headless-helps-ai-integration.html): Published on September 18, 2025.
+- [From Clunky to Clear: Redesigning UX for My Shakespeare App](https://potnoddle.github.io/2025/09/16/from-clunky-to-clear-redesigning-ux-for-my-shakespeare-app.html): Published on September 16, 2025.
+- [How I Built a Modern Web App: Learning Next.js & Headless CMS Approach](https://potnoddle.github.io/2025/09/15/how-i-built-a-modern-web-app-learning-nextjs-headless-cms-approach.html): Published on September 15, 2025.
+- [Navigating Optimizely: A DXP for Every Digital Leader 🌍](https://potnoddle.github.io/2025/05/13/navigating-optimizely-a-dxp-for-every-digital-leader.html): Published on May 13, 2025.
+- [Vibe Coding Masterclass: Harmony in Code and Creativity ⚖️](https://potnoddle.github.io/2025/05/09/vibe-coding-masterclass-harmony-in-code-and-creativity.html): Published on May 09, 2025.
+- [Vibe Coding Masterclass: Your AI-Powered Coding Arsenal 🚀](https://potnoddle.github.io/2025/05/08/vibe-coding-masterclass-your-ai-powered-coding-arsenal.html): Published on May 08, 2025.
+- [Vibe Coding Masterclass: Questioning the Code, Exploring the Naivety of LLMs](https://potnoddle.github.io/2025/05/07/vibe-coding-masterclass-questioning-the-code-exploring-the-naivety-of-llms.html): Published on May 07, 2025.
+- [Understanding Optimizely: Content Marketing Platform (CMP)](https://potnoddle.github.io/2025/05/06/understanding-optimizely-content-marketing-platform-cmp.html): Published on May 06, 2025.
+- [The Creative Pause: Why Taking Breaks Is Essential for Inspiration and Flow](https://potnoddle.github.io/2025/05/01/the-creative-pause-why-taking-breaks-is-essential-for-inspiration-and-flow.html): Published on May 01, 2025.
+- [The Future of Medicine: How AI is Changing Healthcare](https://potnoddle.github.io/2025/04/29/the-future-of-medicine-how-ai-is-changing-healthcare.html): Published on April 29, 2025.
+- [Navigating Optimizely: ODP Modern Customer Data Platform 🌐](https://potnoddle.github.io/2025/04/27/navigating-optimizely-odp-modern-customer-data-platform.html): Published on April 27, 2025.
+- [AI & The Future of Employment: Preparing for the AI-Driven Future (Part 3)](https://potnoddle.github.io/2025/04/26/ai-the-future-of-employment-preparing-for-the-ai-driven-future-part-3.html): Published on April 26, 2025.
+- [AI & The Future of Employment: New Opportunities and Challenges in the Age of AI (Part 2)](https://potnoddle.github.io/2025/04/25/ai-the-future-of-employment-new-opportunities-and-challenges-in-the-age-of-ai-part-2.html): Published on April 25, 2025.
+- [AI & The Future of Employment: How AI Is Transforming the World of Work (Part 1)](https://potnoddle.github.io/2025/04/24/ai-the-future-of-employment-how-ai-is-transforming-the-world-of-work-part-1.html): Published on April 24, 2025.
+- [Navigating Optimizely](https://potnoddle.github.io/2025/04/23/navigating-optimizely.html): Published on April 23, 2025.
+- [A Simple Guide to CodeAct and MCP](https://potnoddle.github.io/2025/04/23/a-simple-guide-to-codeact-and-mcp.html): Published on April 23, 2025.
+- [Understanding CodeAct and MCP: A Guide for Professionals](https://potnoddle.github.io/2025/04/22/understanding-codeact-and-mcp-a-guide-for-professionals.html): Published on April 22, 2025.
+- [Securing Your Web Apps in 2025: Easy Lessons from IBM X-Force](https://potnoddle.github.io/2025/04/21/securing-your-web-apps-in-2025-easy-lessons-from-ibm-x-force.html): Published on April 21, 2025.
+- [When Will It Go Hot?](https://potnoddle.github.io/2025/04/19/when-will-it-go-hot.html): Published on April 19, 2025.
+- [Journalism in the AI Era](https://potnoddle.github.io/2025/04/19/journalism-in-the-ai-era.html): Published on April 19, 2025.
+- [Agentic AI Swarms](https://potnoddle.github.io/2025/04/19/agentic-ai-swarms.html): Published on April 19, 2025.
+- [Journalism in the AI Era: The AI Paradox and the Collapse of Digital Advertising](https://potnoddle.github.io/2025/04/16/journalism-in-the-ai-era-the-ai-paradox-and-the-collapse-of-digital-advertising.html): Published on April 16, 2025.
+- [Agentic AI Swarms: Unleashing Collaborative Intelligence (Part 1)](https://potnoddle.github.io/2025/04/14/agentic-ai-swarms-unleashing-collaborative-intelligence-part-1.html): Published on April 14, 2025.
+- [Your Career Runway Just Got Longer](https://potnoddle.github.io/2025/04/13/your-career-runway-just-got-longer.html): Published on April 13, 2025.
+- [Future of AI and Autonomous Systems 🚀](https://potnoddle.github.io/2025/04/12/future-of-ai-and-autonomous-systems.html): Published on April 12, 2025.
+- [Generative AI is Changing User Behaviour ](https://potnoddle.github.io/2025/04/12/generative-ai-is-changing-user-behaviour.html): Published on April 12, 2025.
+- [Ethical Challenges and Building Trust in Autonomous AI ⚖️](https://potnoddle.github.io/2025/04/12/ethical-challenges-and-building-trust-in-autonomous-ai.html): Published on April 12, 2025.
+- [Securing AI Systems Against Cybercrime and Warfare🔒](https://potnoddle.github.io/2025/04/12/securing-ai-systems-against-cybercrime-and-warfare.html): Published on April 12, 2025.
+- [The Era of Extended Context](https://potnoddle.github.io/2025/04/12/the-era-of-extended-context.html): Published on April 12, 2025.
+- [Universal Adapter for Agentic AI🌐](https://potnoddle.github.io/2025/04/12/universal-adapter-for-agentic-ai.html): Published on April 12, 2025.
+- [Future-Proofing Optimizely](https://potnoddle.github.io/2025/04/04/future-proofing-optimizely.html): Published on April 04, 2025.
+- [Mastering Optimizely's Headless CMS](https://potnoddle.github.io/2025/04/04/mastering-optimizelys-headless-cms.html): Published on April 04, 2025.
+- [Choosing The Framework](https://potnoddle.github.io/2025/04/04/choosing-the-framework.html): Published on April 04, 2025.
+- [Frontend Meets Backend, A Power Duo](https://potnoddle.github.io/2025/04/04/frontend-meets-backend-a-power-duo.html): Published on April 04, 2025.
+- [Balancing Innovation & Discipline](https://potnoddle.github.io/2025/03/29/balancing-innovation-discipline.html): Published on March 29, 2025.
+- [Your AI Coding Partner](https://potnoddle.github.io/2025/03/29/your-ai-coding-partner.html): Published on March 29, 2025.
+- [The Origins of a New Coding Paradigm](https://potnoddle.github.io/2025/03/29/the-origins-of-a-new-coding-paradigm.html): Published on March 29, 2025.
+- [The Future of E-Commerce](https://potnoddle.github.io/2025/03/29/the-future-of-e-commerce.html): Published on March 29, 2025.
+- [The Future with Super Intelligence](https://potnoddle.github.io/2025/03/29/the-future-with-super-intelligence.html): Published on March 29, 2025.
+- [The Promise of Super Intelligence](https://potnoddle.github.io/2025/03/29/the-promise-of-super-intelligence.html): Published on March 29, 2025.
+- [The Reach of Super Intelligence](https://potnoddle.github.io/2025/03/29/the-reach-of-super-intelligence.html): Published on March 29, 2025.
+- [The Dawn of Super Intelligence](https://potnoddle.github.io/2025/03/29/the-dawn-of-super-intelligence.html): Published on March 29, 2025.
+- [AI Agents and Cybercrime](https://potnoddle.github.io/2025/03/29/ai-agents-and-cybercrime.html): Published on March 29, 2025.
+- [Tailwind vs. Bootstrap](https://potnoddle.github.io/2025/03/10/tailwind-vs-bootstrap.html): Published on March 10, 2025.
+- [Beyond Moore's Law 2025](https://potnoddle.github.io/2025/03/10/beyond-moores-law-2025.html): Published on March 10, 2025.
+- [Moore's Law 2025](https://potnoddle.github.io/2025/03/10/moores-law-2025.html): Published on March 10, 2025.
+- [RISC-V and China](https://potnoddle.github.io/2025/03/10/risc-v-and-china.html): Published on March 10, 2025.
+- [North Korea and Iran](https://potnoddle.github.io/2025/03/10/north-korea-and-iran.html): Published on March 10, 2025.
+- [China's Cyber Espionage](https://potnoddle.github.io/2025/03/10/chinas-cyber-espionage.html): Published on March 10, 2025.
+- [The Cyber Threat from Russia](https://potnoddle.github.io/2025/03/04/the-cyber-threat-from-russia.html): Published on March 04, 2025.
+- [Beyond Technical Debt](https://potnoddle.github.io/2025/03/03/beyond-technical-debt.html): Published on March 03, 2025.
+- [Architecting Zero-Trust Systems](https://potnoddle.github.io/2025/03/03/architecting-zero-trust-systems.html): Published on March 03, 2025.
+- [Regulatory, Ethical & Developer Guidance: The Rise of Agentic AI Part 3](https://potnoddle.github.io/2025/03/01/regulatory-ethical-developer-guidance-the-rise-of-agentic-ai-part-3.html): Published on March 01, 2025.
+- [Real-World Applications & Challenges: The Rise of Agentic AI Part 2](https://potnoddle.github.io/2025/02/28/real-world-applications-challenges-the-rise-of-agentic-ai-part-2.html): Published on February 28, 2025.
+- [A New Era of Intelligence: Part 1 The Rise of Agentic AI](https://potnoddle.github.io/2025/02/27/a-new-era-of-intelligence-part-1-the-rise-of-agentic-ai.html): Published on February 27, 2025.
+- [Jailbreaking Large Language Models: Technical Vulnerabilities, Defensive Strategies](https://potnoddle.github.io/2025/02/26/jailbreaking-large-language-models.html): Published on February 26, 2025.
+- [Understanding the Limbic System: Our Unsung Hero (and Saboteur) for Productivity](https://potnoddle.github.io/2025/02/25/understanding-the-limbic-system-our-unsung-hero-and-saboteur-for-productivity.html): Published on February 25, 2025.
+- [Beyond Accessibility Compliance](https://potnoddle.github.io/2025/02/24/beyond-accessibility-compliance.html): Published on February 24, 2025.
+- [Revolutionizing Bureaucracy with AI](https://potnoddle.github.io/2025/02/23/revolutionizing-bureaucracy-with-ai.html): Published on February 23, 2025.
+- [Majorana, Microsoft, and Quantum Computers](https://potnoddle.github.io/2025/02/22/majorana-microsoft-and-quantum-computers.html): Published on February 22, 2025.
+- [How AI is Revolutionizing Websites: From Creation to Optimization](https://potnoddle.github.io/2025/02/21/how-ai-is-revolutionizing-websites-from-creation-to-optimization.html): Published on February 21, 2025.
+- [A Critical Evaluation of Flutter vs MAUI: Unified App Development](https://potnoddle.github.io/2025/02/20/a-critical-evaluation-of-flutter-vs-maui-unified-app-development.html): Published on February 20, 2025.
+- [The Hidden Perils of Cost-Cutting in AI](https://potnoddle.github.io/2025/02/19/the-hidden-perils-of-cost-cutting-in-ai.html): Published on February 19, 2025.
+- [Grok-3, Elon Musk's "Maximally Truthful" AI](https://potnoddle.github.io/2025/02/18/grok-3-elon-musks-maximally-truthful-ai.html): Published on February 18, 2025.
+- [The current state of AI in the Workplace](https://potnoddle.github.io/2025/02/17/the-current-state-of-ai-in-the-workplace.html): Published on February 17, 2025.
+- [Censorship Techniques in LLMs](https://potnoddle.github.io/2025/02/16/censorship-techniques-in-llms.html): Published on February 16, 2025.
+- [AI Training and Copyright: Lessons from Thomson Reuters vs. Ross Intelligence](https://potnoddle.github.io/2025/02/14/ai-training-and-copyright-lessons-from-thomson-reuters-vs-ross-intelligence.html): Published on February 14, 2025.
+- [Narrative Capture: How David and Goliath Distorted the DeepSeek News](https://potnoddle.github.io/2025/02/13/narrative-capture-how-david-and-goliath-distorted-the-deepseek-news.html): Published on February 13, 2025.
+- [The Need for Speed: Velocity Hacks for Web Development and Experimentation](https://potnoddle.github.io/2025/02/12/the-need-for-speed-velocity-hacks-for-web-development-and-experimentation.html): Published on February 12, 2025.
+- [LLM-Powered Backend DevOps: Code, Security, Performance](https://potnoddle.github.io/2025/02/09/llm-powered-backend-devops-code-security-performance.html): Published on February 09, 2025.
+- [LLM Distillation: Why Gaining Certainty Might Cost Creativity](https://potnoddle.github.io/2025/02/08/llm-distillation-why-gaining-certainty-might-cost-creativity.html): Published on February 08, 2025.
+- [EU Accessibility Act ⚖️: Turn Compliance into Competitive Advantage](https://potnoddle.github.io/2025/02/04/eu-accessibility-act-turn-compliance-into-competitive-advantage.html): Published on February 04, 2025.
+- [Hidden Dangers of Compromised AI: Code Generation and LLMs Demand Vigilance](https://potnoddle.github.io/2025/02/02/hidden-dangers-of-compromised-ai-code-generation-and-llms-demand-vigilance.html): Published on February 02, 2025.
+- [Distilling Large Language Models: DeepSeek's Pathway to Efficient AI](https://potnoddle.github.io/2025/02/02/distilling-large-language-models.html): Published on February 02, 2025.
+- [OpenAI Operators first step to AgenticAI: Get Your Website Ready](https://potnoddle.github.io/2025/01/28/openai-operators-first-step-to-agenticai-get-your-website-ready.html): Published on January 28, 2025.
+- [The Pitfalls of Panopticon AI: Learning from COVID and Building Trust](https://potnoddle.github.io/2025/01/23/the-pitfalls-of-panopticon-ai.html): Published on January 23, 2025.
+- [The LLM Revolution: Threat or Opportunity for Software Developers?](https://potnoddle.github.io/2025/01/23/the-llm-revolution.html): Published on January 23, 2025.
+- [Modern Web Architecture](https://potnoddle.github.io/2025/01/22/modern-web-architecture.html): Published on January 22, 2025.
+- [Cutting-Edge Tech for Amazing UX: A Web Dev Guide](https://potnoddle.github.io/2025/01/16/cutting-edge-tech-for-amazing-ux.html): Published on January 16, 2025.
+- [Taming Technical Debt: A Technical Architect's Guide to Website Health](https://potnoddle.github.io/2025/01/14/taming-technical-debt.html): Published on January 14, 2025.
+- [Ready your website for LLMs: Tackling Markup, Protection, and Privacy Challenges](https://potnoddle.github.io/2025/01/09/ready-your-website-for-llms-tackling-markup-protection-and-privacy-challenges.html): Published on January 09, 2025.
+- [Brand Architecture: 3 Ways It Impacts Your Website (and How Optimizely Can Help)](https://potnoddle.github.io/2025/01/06/brand-architecture.html): Published on January 06, 2025.
+- [Website Overhaul: When a Rebuild Is Better Than a Refresh](https://potnoddle.github.io/2024/12/19/website-overhaul.html): Published on December 19, 2024.
+- [Website Refresh Guide](https://potnoddle.github.io/2024/12/16/website-refresh-guide.html): Published on December 16, 2024.
+- [Harnessing KPIs](https://potnoddle.github.io/2024/12/11/harnessing-kpis.html): Published on December 11, 2024.
+- [Optimizing HTML Markup](https://potnoddle.github.io/2024/11/19/optimizing-html-markup.html): Published on November 19, 2024.
+- [Fostering a Collaborative Agency-Client Relationship](https://potnoddle.github.io/2024/11/13/fostering-a-collaborative-agency-client-relationship.html): Published on November 13, 2024.
+- [Fostering a Collaborative Client-Agency Relationship: A Guide for Clients](https://potnoddle.github.io/2024/11/05/fostering-a-collaborative-client-agency-relationship.html): Published on November 05, 2024.
+- [The Benefits of Using Microsites and How Optimizely Can Help](https://potnoddle.github.io/2024/10/30/the-benefits-of-using-microsites-and-how-optimizely-can-help.html): Published on October 30, 2024.
+- [Unlocking the Power of Headless CMS with Optimizely](https://potnoddle.github.io/2024/10/23/unlocking-the-power-of-headless-cms-with-optimizely.html): Published on October 23, 2024.
+- [Balancing Ethics and Experimentation](https://potnoddle.github.io/2024/10/08/balancing-ethics-and-experimentation.html): Published on October 08, 2024.
+- [Beyond Moore's Law, the future of processing and what we can expect to see](https://potnoddle.github.io/2016/05/30/beyond-moores-law-the-future-of-processing-and-what-we-can-expect-to-see.html): Published on May 30, 2016.
+- [Dunning-Kruger or when confidence equals incompetence](https://potnoddle.github.io/2016/05/03/dunning-kruger-or-when-confidence-equals-incompetence.html): Published on May 03, 2016.
+- [Moore's Law and what it means now, and the challenges the industry faces.](https://potnoddle.github.io/2016/04/24/moores-law-and-what-it-means-now-and-the-challenges-the-industry-faces.html): Published on April 24, 2016.
+- [How you can Utilise Flow to ensure Happy and Productive Developers!](https://potnoddle.github.io/2016/04/10/how-you-can-utilise-flow-to-ensure-happy-and-productive-developers.html): Published on April 10, 2016.
+- [Managing Decision Fatigue for Technical Directors and Project Managers](https://potnoddle.github.io/2016/03/24/managing-decision-fatigue-for-technical-directors-and-project-managers.html): Published on March 24, 2016.
+- [Apple forced the FBI's hand, so it couldn't complain that it opened a can of worms.](https://potnoddle.github.io/2016/03/16/apple-forced-the-fbis-hand-so-it-couldnt-complain-that-it-opened-a-can-of-worms.html): Published on March 16, 2016.
+- [Apple opened the can of worms and will be fighting an uphill battle](https://potnoddle.github.io/2016/03/16/apple-opened-the-can-of-worms-and-will-be-fighting-an-uphill-battle.html): Published on March 16, 2016.
+- [How Context Switching destroys Developers' Productivity and how to fix it!](https://potnoddle.github.io/2016/02/17/how-context-switching-destroys-developers-productivity-and-how-to-fix-it.html): Published on February 17, 2016.
+
