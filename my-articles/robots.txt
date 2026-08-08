@@ -1,0 +1,17 @@
+# AI Crawler Accessibility (GEO Optimized)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://potnoddle.github.io/sitemap.xml
